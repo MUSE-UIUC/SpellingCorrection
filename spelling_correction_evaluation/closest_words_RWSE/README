@@ -1,0 +1,54 @@
+Files:
+
+closest_words_RWSE.py: 
+this program
+(1) reads input file in RWSE data format, see 
+https://www.ukp.tu-darmstadt.de/data/spelling-correction/rwse-datasets/
+(2) for each misspelled word, find a list of possible corrections
+(3) outputs all sentences, and for each sentence, outputs the indice of the 
+misspelled word in it, and a list of possible corrections
+(4) Dataset Referrence: 
+Torsten Zesch. Measuring Contextual Fitness Using Error Contexts Extracted 
+from the Wikipedia Revision History. In: Proceedings of the 13th Conference of 
+the European Chapter of the Association for Computational Linguistics 
+(EACL 2012), April 2012.
+
+data: 
+a folder containing the data
+
+===========================================
+
+How to Use:
+
+(1) If you have not done so, run "import nltk" and "nltk.download()" in Python console. In the pop-up window, select "Corpora" and select "words" to install.
+(2) use the program in this way:
+
+from closest_words_RWSE import possible_corrections
+
+then you can use the function "possible_corrections". The main function inside closest_words_RWSE.py gives an example of using this function. Its documentation is given below:
+
+Read RWSE data file and then find closest words for each incorrect word
+input:
+    in_file_name - the name of the input file in RWSE data format
+    num_data - (optional, default: 1000) the number of data that this program processes
+    n0 - (optional, default: 3) the max number of closest matches that is found 
+        for each incorrect word
+    cutoff0 - (optional, default: 0.6) the cutoff above which closest matches 
+             are found for each incorrect word
+    outfile1 - (optional, default: 0) the name of the output file that stores
+               the list Sentences_And_Idx
+    outfile2 - (optional, default: 0) the name of the output file that stores
+               the list of list Closest_Words
+    outfile3 - (optional, default: 0) the name of the output file that stores
+               the list Correct_Words           
+output:
+    Sentences_And_Idx - the list of tuples of (sentences, idx) in order.
+                        idx is the 0-indexed position of the incorrect word 
+                        appearing in the sentence
+    Closest_Words - a list of list of closest matches to each incorrect word
+    Correct_Words - the list of correct words in order
+effect:
+    outfile1 - the output file that stores the list Sentences_And_Idx
+    outfile2 - the output file that stores the list of list Closest_Words
+    outfile3 - the output file that stores the list Correct_Words
+    console output - prints the progess of this function completed
