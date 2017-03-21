@@ -1,0 +1,26 @@
+Files:
+
+closest_words_RWSE.py: 
+this program
+(1) for each given input word, find a list of closest words
+
+===========================================
+
+How to Use:
+
+(1) If you have not done so, run "import nltk" and "nltk.download()" in Python console. In the pop-up window, select "Corpora" and select "words" to install.
+(2) use the program in this way:
+
+from closest_words import close_matches
+
+then you can use the function "close_matches". The main function inside closest_words.py gives an example of using this function. Its documentation is given below:
+
+Find a list of closest words for each input word
+input:
+    word - input word
+    n0 - (optional, default: 3) the max number of closest matches that is found 
+        for each incorrect word
+    cutoff0 - (optional, default: 0.6) the cutoff above which closest matches 
+             are found for each incorrect word           
+output:
+    Closest_Words - a list of closest matches to the input word

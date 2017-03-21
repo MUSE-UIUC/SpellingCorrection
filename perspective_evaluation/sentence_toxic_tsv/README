@@ -1,0 +1,51 @@
+Files:
+
+sentence_toxic_tsv.py: 
+This program 
+(1) reads input file in .tsv data format
+(2) for each comment, find the average value of toxicity and toxicity_score 
+among all human annotations for that comment
+(3) outputs a list of tuples of (toxicity, sentence) for a portion of sentences 
+with the highest average toxicity
+(*) Dataset Referrence: 
+https://figshare.com/articles/Wikipedia_Talk_Labels_Toxicity/4563973/2
+(**) Code Referrence: 
+https://github.com/ewulczyn/wiki-detox/blob/master/src/figshare/Wikipedia%20Talk%20Data%20-%20Getting%20Started.ipynb
+
+data: 
+a folder containing the data
+
+data/toxicity_annotated_comments.tsv:
+a data file that contains comments
+
+data/toxicity_annotations.tsv:
+a data file that contains human annotations
+
+===========================================
+
+How to Use:
+
+1. use the program in this way:
+
+from sentence_toxic_tsv import sentence_toxic_read_file
+
+then you can use the function "sentence_toxic_read_file". The main function inside sentence_toxic_tsv.py gives an example of using this function. Its documentation is given below:
+
+Read .tsv files on sentence toxicity
+
+functionality:
+(1) reads input file in .tsv data format
+(2) for each comment, find the average value of toxicity and toxicity_score 
+among all human annotations for that comment
+(3) outputs a list of tuples of (toxicity, sentence) for the num_out sentences 
+with the highest average toxicity
+
+input:
+    comments_file - the name of the input file containing comments in .tsv data format
+    annotations_file - the name of the input file containing annotations in .tsv data format
+    num_out - (optional, default: all, range: 0-159686) the number of sentences with the highest 
+              average toxicity that this program outputs           
+output:
+    Sentences_With_Labels - a list of tuples of (toxicity, sentence)
+
+===========================================

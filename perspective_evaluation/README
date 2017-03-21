@@ -1,0 +1,5 @@
+- call the function in 2017.3.17 meeting, find a list of sentences dataset.
+- for each sentence, use Google Perspective API to find its original toxic score. 
+- Then, try to change one word in the sentence into wrong spelling, and use Google Perspective API to find its updated toxic score.
+- After that, correct the spelling errors using (1) and (2), and use Google Perspective API to find its corrected toxic score.
+- compare whether the original toxic score and the updated toxic score differs a lot, and whether the original toxic score and the corrected toxic score are close.
