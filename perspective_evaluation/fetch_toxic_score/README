@@ -1,0 +1,53 @@
+Files:
+
+fetch_toxic_score.py: 
+This program fetches the toxic score of a comment on www.perspectiveapi.com,
+given an input comment
+(*) Evaluation Reference: 
+www.perspectiveapi.com
+(**) Code Reference: 
+Shu Liu
+
+
+===========================================
+
+Functions:
+
+1. fetch_toxic_score_online(sentence)
+
+- use in this way:
+
+from fetch_toxic_score import fetch_toxic_score_online
+
+then you can use the function "fetch_toxic_score_online". The main function inside fetch_toxic_score.py gives an example of using this function. Its documentation is given below:
+
+This function returns the toxic score of a comment on www.perspectiveapi.com, 
+given an input comment.
+The score is fetched from www.perspectiveapi.com using request.
+input:
+    sentence - the input comment
+output:
+    toxic_score - the toxic score of sentence
+
+---------------------------------------------
+
+2. fetch_toxic_score_list_online(Sentence_List, outfile=0)
+
+- use in this way:
+
+from fetch_toxic_score import fetch_toxic_score_list_online
+
+then you can use the function "fetch_toxic_score_list_online". The main function inside fetch_toxic_score.py gives an example of using this function. Its documentation is given below:
+
+This function returns a list of toxic scores of a list of comments based on www.perspectiveapi.com, 
+given a list of input comment.
+The scores are fetched from www.perspectiveapi.com using request.
+input:
+    Sentence_List - the input comment
+    outfile - (optional) the output file that holds the list of toxic scores of sentences in Sentence_List
+output:
+    Toxic_Score_List - the list of toxic scores of sentences in Sentence_List
+effect:
+    outfile holds Toxic_Score_List
+
+===========================================
