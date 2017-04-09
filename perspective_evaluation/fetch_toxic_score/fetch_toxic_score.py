@@ -61,7 +61,7 @@ def fetch_toxic_score_list_online(Sentence_List, outfile=0):
 '''
 Main
 '''
-
+'''
 Sentence_List = ['good','bad','idiot','idiiot','he is an idiot']
 
 for s in Sentence_List:
@@ -69,3 +69,4 @@ for s in Sentence_List:
     print('%s: %f' %(s,toxic_score))
     
 fetch_toxic_score_list_online(Sentence_List, outfile='toxic_score_list.txt')
+'''
