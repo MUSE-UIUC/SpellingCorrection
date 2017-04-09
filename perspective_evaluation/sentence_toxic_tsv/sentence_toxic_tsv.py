@@ -87,8 +87,10 @@ def sentence_toxic_read_file(comments_file, annotations_file, num_out=-1):
 '''
 Main
 '''
+'''
 comments_file = 'data/toxicity_annotated_comments.tsv'
 annotations_file = 'data/toxicity_annotations.tsv'
 Sentences_With_Labels = sentence_toxic_read_file(comments_file, annotations_file, num_out=1000)
 print(Sentences_With_Labels[999])
 print(len(Sentences_With_Labels))
+'''
