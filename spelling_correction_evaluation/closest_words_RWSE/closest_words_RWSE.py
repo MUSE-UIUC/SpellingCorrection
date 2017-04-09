@@ -119,7 +119,7 @@ def possible_corrections(in_file_name, num_data=1000, n0=3, cutoff0=0.6, outfile
 '''
 Main
 '''
-
+'''
 a, b, c = possible_corrections('data/RWSE/en_artificial_token.txt', num_data=10, n0=5, outfile1='Sentences_And_Idx.txt', outfile2='Closest_Words.txt', outfile3='Correct_Words.txt')
 print(len(a))
 print(a[0])
@@ -127,4 +127,4 @@ print(len(b))
 print(b[0])
 print(len(c))
 print(c[0])
-
+'''
