@@ -7,7 +7,7 @@ This program
 (1) reads input file in .tsv data format
 (2) for each comment, find the average value of toxicity and toxicity_score 
 among all human annotations for that comment
-(3) outputs a list of tuples of (toxicity, sentence) for a portion of sentences 
+(3) outputs a list of tuples of (toxicity, sentence, rev_id) for a portion of sentences 
 with the highest average toxicity
 
 (*) Dataset Referrence: 
@@ -33,7 +33,7 @@ functionality:
 (1) reads input file in .tsv data format
 (2) for each comment, find the average value of toxicity and toxicity_score 
 among all human annotations for that comment
-(3) outputs a list of tuples of (toxicity, sentence) for the num_out sentences 
+(3) outputs a list of tuples of (toxicity, sentence, rev_id) for the num_out sentences 
 with the highest average toxicity
 
 input:
@@ -42,7 +42,7 @@ input:
     num_out - (optional, default: all, range: 0-159686) the number of sentences with the highest 
               average toxicity that this program outputs           
 output:
-    Sentences_With_Labels - a list of tuples of (toxicity, sentence)
+    Sentences_With_Labels - a list of tuples of (toxicity, sentence, rev_id)
 '''
 def sentence_toxic_read_file(comments_file, annotations_file, num_out=-1):
     
@@ -57,23 +57,26 @@ def sentence_toxic_read_file(comments_file, annotations_file, num_out=-1):
     #           considered the comment neutral or healthy (i.e worker gave a toxicity_score greater 
     #           or equal to 0). Takes on values in {0, 1}.
     toxicities = annotations.groupby('rev_id')['toxicity'].mean()
+    rev_ids = annotations.groupby('rev_id')['rev_id'].mean()
 
     # join labels and comments
     comments['toxicity'] = toxicities
+    comments['rev_id'] = rev_ids
 
     # remove newline and tab tokens
     comments['comment'] = comments['comment'].apply(lambda x: x.replace("NEWLINE_TOKEN", " "))
     comments['comment'] = comments['comment'].apply(lambda x: x.replace("TAB_TOKEN", " "))
     
-    # convert pandas DataFrame to Numpy-arrau
+    # convert pandas DataFrame to Numpy-array
     Data_Matrix = comments.as_matrix()
     Comment_Array = Data_Matrix[:,0]
     Toxicity_Array = Data_Matrix[:,6]
+    Rev_Id_Array = Data_Matrix[:,7]
     
     # a list of tuples of (toxicity, sentence)
     All_Sentences_With_Labels = []
     for i in range(0, len(Comment_Array)):
-        All_Sentences_With_Labels.append((Toxicity_Array[i], Comment_Array[i]))
+        All_Sentences_With_Labels.append((Toxicity_Array[i], Comment_Array[i], Rev_Id_Array[i]))
     # return the num_out tuples with highest toxicity (all if num_out undefined)
     Sentences_With_Labels = sorted(All_Sentences_With_Labels, reverse=True)
     if (num_out != -1):    
