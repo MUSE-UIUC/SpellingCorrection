@@ -23,7 +23,7 @@ The score is fetched from www.perspectiveapi.com using request.
 input:
     sentence - the input comment
 output:
-    toxic_score - the toxic score of sentence
+    toxic_score - the toxic score of sentence (-1 if error)
 '''
 def fetch_toxic_score_online(sentence):
     # the variable "sessionId" is a random value written arbitrarily
@@ -31,7 +31,11 @@ def fetch_toxic_score_online(sentence):
     # The json variable is of the following format:
     # {'attributeScores': {'TOXICITY': {'spanScores': [{'end': 6, 'score': {'type': 'PROBABILITY', 'value': 0.3378245}, 'begin': 0}], 'summaryScore': {'type': 'PROBABILITY', 'value': 0.3378245}}}, 'languages': ['en']}
     j = r.json()
-    toxic_score = j['attributeScores']['TOXICITY']['summaryScore']['value']
+    #print(j)
+    if ('attributeScores' in j):
+        toxic_score = j['attributeScores']['TOXICITY']['summaryScore']['value']
+    else:
+        toxic_score = -1
     return toxic_score
 
 '''
@@ -68,5 +72,5 @@ for s in Sentence_List:
     toxic_score = fetch_toxic_score_online(s)
     print('%s: %f' %(s,toxic_score))
     
-fetch_toxic_score_list_online(Sentence_List, outfile='toxic_score_list.txt')
+fetch_toxic_score_list_online(Sentence_List, outfile='out_toxic_score_list.txt')
 '''
