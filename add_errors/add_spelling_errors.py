@@ -223,6 +223,7 @@ output:
                          the method is an int 0 - add, 1 - delete, 2 - replace, 3 - permute, 
                          4 - separate
 '''
+
 def modify_key_words_5_ways(sentence):
     #Words_In_Sentence = sentence.split()
     selected_word_list = getContentWords([sentence])
@@ -233,43 +234,3 @@ def modify_key_words_5_ways(sentence):
 '''
 Main
 '''
-
-#print('\nTesting function change_a_word_dis1: \n')
-#for i in range(10):
-#    print(change_a_word_dis1('123456789'))
-#print('\n')
-
-#
-#print('Testing modify_key_words')
-#sentence = '<><> You bunch of fwcking twssers.' 
-#print('Original sentence: %s\n\n' %sentence)
-#print('Content words: ')
-#print(getContentWords(sentence))
-#print('Modified sentences: \n\n')
-#Modified_Sentences = modify_key_words(sentence)
-#for s in Modified_Sentences:
-#    print('%s\n\n' % s)
-
-'''
-print('Testing modify_key_words\n')
-sentence = 'Today is Saturday ha ha ha.' 
-print('Original sentence: %s\n' %sentence)
-#print('Content words: ')
-#print(getContentWords([sentence]))
-print()
-print('Modified sentences: \n')
-Modified_Sentences = modify_key_words_5_ways(sentence)
-for s in Modified_Sentences:
-    print('%s' % s)
-'''
-
-#print('Testing modify_key_words\n')
-#sentence = 'Today is Saturday ha ha ha.' 
-#print('Original sentence: %s\n' %sentence)
-#print('Content words: ')
-#print(getContentWords([sentence]))
-#print()
-#print('Modified sentences: \n')
-#Modified_Sentences = modify_key_words_dis1(sentence)
-#for s in Modified_Sentences:
-#    print('%s' % s)
