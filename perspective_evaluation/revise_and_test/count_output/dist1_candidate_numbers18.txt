@@ -1,0 +1,400 @@
+﻿hbmo
+6
+humo, hbo, homo, hmo, hamo, bmo
+
+hbomo
+2
+hbomb, homo
+
+hbte
+8
+bte, hbt, htte, hate, hete, hte, hite, hrte
+
+hcomo
+2
+homo, como
+
+hcte
+11
+cte, hct, hce, ncte, htte, acte, hate, hete, hte, hite, hrte
+
+hdell
+6
+udell, huell, odell, edell, dell, hell
+
+hdomo
+2
+homo, domo
+
+hdte
+11
+hdt, htte, hdpe, hate, hete, hdtv, hte, dte, hite, cdte, hrte
+
+heate
+14
+heave, beate, keate, heute, heats, neate, hate, hete, heater, heated, heat, peate, heath, hecate
+
+hedll
+1
+hell
+
+hegll
+2
+hegel, hell
+
+hekc
+7
+hec, hek, heka, heke, heic, herc, hevc
+
+hel
+91
+ael, gel, sel, hpl, het, heu, hev, hew, hep, her, hex, hey, hed, hee, hef, heg, hea, heb, hec, hel, hem, hen, heo, heh, hei, hej, hek, hgel, ohel, khel, hdl, nel, wel, vel, hcl, lel, hl, he, heyl, fel, hbl, htel, hal, uel, zel, jel, hol, hnl, thel, bhel, heil, hml, helm, helo, hael, hll, kel, hes, iel, hkl, el, pel, helu, helt, help, hely, hele, held, hela, hell, heli, hil, yel, oel, shel, del, tel, heol, rhel, hoel, mel, bel, hul, rel, eel, heal, cel, hsl, chel, hrl, heel
+
+helcl
+3
+helal, hell, helck
+
+helj
+14
+hel, hej, helm, helo, helu, helt, help, hely, hele, held, hela, hell, heli, eelj
+
+helli
+21
+elli, pelli, holli, hilli, nelli, gelli, hells, helly, hella, helle, helmi, hello, kelli, hell, heli, celli, melli, helgi, belli, halli, shelli
+
+hello
+25
+ello, :hello, yello, `hello, |hello, tello, nello, dello, hells, helly, hella, helle, helo, hello, kello, hell, cello, helio, mello, sello, lello, hallo, jello, bello, hellor
+
+hellp
+7
+hells, helly, hella, helle, hello, help, hell
+
+hellq
+6
+hells, helly, hella, helle, hello, hell
+
+helly
+24
+elly, pelly, telly, holly, hally, hilly, melly, nelly, chelly, healy, delly, hells, helly, hella, helle, helmy, hello, jelly, kelly, hely, hell, selly, belly, shelly
+
+helxl
+2
+helal, hell
+
+helyl
+4
+helal, heyl, hely, hell
+
+hemaphrodite
+1
+hermaphrodite
+
+heqll
+1
+hell
+
+her
+97
+aer, ger, ser, hpr, het, heu, hev, hew, hep, her, hex, hey, hed, hee, hef, heg, hea, heb, hec, hel, hem, hen, heo, heh, hei, hej, hek, oher, h.r, hdr, fer, wer, eer, ver, hcr, ier, hr, he, hier, hbr, har, zer, hyer, hzr, jer, hor, hger, ther, heir, hmr, hjr, haer, hlr, kher, ker, hes, er, per, herr, herk, heri, hero, hern, herm, herc, herb, hera, herg, here, herd, herz, hery, hers, herv, hert, sher, hir, hfer, yer, oer, ner, der, ter, hvr, mer, ber, rer, hear, hur, hebr, cer, hsr, wher, cher, hrr, ler, heer
+
+herfucker
+0
+
+
+hermazphrodite
+1
+hermaphrodite
+
+het
+83
+aet, hht, get, set, hpt, het, heu, hev, hew, hep, her, hex, hey, hed, hee, hef, heg, hea, heb, hec, hel, hem, hen, heo, heh, hei, hej, hek, hdt, hft, wet, eet, vet, hct, let, ht, he, fet, hbt, heft, hat, uet, zet, hot, huet, thet, heit, hmt, hest, khet, ket, hes, iet, hkt, et, pet, helt, hert, hit, yet, net, chet, det, tet, heth, hete, heta, hwt, met, bet, heat, hut, ret, htt, cet, hlt, hst, whet, jet, phet, hrt, hgt, heet
+
+heyv
+9
+hev, hey, heyn, heyl, heym, heye, heya, herv, heys
+
+hf
+92
+vhf, hfs, hfi, hfm, hfa, hfc, hfb, hfe, hu, hj, hb, af, ihf, hpf, if, qf, hef, lf, yf, hdf, hft, hfn, hcf, h8, h., hz, hx, hy, hr, hs, hp, hq, hv, hw, ht, hk, hh, hi, hn, ho, hl, hm, hc, ha, hf, hg, hd, he, pf, xf, hbf, f, haf, ehf, bhf, gf, of, wf, hof, h, hnf, chf, phf, ff, uhf, nf, hmf, vf, =f, hlf, whf, ef, shf, mf, uf, hif, tf, ahf, cf, hgf, kf, huf, sf, hsf, bf, thf, jf, rf, hrf, zf, df, 2f
+
+hfags
+2
+fags, hags
+
+hfate
+3
+fate, hate, efate
+
+hfow
+2
+how, fow
+
+hfte
+9
+hfe, hft, htte, hate, hete, hte, hite, hrte, fte
+
+hfuck
+7
+houck, :fuck, fuck, hauck, 'fuck, huck, .fuck
+
+hgay
+4
+huay, hay, gay, hga
+
+hh
+84
+hhs, hht, hhe, hu, hj, hb, ah, ihh, qh, heh, yh, kh, hdh, hch, h8, h., hz, hx, hy, hr, hs, hp, hq, hv, hw, ht, hk, hh, hi, hn, ho, hl, hm, hc, ha, hf, hg, hd, he, ph, hhc, xh, hah, nhh, ih, gh, oh, wh, hoh, h, chh, hnh, uh, fh, uhh, nh, hmh, vh, eh, shh, mh, ahh, dh, hhv, hha, hhg, hhi, hhh, hrh, lh, th, hhb, ohh, ch, huh, sh, hih, hth, hsh, bh, jh, rh, zh, hgh
+
+hhomo
+2
+khomo, homo
+
+hiate
+4
+hiatt, hiace, hate, hite
+
+hidiots
+1
+idiots
+
+hilter
+10
+hiller, filter, helter, hilmer, hinter, halter, hilder, holter, hitter, hilger
+
+hilters
+3
+hitters, hillers, filters
+
+hing
+43
+thing, xing, ling, hring, ging, zing, ding, hint, hong, king, wing, ping, shing, fing, hinrg, ching, hung, hiag, ring, hng, hsing, ving, hig, hin, heng, ning, bing, ying, qing, ming, hinge, hinz, hina, hing, hine, hind, hino, hinn, hang, ting, jing, ing, sing
+
+hining
+19
+hinting, hiking, shining, whining, haining, hiding, mining, lining, xining, hiring, honing, vining, yining, jining, dining, hinging, pining, sining, fining
+
+his
+100
+fis, hhs, hfs, hais, hps, is, hips, iis, zhis, hds, hids, hs, hi, yis, mis, hisd, hise, hisa, hisn, hist, hiss, hbs, bis, ris, has, 'his, eis, kis, hos, `is, 'is, hys, pis, :is, hdis, phis, hias, hns, shis, hibs, hms, nis, cis, gis, uis, zis, hls, jis, hes, hks, *is, wis, sis, xis, this, lis, heis, hip, hiq, hir, his, hit, hiu, hiv, hiw, hix, hia, hib, hic, hie, hif, hig, hii, hij, hik, hil, him, hin, hws, hid, chis, hvs, hgs, hus, ais, qis, hims, ois, vis, hih, hts, huis, dis, tis, hits, hss, hmis, hrs, hcs, hqs
+
+hit
+89
+fit, hht, hait, hpt, it, het, iit, hdt, hft, .it, `it, hct, hirt, dit, ht, hi, yit, hoit, hbt, mit, hist, tit, hint, nit, bit, hat, *it, eit, kit, hitt, hito, hot, whit, 'it, pit, :it, shit, heit, hmt, cit, git, uit, rit, jit, hkt, wit, sit, xit, thit, lit, hip, hiq, hir, his, hit, hiu, hiv, hiw, hix, hia, hib, hic, hie, hif, hig, hii, hij, hik, hil, him, hin, hwt, hid, chit, hilt, hut, ait, hih, htt, huit, hits, hitz, hita, hite, hlt, hst, hrt, vit, hgt
+
+hite
+40
+dite, vite, pite, hike, shite, bite, hide, hire, tite, cite, lite, site, hise, kite, white, ite, hitt, hito, wite, htte, fite, hit, hie, nite, hate, hete, hime, rite, hte, hine, mite, hits, hitz, hita, hite, hitek, hrte, hive, hitec, hiten
+
+hitelr
+0
+
+
+hiter
+23
+hither, whiter, hiker, hier, piter, htter, miter, hxter, hinter, hater, hiver, niter, biter, hitler, hider, titer, liter, hitter, iter, hite, hitek, hitec, hiten
+
+hithead
+3
+pithead, hothead, shithead
+
+hitle
+4
+hille, title, hitler, hite
+
+hjate
+1
+hate
+
+hjerk
+3
+jerk, hjek, herk
+
+hjte
+7
+htte, hje, hate, hete, hte, hite, hrte
+
+hl
+101
+vhl, hu, hj, hb, ihl, hpl, il, ql, hel, yl, hdl, hcl, mhl, h8, h., hz, hx, hy, hr, hs, hp, hq, hv, hw, ht, hk, hh, hi, hn, ho, hl, hm, hc, ha, hf, hg, hd, he, pl, xl, hbl, shl, hal, ehl, fhl, khl, bhl, rhl, gl, ol, wl, ml, hol, h, chl, hnl, phl, fl, uhl, hml, vl, dhl, bl, hls, hlr, hlp, hlm, hll, hli, hlf, hle, hld, hlc, hlb, hla, hkl, whl, el, ul, nl, hil, l, nhl, dl, ll, tl, ahl, cl, kl, hul, sl, ohl, al, hlt, hln, hsl, thl, jl, rl, zl, hrl
+
+hlel
+10
+hel, hgel, lel, htel, hael, hll, hle, hleb, hoel, heel
+
+hll
+56
+pll, lll, hpl, hel, nll, dll, kll, hdl, hcl, hl, hbl, cll, hal, wll, holl, hol, mll, sll, hnl, hml, ell, bll, hls, hlr, hlp, hlm, hll, hli, hlf, hle, hld, hlc, hlb, hla, hkl, hell, all, hlle, gll, ull, hil, ll, hill, hall, hul, tll, fll, ill, rll, hlt, hln, hsl, hrl, oll, hull, 'll
+
+hloody
+1
+bloody
+
+hlooser
+1
+looser
+
+hlte
+15
+alte, lte, hle, holte, htte, hlle, hate, hete, flte, hlne, hte, hite, hlt, elte, hrte
+
+hmate
+5
+amate, hmat, hate, nmate, mate
+
+hmo
+61
+ymo, omo, hpo, humo, nmo, dmo, emo, tmo, heo, hco, ho, hm, pmo, hmos, hbo, hao, cmo, hoo, hyo, hmso, homo, hno, mmo, rmo, hmx, hmy, hmt, hmu, hmv, hmp, hmr, hms, hml, hmm, hmo, hmh, hmd, hme, hmf, hmg, hma, hmb, smo, hko, mo, hmi, hmc, amo, gmo, hvo, wmo, vmo, lmo, huo, fmo, hamo, imo, hso, hro, bmo, hgo
+
+hmomo
+2
+homo, momo
+
+hmoo
+7
+shmoo, hmos, hoo, hmso, hmo, moo, htoo
+
+hmosexuals
+1
+homosexuals
+
+ho
+108
+hu, hj, hb, ao, iho, hpo, hon, heo, yo, hco, h8, h., hz, hx, hy, hr, hs, hp, hq, hv, hw, ht, hk, hh, hi, hn, ho, hl, hm, hc, ha, hf, hg, hd, he, po, xo, hbo, o, hao, nho, kho, bho, io, rho, go, oo, wo, hof, hog, hod, hoe, hob, hoc, hoa, hoo, hol, hom, hok, hoh, hoi, hov, how, hot, hou, hor, hos, hop, hoz, hox, h, hyo, hno, cho, pho, fo, no, hmo, vo, hko, who, eo, sho, mo, uo, lho, do, lo, hoy, to, zho, 3o, hvo, aho, co, ko, huo, so, 'o, hso, dho, bo, tho, jo, ro, hro, zo, hgo
+
+hobmos
+2
+hobos, homos
+
+hofo
+12
+mofo, horo, holo, hof, hoo, homo, hojo, hobo, hoyo, ofo, hoff, hodo
+
+hogo
+36
+yogo, bogo, hugo, mogo, horo, dogo, higo, pogo, holo, hog, hoo, hago, homo, hojo, fogo, hobo, hoyo, ogo, togo, gogo, rogo, hoga, hogg, hoge, hogs, logo, hygo, hyogo, hodo, kogo, jogo, shogo, hongo, hgo, sogo, nogo
+
+hom
+74
+chom, hfm, kom, hon, hem, pom, yom, nom, ahom, com, ho, hm, lom, hcm, ham, om, som, holm, hof, hog, hod, hoe, hob, hoc, hoa, hoo, hol, hom, hok, hoh, hoi, hov, how, hot, hou, hor, hos, hop, hoz, hox, homs, homo, homi, home, hmm, fom, hlm, mom, bom, rom, hkm, gom, hvm, homa, vhom, eom, him, whom, wom, hoy, thom, hwm, aom, jom, hum, htm, qom, vom, hsm, oom, hrm, dom, tom, iom
+
+homao
+4
+homo, homa, homan, homam
+
+homb
+19
+omb, womb, hbomb, bomb, hob, hom, tomb, homs, homo, homi, home, hobb, hmb, homa, lomb, horb, comb, hombu, rhomb
+
+homj
+7
+honj, hom, homs, homo, homi, home, homa
+
+hommo
+4
+tommo, homo, homma, homme
+
+homno
+3
+horno, homo, himno
+
+homom
+4
+homo, homem, homam, homos
+
+homopohbic
+0
+
+
+homor
+7
+pomor, homo, honor, humor, homer, hamor, homos
+
+homoseuxal
+0
+
+
+homosexauls
+0
+
+
+homosexeals
+1
+homosexuals
+
+homosexgals
+1
+homosexuals
+
+homosexuads
+1
+homosexuals
+
+homosexualps
+1
+homosexuals
+
+homosexualsv
+1
+homosexuals
+
+homosexuas
+2
+homosexuals, homosexual
+
+homosexuasl
+1
+homosexual
+
+homosexuazls
+1
+homosexuals
+
+homosexuazs
+1
+homosexuals
+
+homosexulas
+0
+
+
+homoseyuals
+1
+homosexuals
+
+homosxeual
+0
+
+
+homosxeuals
+0
+
+
+homoz
+2
+homo, homos
+
+hompo
+2
+homo, compo
+
+homsoexual
+0
+
+
+homsoexuals
+0
+
+
+hono
+41
+hon, horno, phono, kono, horo, lono, gono, hone, hond, hong, honk, honj, hont, hons, tono, nono, bono, holo, hoo, sono, homo, hno, hojo, honor, hobo, mono, hoyo, honi, jono, dono, chono, hodo, pono, hondo, rono, hino, ono, cono, hano, hongo, fono
+
+hoo
+80
+hpo, koo, hon, heo, poo, yoo, noo, hco, coo, ho, horo, hbo, hao, voo, hoop, hoot, hook, hoon, hool, hoof, hoog, hood, oo, soo, shoo, holo, hof, hog, hod, hoe, hob, hoc, hoa, hoo, hol, hom, hok, hoh, hoi, hov, how, hot, hou, hor, hos, hop, hoz, hox, hyo, homo, hno, hojo, hobo, hmo, hoyo, moo, boo, roo, hko, goo, choo, woo, hoy, loo, hodo, htoo, zoo, hvo, too, joo, hoos, huo, hso, foo, whoo, ooo, hro, doo, hgo, khoo
+
+hoom
+25
+foom, hoop, hoot, hook, hoon, hool, hoof, hoog, hood, toom, dhoom, jhoom, holm, hoo, hom, boom, room, loom, xoom, doom, poom, hoos, zoom, voom, oom
+

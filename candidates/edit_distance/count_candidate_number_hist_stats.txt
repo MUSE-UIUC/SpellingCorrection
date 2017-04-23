@@ -1,0 +1,11 @@
+Statistics on the number of candidates: 
+Max: 138
+Min: 0
+Average: 15
+Median: 2
+Standard Deviation: 29
+Variance: 852
+Total: 4124
+Zero: 347
+Less than 5: 2536
+Less than 10: 2979
