@@ -1,0 +1,400 @@
+﻿asshyole
+1
+asshole
+
+assl
+18
+assal, ssl, ass, asl, adsl, essl, amsl, asil, asso, assn, asse, assa, asst, nssl, apsl, assi, assr, asal
+
+assnhole
+2
+asshole, ass-hole
+
+assohle
+0
+
+
+assole
+1
+asshole
+
+assoles
+1
+assholes
+
+assp
+15
+ass, cssp, gssp, asp, astp, asso, assn, asse, assa, asst, assi, lssp, ssp, assr, asap
+
+assq
+10
+ssq, ass, asq, asso, assn, asse, assa, asst, assi, assr
+
+assr
+27
+issr, assar, tssr, sssr, assur, ass, ussr, nassr, adsr, cssr, bssr, asmr, asur, asr, asir, asso, assn, asse, assa, asst, assi, ssr, arsr, asar, assr, asbr, asser
+
+asss
+32
+isss, adss, basss, casss, masss, asus, ssss, ass, assis, asos, asns, acss, asks, asms, asso, assn, asse, assa, asst, ashs, asis, asrs, agss, asps, assi, ases, asds, sss, ascs, assr, asses, asas
+
+assshole
+2
+asshole, ass-hole
+
+assv
+10
+ass, asv, asso, assn, asse, assa, asst, assi, ssv, assr
+
+assw
+11
+ass, asw, asuw, asso, assn, asse, assa, asst, assi, ssw, assr
+
+asswhole
+2
+asshole, ass-hole
+
+assx
+10
+ass, asx, asso, assn, asse, assa, asst, assi, ssx, assr
+
+assz
+8
+ass, asso, assn, asse, assa, asst, assi, assr
+
+asszhole
+2
+asshole, ass-hole
+
+ast
+101
+hast, aet, bast, cast, as, aft, nast, agt, wst, azt, lst, tst, aat, qst, kst, vast, fst, nst, att, dast, abt, cst, ass, asw, ast, asa, asl, oast, aut, act, est, avt, pst, amt, bst, awt, iast, last, mast, apt, wast, rst, fast, aest, gst, akt, asti, asta, art, kast, aust, asr, asq, asp, asv, asu, asx, asc, asb, asg, asf, ase, asd, asi, ash, aso, asn, asm, ist, astm, astn, astc, aste, astp, alt, asit, aist, asst, past, aht, dst, east, ant, vst, aot, ask, ost, gast, st, ait, rast, asdt, sst, at, hst, 1st, mst, ust, adt, jst, asat
+
+astard
+6
+astar, astara, bastard, attard, stard, asgard
+
+astards
+1
+bastards
+
+asts
+47
+lsts, fasts, amts, hsts, asus, ats, ssts, ass, ast, pasts, ants, psts, asos, osts, alts, asns, nasts, lasts, abts, asti, asta, asks, acts, asms, arts, astm, astn, astc, aste, astp, usts, ashs, asis, asrs, msts, easts, ests, sts, apts, asps, atts, ases, asds, masts, ascs, asas, casts
+
+astshole
+1
+asshole
+
+asuch
+4
+aruch, auch, such, asch
+
+asv
+58
+as, av, afv, agv, lsv, tsv, aav, ksv, fsv, nsv, atv, abv, csv, ass, asw, ast, asa, asl, auv, esv, psv, apv, rsv, gsv, asr, asq, asp, asv, asu, asx, asc, asb, asg, asf, ase, asd, asi, ash, aso, asn, asm, isv, alv, osv, amv, dsv, arv, vsv, acv, ask, sv, aiv, ssv, hsv, msv, usv, adv, bsv
+
+aswshole
+1
+asshole
+
+asxs
+19
+axs, asus, ass, asos, asns, asks, asx, asms, amxs, ashs, asis, asrs, csxs, sxs, asps, ases, asds, ascs, asas
+
+asys
+24
+ays, asya, asus, ass, atys, asos, sys, oasys, asns, asks, psys, amys, asms, alys, ashs, asis, asrs, ansys, aksys, asps, ases, asds, ascs, asas
+
+asz
+34
+as, az, azz, tsz, nsz, abz, ass, asw, ast, asa, asl, arz, asr, asq, asp, asv, asu, asx, asc, asb, asg, asf, ase, asd, asi, ash, aso, asn, asm, alz, anz, ask, ahz, sz
+
+aszs
+15
+azs, asus, ass, asos, asns, asks, asms, ashs, asis, asrs, asps, ases, asds, ascs, asas
+
+at
+131
+:at, aet, aa, ab, ad, ag, af, ai, ah, ak, aj, am, ao, an, aq, ap, as, ar, au, aw, av, ay, ax, az, a-, a., a1, a3, a2, a4, a7, it, aft, vat, qt, cat, yt, agt, uat, zat, azt, jat, aat, ati, ht, pt, 't, xt, t, ae, atf, atd, ate, atb, ata, atn, ato, atl, atm, atk, ath, atv, atw, att, atr, ats, atp, atx, sat, xat, fat, abt, hat, ast, aut, act, gt, ot, avt, atg, atu, qat, amt, awt, lat, apt, ft, nt, vt, oat, bt, akt, dat, art, tat, wt, et, mt, ut, mat, alt, rat, aht, bat, dt, lt, ant, tt, kat, iat, aot, pat, ct, kt, st, ait, gat, a, nat, al, ac, at, *at, jt, rt, wat, zt, eat, atc, adt, yat
+
+atan
+50
+aran, watan, atman, vatan, batan, aton, atlan, apan, awan, atan, adan, ratan, aan, avan, ata, atn, akan, satan, ayan, otan, altan, athan, atal, ataa, atac, atar, atas, atat, atau, utan, gatan, azan, aban, atanu, tan, agan, aten, patan, afan, stan, natan, ahan, catan, matan, katan, anan, etan, aman, alan, asan
+
+atatck
+2
+atatrk, atack
+
+ate
+102
+aee, axe, afe, rate, age, cte, bte, ete, yate, gate, atle, awe, ati, aae, ae, atf, atd, ate, atb, ata, atn, ato, atl, atm, atk, ath, atv, atw, att, atr, ats, atp, atx, abe, date, ante, aute, fate, ave, atg, atu, ite, pte, alte, atef, ates, ale, ape, late, tate, kate, vte, lte, aye, rte, atre, acte, atse, ase, arte, atec, aten, ater, apte, aste, oate, zte, ahe, hate, ane, tte, te, gte, kte, amte, aoe, ste, atte, ace, ame, pate, mate, hte, ote, nte, aje, cate, at, aue, dte, bate, ake, nate, aie, atc, ade, athe, fte, mte, ute, are, sate
+
+athetic
+2
+pathetic, athletic
+
+ats
+116
+atis, aes, axs, as, afs, rats, vats, ays, atos, ags, cts, bts, jts, gats, azs, amts, atls, ati, atms, aas, atf, atd, ate, atb, ata, atn, ato, atl, atm, atk, ath, atv, atw, att, atr, ats, atp, atx, its, abs, ass, atys, aus, dats, ants, atcs, acs, fats, pats, avs, atg, atu, pts, xts, wts, ets, alts, eats, ates, atas, aps, atfs, lats, jats, tats, kats, vts, lts, tts, gts, abts, ars, atrs, acts, atsf, atse, atsb, atsc, rts, arts, oats, als, atps, aws, ams, hats, ans, atvs, ts, kts, aos, sts, wats, apts, ahs, atts, ais, mats, qts, hts, yts, ots, nts, ajs, at, bats, sats, aks, nats, atc, cats, ads, fts, mts, dts, uts
+
+atss
+26
+atis, adss, atos, ctss, atls, tss, atms, ats, ass, atys, atcs, ates, atas, acss, atfs, atrs, atsf, atse, atsb, atsc, atps, atvs, matss, agss, atts, stss
+
+atssholes
+1
+assholes
+
+attck
+4
+atack, attack, attak, attock
+
+atupid
+1
+stupid
+
+au
+122
+aeu, hu, aa, ab, ad, ag, af, ai, ah, ak, aj, am, ao, an, aq, ap, as, ar, au, aw, av, ay, ax, az, a-, a., a1, a3, a2, a4, a7, iu, afu, qu, cau, yu, ayu, agu, jau, pu, 'u, aau, xu, ae, sau, fau, hau, aub, aud, aug, auf, aui, auk, aum, aul, aun, aup, aus, aur, aut, auv, aux, u, acu, gu, ou, atu, vau, awu, aou, fu, apu, nu, abu, vu, aqu, oau, bu, tau, wu, eu, asu, ju, mu, uu, mau, alu, aua, bau, rau, ru, amu, lu, anu, tu, kau, iau, pau, ahu, cu, ku, aiu, yau, gau, a, nau, al, aju, ac, at, auc, aue, su, aku, dau, wau, zu, eau, adu, lau, aru, du
+
+audaicty
+0
+
+
+auns
+37
+runs, funs, nuns, agns, aunts, huns, ahns, juns, suns, aunis, aun, aus, yuns, aunt, asns, auvs, kuns, buns, arns, duns, tuns, aurs, aruns, muns, xuns, ans, uns, anns, aune, aung, auis, guns, awns, auks, fauns, luns, puns
+
+aunus
+12
+unus, aunts, alnus, aunis, anus, maunus, faunus, annus, aulus, yunus, taunus, agnus
+
+aus
+99
+aes, uus, axs, as, au, afs, bus, jus, gaus, ays, ags, raus, avus, azs, cus, mus, aas, abus, asus, ats, abs, ass, aub, aud, aug, auf, aui, auk, aum, aul, aun, aup, aus, aur, aut, auv, aux, ius, acs, pus, xus, avs, anus, paus, eus, auvs, wus, aps, kaus, alus, us, lus, tus, iaus, laus, acus, taus, ars, aust, ausf, ausc, ausa, rus, zus, aurs, als, aua, arus, aws, ams, vaus, apus, baus, ans, haus, aos, gus, kus, ahs, sus, maus, auis, hus, ais, ajs, ahus, auc, aue, auks, yus, aks, fus, nus, caus, dus, ous, ads, naus, agus
+
+ause
+40
+fuse, zuse, aude, amuse, auge, hause, buse, ruse, pause, aus, aute, aube, cause, anse, gause, abuse, muse, aust, ausf, ausc, ausa, atse, ase, aure, huse, suse, aise, asse, duse, vause, ouse, cuse, aune, apse, abse, aase, arse, aue, auke, use
+
+ausshole
+1
+asshole
+
+aussholes
+1
+assholes
+
+ave
+83
+aee, axe, av, cve, afe, age, gave, awe, aae, bve, fave, ae, ate, abe, pve, dave, avec, avx, avt, avp, avr, avs, avl, avm, avn, avo, avi, avd, ave, avf, avg, ava, avb, avc, ive, aave, lve, tve, aven, aveo, avea, avex, avey, aver, aves, ave., pave, ale, ape, eve, eave, aye, lave, 've, ase, avie, ove, gve, sve, arve, ahe, ve, ane, rve, aoe, ahve, hve, have, ace, ame, wave, aje, aue, cave, save, dve, ake, aie, ade, rave, nave, avre, are
+
+avss
+12
+adss, avus, avsm, avas, ass, avs, aves, acss, avis, vss, agss, avms
+
+awbusive
+1
+abusive
+
+ay
+99
+aa, ab, ad, ag, af, ai, ah, ak, aj, am, ao, an, aq, ap, as, ar, au, aw, av, ay, ax, az, a-, a., a1, a3, a2, a4, a7, iy, vay, qy, yy, aym, ayo, ayn, ayu, ayp, ays, ayr, zay, azy, jay, hy, py, xy, ae, say, aby, hay, acy, yay, gy, oy, wy, fay, aly, apy, fy, pay, ny, cay, vy, ayi, aye, aya, ayc, may, day, ary, ey, jy, y, my, uy, bay, ray, amy, dy, ly, any, ty, kay, zy, cy, ky, sy, gay, a, nay, al, ac, at, by, ry, way, ady, lay, tay
+
+aya
+88
+sya, aea, axa, aa, ay, ya, aym, ayo, ayn, ayu, ayp, ays, ayr, oya, ana, aga, asya, aza, ayla, paya, aaa, gya, cya, ata, aba, yaya, gaya, asa, haya, aca, ava, kaya, afa, ayan, ayad, ayaz, ayas, ayat, awa, hya, aaya, aoa, baya, apa, arya, zaya, ayah, mya, ayi, aye, aya, ayc, nya, saya, bya, lya, kya, ala, raya, alya, aua, maya, anya, tya, ama, laya, jaya, vaya, ayia, aqa, ayra, daya, aha, naya, aia, iya, aja, waya, aiya, faya, aka, ayta, taya, ayya, ada, ayam, ara, rya
+
+ayab
+17
+arab, ayub, aab, ayan, ayad, ayaz, ayas, ayat, akyab, ayah, yab, aya, adab, abab, ajab, ahab, ayam
+
+aye
+74
+aee, axe, ay, afe, aym, ayo, ayn, ayu, ayp, ays, ayr, ayew, oye, age, pye, awe, paye, aae, gye, ae, ate, kaye, abe, gaye, haye, kye, raye, ave, sye, hye, aaye, baye, faye, ale, ape, arye, ye, mye, jaye, ayi, aye, aya, ayc, nye, caye, saye, bye, ayes, ayer, ase, eye, taye, maye, tye, daye, ahe, laye, ane, dye, ayre, aoe, fye, naye, ace, ame, wye, lye, aje, aue, ake, aie, ade, are, rye
+
+ayest
+3
+aest, ayes, ayesa
+
+ayl
+52
+syl, ael, ay, afl, yl, aym, ayo, ayn, ayu, ayp, ays, ayr, axl, oyl, anl, agl, azl, ayla, aal, amyl, uyl, atl, asl, aul, acl, acyl, avl, awl, apl, aryl, abl, aql, ayi, aye, aya, ayc, nyl, arl, byl, kyl, all, tyl, cyl, pyl, aol, zyl, adl, ahl, aml, ail, al, akl
+
+ayou
+17
+ayo, ayu, you, bayou, ayoub, `you, kyou, |you, aou, alou, .you, *you, 'you, -you, anou, :you, abou
+
+aysshole
+1
+asshole
+
+azis
+25
+atis, acis, akis, abis, azi, azs, axis, amis, azizs, alis, nazis, zis, apis, anis, avis, asis, aris, auis, ais, azin, azim, aziz, adis, agis, afis
+
+azss
+5
+adss, azs, ass, acss, agss
+
+azsshole
+1
+asshole
+
+b
+129
+;, hb, ab, +, ib, qb, d, yb, rb, :, ,, s, e, 9, -, pb, xb, t, /b, f, x, o, <, u, g, gb, ob, =, bn, !, v, r, h, >, 0, fb, nb, [, ], vb, ?, 1, w, b3, bd, bl, bm, bt, bu, #, j, \, ., @, i, 2, eb, $, y, mb, k, ub, 3, %, z, l, db, 4, lb, &, tb, {, m, 5, ', |, n, `, cb, kb, sb, _, }, a, 7, ), ^, 6, ~, b-, b., b4, b5, b0, b1, b2, b8, be, bf, bg, ba, bb, bc, bo, bh, bi, bj, bk, bv, bw, bp, bq, br, bs, bx, by, bz, p, jb, b, wb, /, zb, 1b, 8, (, *, q, c
+
+b1ch
+6
+boch, bich, bch, buch, bech, bach
+
+backh
+6
+backs, backe, back., balkh, back, bach
+
+badc
+19
+badu, badr, badd, badi, brdc, bad, bac, barc, basc, banc, sadc, adc, radc, bdc, bada, bacc, bads, bade, bado
+
+bafstard
+1
+bastard
+
+baglls
+2
+balls, bagels
+
+bains
+26
+bainso, baits, mains, bails, bans, bairns, sains, kains, basins, banns, gains, bahns, bais, bain, cains, bins, rains, brains, bains, brins, jains, baine, baines, pains, hains, barns
+
+bak
+85
+brk, baak, ak, buk, vak, cak, uak, zak, jak, bwk, aak, baek, xak, bik, hak, biak, brak, sak, bkk, fak, bap, bmk, oak, blk, dak, tak, byk, bok, baku, bakr, bako, baki, bake, baka, bnk, mak, btk, bav, baw, bau, bar, bas, baz, bax, bay, baf, bag, bad, bae, bab, bac, baa, ban, bao, bal, bam, bak, bah, bai, rak, bark, baik, bat, baj, bank, kak, bck, bhk, pak, bbk, balk, bek, yak, bask, gak, bdk, nak, beak, ba, bk, back, wak, bsk, blak, lak
+
+balal
+29
+baal, balas, balak, balaj, balai, balao, balan, balam, balad, bawal, bakal, banal, galal, jalal, bahal, belal, baral, halal, balat, basal, ball, bala, dalal, badal, ballal, bilal, talal, salal, alal
+
+balck
+9
+balak, baeck, balco, balch, balck, balik, falck, balk, back
+
+ballst
+6
+ballet, balls, ballsy, ballsh, ballot, ballast
+
+bals
+67
+bels, baas, boals, balas, sals, bails, bans, vals, pals, baes, bols, babs, bcals, tals, aals, bays, baxs, balls, balts, baals, rals, balsa, balis, bls, gals, bauls, lals, balks, als, bahs, cals, bas, bal, bars, btls, beals, bais, bass, bags, baus, baps, mals, baln, baos, balzs, balo, balm, ball, balk, bali, bale, bald, bala, balu, balt, bals, hals, kals, bams, wals, balds, bats, bales, dals, fals, bacs, bads
+
+basard
+6
+basar, basara, bastard, baard, hasard, bayard
+
+basards
+2
+bastards, bayards
+
+basatrd
+0
+
+
+basatrds
+0
+
+
+basefment
+1
+basement
+
+basjtards
+1
+bastards
+
+basotard
+1
+bastard
+
+basstard
+1
+bastard
+
+bastad
+6
+bastar, bastam, bastak, bastard, bstad, basta
+
+bastadr
+1
+bastar
+
+bastadrds
+1
+bastards
+
+bastads
+1
+bastards
+
+bastakrd
+1
+bastard
+
+bastanrd
+1
+bastard
+
+bastar
+12
+astar, baster, baskar, bashar, bassar, bastar, bastam, bastak, basar, bastard, baltar, basta
+
+bastardgs
+1
+bastards
+
+bastarkd
+1
+bastard
+
+bastarmd
+1
+bastard
+
+bastarod
+1
+bastard
+
+bastarqd
+1
+bastard
+
+bastarsd
+1
+bastard
+
+bastarxd
+1
+bastard
+
+bastcard
+1
+bastard
+
+bastrd
+1
+bastard
+
+basturd
+1
+bastard
+
+bastwards
+2
+bastards, eastwards
+
+bastyard
+1
+bastard
+

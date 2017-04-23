@@ -1,0 +1,400 @@
+﻿lhit
+9
+loit, whit, lait, shit, lohit, thit, lit, hit, chit
+
+li
+122
+ai, ii, qi, lf, li, lgi, yi, nli, dli, kli, tli, pi, ili, lsi, ni, `i, lei, sli, hi, 'i, xi, ldi, cli, pli, lvi, gi, oi, .i, mli, jli, fi, lui, vi, xli, eli, lti, bli, rli, hli, liu, wi, i, ei, mi, ui, ali, lid, lie, lif, lig, lia, lib, lic, lil, lim, lin, lio, lii, lij, lik, lit, liv, liw, lip, lir, lis, lix, liz, uli, l, lih, di, lg, ld, le, lb, lc, la, ln, lo, ll, lm, lj, lk, lh, lv, lw, lt, lu, lr, ls, lp, lq, lz, lx, ly, l., ti, lpi, loi, |i, wli, lmi, ki, si, *i, ci, vli, lli, :i, gli, fli, lci, lxi, bi, ji, lbi, ri, zi, -i, oli, lai
+
+lia
+103
+fia, lika, ia, lila, li, lga, iia, lima, lfa, lsa, lina, lea, liya, lda, mia, tia, liza, bia, ria, elia, lpa, liat, liar, lias, lian, liao, liam, liha, eia, kia, alia, pia, nia, lva, laia, lcia, lua, lida, cia, gia, lta, uia, zia, liu, jia, leia, lipa, lka, lya, jlia, wia, liga, klia, sia, xia, lira, lid, lie, lif, lig, lia, lib, lic, lil, lim, lin, lio, lii, lij, lik, lit, liv, liw, lip, lir, lis, lix, liz, hia, lih, lisa, lha, clia, la, ilia, lita, loa, lna, liva, lma, lra, aia, oia, glia, liwa, lla, dia, lca, lba, qia, via, lija, laa
+
+liarsf
+1
+liars
+
+liasr
+2
+liar, lias
+
+lic
+77
+fic, ic, li, lgc, iic, lfc, lsc, lrc, ldc, mic, nic, bic, ric, lcc, eic, kic, blic, lico, lice, pic, lvc, lich, lick, luc, cic, gic, dic, ltc, uic, liu, jic, flic, wic, linc, sic, lid, lie, lif, lig, lia, lib, lic, lil, lim, lin, lio, lii, lij, lik, lit, liv, liw, lip, lir, lis, lix, liz, hic, lih, lhc, clic, lc, ilic, lpc, loc, lnc, lmc, aic, oic, vic, llc, loic, tic, lbc, qic, lec, lac
+
+lices
+23
+pices, lifes, laces, alices, slices, rices, dices, liceu, lice, lines, licey, liceo, liles, licks, lies, luces, lyces, limes, lives, lites, ices, likes, vices
+
+lickhing
+1
+licking
+
+lief
+21
+lef, ief, tief, lief, lied, liek, lien, liem, lier, lies, liev, liew, lieu, lie-, liff, lie, lif, alief, leef, fief, lieb
+
+lierl
+2
+liesl, lier
+
+lif
+78
+fif, if, lf, li, iif, lff, rlif, .if, lrf, lsf, `if, lef, life, mif, nif, bif, rif, elif, ldf, *if, lpf, eif, lwf, kif, alif, 'if, pif, :if, lvf, cif, lifo, gif, uif, zif, lief, liu, jif, leif, liff, lift, wif, klif, sif, lid, lie, lif, lig, lia, lib, lic, lil, lim, lin, lio, lii, lij, lik, lit, liv, liw, lip, lir, lis, lix, liz, hif, lih, lof, lmf, aif, oif, dif, clif, tif, lcf, lbf, vif, laf
+
+ligger
+12
+linger, nigger, rigger, ligier, bigger, logger, tigger, lugger, jigger, wigger, liger, digger
+
+likc
+5
+lika, like, linc, lic, lik
+
+likess
+2
+likens, likes
+
+lil
+73
+fil, lll, il, lile, lila, lill, lilo, lili, lily, li, lfl, lsl, cil, lel, lrl, ldl, mil, ril, lpl, eil, kil, nil, lvl, lilt, lul, bil, lidl, gil, ltl, uil, zil, liu, jil, lkl, wil, sil, lid, lie, lif, lig, lia, lib, lic, lil, lim, lin, lio, lii, lij, lik, lit, liv, liw, lip, lir, lis, lix, liz, hil, lih, ll, lol, lcil, lml, ail, oil, dil, pil, til, lcl, lbl, vil, lal
+
+lira
+54
+lara, ira, lika, oira, lila, tira, gira, lima, liara, lina, hira, lera, liya, liza, cira, sira, liha, kira, lora, liria, jira, bira, vira, lida, lura, lipa, laira, rira, liga, lirr, liri, lira, lire, lia, lir, lisa, fira, aira, lyra, lita, libra, wira, nira, liva, zira, lra, liwa, eira, mira, pira, dira, lija, liras, lirae
+
+lis
+111
+fis, is, li, lgs, lips, luis, iis, lvis, lims, lfs, lss, lins, olis, mlis, lrs, yis, lios, lds, mis, lizs, bis, ris, elis, lsis, lps, lias, eis, lws, kis, alis, libs, `is, 'is, pis, :is, lvs, lais, lus, lids, nis, cis, gis, lts, lns, uis, zis, lies, liu, jis, leis, lks, *is, wis, klis, sis, xis, lid, lie, lif, lig, lia, lib, lic, lil, lim, lin, lio, lii, lij, lik, lit, liv, liw, lip, lir, lis, lix, liz, his, lih, lisp, list, lisu, lish, lisi, lisa, lise, lhs, les, ls, los, lcis, lius, livs, lms, lzs, ais, qis, ois, glis, vis, lls, lois, dis, lys, tis, lcs, ulis, liss, lbs, las
+
+lise
+46
+elise, like, lile, lime, lse, line, nise, liye, lite, life, hise, lese, luise, libe, lice, lose, lide, bise, liese, vise, lipe, lisle, ise, lisse, lige, lire, lie, lis, rise, aise, alise, lisp, list, lisu, lish, lisi, lisa, lise, wise, lyse, live, mise, liste, liss, glise, oise
+
+litch
+19
+sitch, leitch, pitch, ilitch, witch, litchi, glitch, lich, latch, mitch, itch, lith, ditch, hitch, flitch, bitch, fitch, ritch, elitch
+
+litlte
+0
+
+
+litrs
+8
+liars, litres, litre, itrs, liters, lites, lirrs, litas
+
+lkoser
+2
+loser, looser
+
+ll
+103
+pll, llp, lln, lll, il, ql, lf, li, yl, nll, dll, kll, lfl, lsl, lel, hl, pl, lrl, xl, ldl, cll, lpl, gl, wll, ol, wl, ml, mll, sll, lvl, fl, lul, vl, ell, ltl, bl, bll, hll, lkl, el, ul, nl, all, lil, gll, ull, l, dl, lg, ld, le, lb, lc, la, ln, lo, ll, lm, lj, lk, lh, lv, lw, lt, lu, lr, ls, lp, lq, lz, lx, ly, l., tl, lol, cl, lml, kl, tll, sl, fll, lls, llr, llu, lli, llm, llc, llb, lla, llg, lle, lld, ill, al, rll, lcl, jl, lbl, rl, zl, oll, lal, 'll
+
+llack
+5
+lack, black, flack, slack, clack
+
+lmae
+6
+lman, lmao, mae, lma, lme, lae
+
+lmao
+8
+lman, lmao, liao, mao, lmfao, lmo, lma, lao
+
+ln33ers
+0
+
+
+lnie
+11
+unie, gnie, nie, lanie, laie, knie, leie, lie, lonie, lne, linie
+
+lo
+108
+vlo, ao, luo, lf, li, yo, dlo, klo, lfo, ilo, lso, leo, ho, po, lro, lom, lov, lot, lou, xo, low, o, clo, lpo, io, go, oo, wo, mlo, slo, plo, lvo, fo, no, vo, elo, lto, blo, eo, mo, uo, alo, glo, lio, l, lho, do, lg, ld, le, lb, lc, la, ln, lo, ll, lm, lj, lk, lh, lv, lw, lt, lu, lr, ls, lp, lq, lz, lx, ly, l., to, lob, loc, loa, lof, log, lod, loe, lok, loh, loi, lon, loo, lol, lor, los, lop, loz, lox, loy, 3o, jlo, co, lmo, ko, so, flo, 'o, lco, bo, jo, lbo, ro, zo, olo, lao
+
+loa
+88
+loma, koa, lga, loba, poa, boa, loya, lfa, loca, noa, lsa, lea, coa, lom, lov, lot, lou, lowa, lda, low, load, loaf, loam, loan, lota, lpa, oa, soa, goa, loas, lora, hoa, aoa, lva, losa, lua, lta, moa, lka, zoa, lya, roa, lona, loka, lia, lola, lha, woa, la, lo, lob, loc, loa, lof, log, lod, loe, lok, loh, loi, lon, loo, lol, lor, los, lop, loz, lox, loy, loja, lna, uoa, joa, lma, lra, loha, lla, voa, lca, lofa, foa, lba, loga, doa, toa, loza, laa, ioa
+
+loadw
+2
+load, loads
+
+loaser
+6
+loafer, loser, loader, loeser, laser, looser
+
+loder
+24
+loders, louder, loder, lider, poder, leder, lowder, loper, coder, yoder, lower, lnder, moder, loner, lder, loser, loader, lodes, lover, loden, lader, oder, lodger, lode
+
+loer
+36
+toer, loei, loen, loeb, loes, loder, loper, laer, loew, lner, lotr, lower, doer, loner, poer, lier, lder, goer, roer, loser, lker, lger, floer, oer, leer, loe, lor, lber, lover, lohr, foer, loir, noer, boer, loera, ler
+
+loesr
+3
+loes, loeser, loess
+
+loesrs
+1
+loess
+
+lok
+67
+kok, `ok, pok, yok, lock, nok, lek, lom, lov, lot, lou, klok, ldk, low, ok, sok, gok, hok, luk, alok, mok, bok, rok, *ok, loko, loka, look, lik, blok, :ok, wok, lo, lk, lob, loc, loa, lof, log, lod, loe, lok, loh, loi, lon, loo, lol, lor, los, lop, loz, lox, loy, aok, lnk, loki, loke, jok, ilok, vok, lck, lsk, fok, ook, lbk, dok, tok, lak
+
+lomsers
+1
+losers
+
+loo
+83
+koo, luo, loro, lobo, poo, yoo, lfo, loco, noo, lso, leo, coo, lono, lro, lom, lov, lot, lou, low, loto, voo, lpo, lopo, oo, soo, hoo, lvo, aloo, loon, lto, moo, boo, roo, goo, loko, loom, look, loog, looe, loob, looc, looz, looy, loot, loos, loop, lio, lolo, lho, lomo, woo, logo, lo, lob, loc, loa, lof, log, lod, loe, lok, loh, loi, lon, loo, lol, lor, los, lop, loz, lox, loy, zoo, too, joo, lmo, lco, foo, ooo, lbo, doo, lao, lodo
+
+loody
+11
+woody, goody, moody, doody, looby, bloody, boody, loopy, loony, looy, lody
+
+lopser
+4
+loper, loser, loeser, looser
+
+loqser
+3
+loser, loeser, looser
+
+los
+108
+wos, loes, kos, lgs, lobs, pos, loys, lfs, locs, nos, lss, ros, cos, fos, lrs, lom, lov, lot, lou, lows, lios, lds, low, lps, lous, os, sos, xos, lws, loas, lors, hos, lvs, lost, losa, lose, losh, lus, lops, yos, lmos, lts, leos, lns, mos, lots, lks, bos, lons, gos, loos, flos, slos, clos, eos, alos, lis, lhs, les, laos, lo, ls, lob, loc, loa, lof, log, lod, loe, lok, loh, loi, lon, loo, lol, lor, los, lop, loz, lox, loy, aos, glos, zos, jos, ilos, lms, lzs, lcos, lls, lois, lys, klos, wlos, loss, qos, vos, plos, lcs, oos, lbs, logs, dos, tos, elos, las, luos, ios
+
+loscer
+1
+loser
+
+lose
+49
+nose, lobe, rose, louse, loye, cose, sose, lse, love, kose, lowe, lese, lote, lore, klose, loses, close, lost, losa, lose, losh, hose, lohse, hlose, lone, losey, losev, loser, loose, looe, lope, ose, lise, lome, loge, gose, loe, los, dose, lyse, vose, loke, tose, loss, jose, bose, pose, mose, lode
+
+losefr
+1
+loser
+
+loseh
+7
+loses, lose, losh, losch, losey, losev, loser
+
+loserf
+2
+loser, losers
+
+loserp
+2
+loser, losers
+
+losesr
+2
+loses, loser
+
+loseur
+2
+poseur, loser
+
+losfer
+2
+loafer, loser
+
+losr
+16
+ltsr, lfsr, lsr, lotr, losar, lost, losa, lose, losh, loser, osr, lor, los, lohr, loir, loss
+
+losre
+5
+lorre, lozre, lore, lose, loire
+
+losrer
+1
+loser
+
+loszr
+2
+losar, loser
+
+lot
+88
+kot, lgt, pot, yot, bot, loit, lst, let, cot, lrt, lom, lov, lot, lou, ldt, low, lotz, lotr, lott, loti, loth, loto, lotm, lota, lote, lotd, olot, lpt, lout, ot, sot, lwt, lort, hot, lat, lvt, lost, mot, lut, alot, ltt, lnt, got, lots, rot, loot, slot, eot, lit, blot, wot, lo, lt, jot, lob, loc, loa, lof, log, lod, loe, lok, loh, loi, lon, loo, lol, lor, los, lop, loz, lox, loy, dot, aot, zot, lmt, not, vot, plot, lct, loft, fot, oot, lbt, clot, iot, tot
+
+low
+68
+kow, pow, yow, lew, cow, lom, lov, lot, lou, lowe, lowa, lown, lows, lowy, low, loew, louw, ow, lww, how, sow, flow, mow, bow, row, gow, slow, eow, liw, blow, lwow, wow, lo, lw, jow, lob, loc, loa, lof, log, lod, loe, lok, loh, loi, lon, loo, lol, lor, los, lop, loz, lox, loy, glow, zow, lmw, now, vow, plow, fow, lzw, lbw, clow, dow, tow, law, iow
+
+lpussy
+1
+pussy
+
+lser
+22
+lswr, ser, lse, lsr, laer, lner, user, iser, lsmr, lier, lder, loser, lker, yser, lger, elser, leer, bser, lber, laser, lses, ler
+
+lshit
+4
+lshi, shit, lohit, ashit
+
+lsoer
+0
+
+
+lst
+70
+elst, lsts, lstm, lgt, wst, lsf, lsg, lse, lsb, lsc, lsa, lso, lsl, lsm, lsh, lsi, lsv, lst, lsu, lsr, lss, lsp, tst, let, qst, lrt, lot, kst, fst, ldt, nst, lest, cst, ast, lpt, est, pst, lwt, bst, lat, lvt, last, lost, rst, lut, ltt, lnt, gst, ist, lit, lsat, list, dst, lt, ls, vst, lust, ost, lmt, st, sst, lct, lsd, lsk, hst, lbt, 1st, mst, ust, jst
+
+lstupid
+1
+stupid
+
+ltitle
+1
+title
+
+luck
+37
+zuck, luuk, yuck, lack, lock, kluck, uck, ludk, lucks, lucky, pluck, lurk, fuck, lucy, lusk, suck, buck, cluck, lick, luc, luk, duck, puck, luce, luca, luco, luch, luci, luck, lauck, gluck, muck, leck, ruck, lck, huck, tuck
+
+luz
+44
+muz, luo, buz, luiz, cuz, lez, lum, iuz, juz, lup, lur, lus, lut, luv, lux, luz, lua, luc, lud, lue, lug, luh, lui, luk, lul, lun, tuz, luu, luy, ruz, uz, liz, lu, lz, loz, suz, ltz, lulz, laz, luzy, luza, ouz, duz, lutz
+
+lviars
+1
+liars
+
+lvomit
+1
+vomit
+
+lwoser
+2
+loser, looser
+
+lxser
+2
+loser, laser
+
+lyign
+1
+lyin
+
+lynig
+1
+lyng
+
+lyou
+11
+you, lou, `you, kyou, |you, .you, *you, 'you, -you, lyon, :you
+
+lyoure
+1
+youre
+
+lzy
+20
+azy, ley, lry, lvy, elzy, lzr, lwy, luy, lz, ly, loy, lazy, zy, lzs, luzy, lzw, lzn, lzb, ezy, lay
+
+m
+122
+;, am, +, im, qm, d, ym, :, ,, s, 'm, e, tm, hm, 9, -, pm, t, f, x, o, <, em, u, g, gm, om, =, wm, m8, mc, mm, ml, mw, ms, !, v, r, h, >, 0, um, fm, nm, [, ], ?, 1, w, bm, #, j, \, ., @, i, 2, $, y, m., me, md, mg, mf, ma, mb, mo, mn, mi, mh, mk, mj, mu, mt, mv, mq, mp, mr, my, k, 3, %, z, l, dm, vm, mx, mz, 4, lm, &, {, m, 5, ', |, n, `, cm, km, sm, _, }, a, 7, ), ^, 6, ~, p, jm, b, /, rm, zm, 8, m1, (, *, xm, q, c
+
+macn
+29
+mcn, maen, masn, magn, acn, macv, macs, macy, mace, macc, maca, maco, mack, maci, mach, maan, macan, mahn, man, mac, mayn, marn, maln, maon, maun, mann, matn, main, macon
+
+macnn
+3
+macan, mann, macon
+
+mae
+88
+mape, mne, maek, maen, maes, mame, mase, cae, made, uae, mare, mwe, maf, jae, mhe, aae, mie, ae, iae, mael, maer, mke, mle, mace, vae, fae, mabe, mme, mahe, oae, mye, mbe, may, maz, mad, mah, man, dae, tae, hae, me, ma, map, mas, mar, mau, mat, maw, mav, max, maa, mac, mae, mag, mai, mak, maj, mam, mal, mao, maye, bae, rae, mce, sae, kae, mde, male, pae, maze, mpe, mee, mab, mane, yae, gae, mate, mage, nae, mge, mre, moe, mse, wae, eae, make, lae, mte
+
+maggotsa
+1
+maggots
+
+maggotso
+1
+maggots
+
+magjgots
+1
+maggots
+
+magtgot
+1
+maggot
+
+mahn
+39
+maen, masn, mahin, zahn, magn, rahn, sahn, lahn, mahon, pahn, maan, kahn, mahn, mahl, mahe, dahn, mah, man, bahn, mayn, marn, mahan, maln, mohn, maon, ahn, maun, cahn, mann, matn, main, jahn, mahi, maho, maha, mahy, mahr, mahu, hahn
+
+main
+67
+majin, hain, matin, emain, maen, makin, masn, mainz, mains, maino, maina, mahin, moin, magn, fain, mavin, maip, zain, madin, tain, min, sain, mein, marin, muin, rain, mazin, iain, malin, maan, lain, vain, pain, maini, maine, mahn, man, manin, dain, gain, nain, jain, mai, wain, mayn, bain, marn, maln, cain, mmin, maon, maun, mann, matn, mait, mais, mair, maiz, maid, maia, maim, mail, maio, main, maik, ain, kain
+
+makinmg
+1
+making
+
+maln
+40
+maen, masn, saln, malon, magn, mall, mln, malin, maan, mahn, man, malt, mala, mal, aln, mayn, marn, maly, malv, malu, mals, maln, malo, malm, malk, mali, male, baln, miln, yaln, galn, maon, maun, mann, matn, malan, main, faln, kaln, mlln
+
+mand
+67
+majd, sand, mandu, mandy, mande, manda, mandl, mando, mandi, mend, vand, madd, nand, zand, maad, :and, *and, amand, meand, rand, .and, mynd, mnd, mond, mad, man, cand, `and, mund, land, gand, 'and, mard, mamd, and, band, kand, maund, dand, wand, maud, mans, mant, manu, manw, manx, many, manz, mana, mand, mane, mang, manh, manj, mann, mano, mind, fand, maid, hand, manr, mani, mtnd, qand, maned, jand, -and
+
+mannl
+11
+mandl, manna, manni, manno, manne, manny, manns, mannu, manal, mann, manel
+
+mano
+75
+majo, sano, mando, meno, manos, magno, mamo, maso, maino, miano, mado, cano, manzo, maro, mapo, mato, mago, nano, mabo, mvno, pano, amano, maco, rano, yano, tano, mako, mno, mono, man, vano, manou, manor, manoa, manon, manoj, manno, mao, manso, mayo, lano, gano, ano, manco, bano, malo, kano, mazo, mauno, dano, manto, mans, mant, manu, manw, manx, many, manz, mana, mand, mane, mang, manh, manj, mann, mano, mino, fano, maio, mango, hano, manr, mani, maho, jano
+
+manp
+26
+mapp, masp, maip, nanp, mnp, menp, man, map, anp, mans, mant, manu, manw, manx, many, manz, mana, mand, mane, mang, manh, manj, mann, mano, manr, mani
+
+manr
+36
+marr, banr, maar, maer, manbr, mnr, man, manor, mar, mayr, anr, maor, manar, maur, mans, mant, manu, manw, manx, many, manz, mana, mand, mane, mang, manh, manj, mann, mano, mair, mawr, manr, mani, mahr, masr, maner
+
+manrn
+7
+manin, manon, marn, manan, mann, manr, manen
+
+mant
+56
+sant, ment, vant, mart, nant, zant, pant, amant, rant, kant, maat, mast, tant, mnt, mont, dant, man, malt, cant, mat, munt, lant, ant, bant, want, mante, manta, manto, manti, mantz, manat, maut, mans, mant, manu, manw, manx, many, manz, mana, mand, mane, mang, manh, manj, mann, mano, mint, fant, matt, mait, manr, mani, meant, gant, manet
+
+manu
+60
+maju, sanu, mandu, mapu, menu, masu, vanu, maru, nanu, zanu, manuk, panu, manju, tanu, monu, man, maniu, manou, canu, mannu, madu, mau, mayu, mamu, anu, banu, manua, manus, malu, kanu, mazu, danu, majnu, ranu, mans, mant, manu, manw, manx, many, manz, mana, mand, mane, mang, manh, manj, mann, mano, fanu, matu, magu, mangu, hanu, manr, mani, mahu, maku, janu, minu
+
+maphrodite
+1
+aphrodite
+
+mart
+64
+mort, cart, sart, tart, marit, mare, marg, mara, marc, marl, maro, mari, marj, mark, mart, maru, marv, marr, marx, mary, marz, markt, dart, mars, mrt, kmart, lart, fart, uart, smart, maat, mast, nart, maret, wart, mert, malt, art, martu, marte, kart, mar, mat, part, bart, mard, marn, hart, marty, martz, marts, marti, marth, martn, marta, marut, maut, mant, matt, gart, mait, aart, marat, marot
+
+mass
+75
+hass, maps, cass, sass, maes, nass, mase, masc, masa, maso, masn, masl, masi, mash, masu, mass, masp, mads, mags, massy, maass, amass, massu, masss, masse, massa, massi, jass, vass, mwss, maas, dass, ass, mars, mlss, macs, mabs, lass, tass, mask, mast, wass, mess, fass, masis, muss, kass, masks, mas, umass, mays, pass, mams, maxs, bass, matss, mauss, mals, gass, maos, maus, mans, marss, mats, miss, mais, masts, maws, mavs, masr, mss, maks, moss, rass, yass
+
+mastpurbate
+1
+masturbate
+
