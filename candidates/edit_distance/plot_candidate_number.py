@@ -82,14 +82,18 @@ print('Variance: %d' % statistics.variance(Num_Candidates))
 less_than_5 = 0
 less_than_10 = 0
 zero = 0
+one = 0
 for num in Num_Candidates:
     if num==0:
         zero = zero + 1
+    if num==1:
+        one = one + 1
     if num<5:
         less_than_5 = less_than_5+1
     if num<10:
         less_than_10 = less_than_10+1
 print('Total: %d' % len(Num_Candidates))
 print('Zero: %d' % zero)
+print('One: %d' % one)
 print('Less than 5: %d' % less_than_5)
 print('Less than 10: %d' % less_than_10)
