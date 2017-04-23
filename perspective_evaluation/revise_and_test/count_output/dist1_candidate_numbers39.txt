@@ -1,0 +1,400 @@
+﻿vwmit
+1
+vomit
+
+vxomit
+1
+vomit
+
+vymit
+1
+vomit
+
+vzmit
+3
+izmit, zmit, vomit
+
+w
+120
+;, aw, +, d, yw, :, ,, s, e, hw, 9, -, pw, xw, t, f, x, o, <, u, g, iw, gw, ow, =, w/, w., wg, wf, wd, wc, wa, wo, wn, wm, wl, wk, wh, ww, wv, ws, wr, wp, wz, wy, wx, mw, !, v, r, h, >, 0, fw, nw, [, ], vw, ?, 1, w, #, j, we, wi, wu, wt, \, ., @, i, 2, ew, $, y, k, uw, 3, %, z, l, dw, 4, lw, &, tw, {, m, 5, ', |, n, `, kw, sw, cw, _, }, a, 7, ), ^, 6, ~, bw, p, jw, b, wb, wj, wq, /, rw, zw, qw, 8, (, *, q, c
+
+wa
+125
+fwa, nwa, aa, wga, ia, cwa, qa, wra, ya, wda, pa, wsa, mwa, uwa, bwa, ta, jwa, `a, ha, xa, 'a, pwa, wqa, wva, 3a, ga, wwa, oa, w/, w., wg, wf, wd, wc, wa, wo, wn, wm, wl, wk, wh, ww, wv, ws, wr, wp, wz, wy, wx, wta, awa, iwa, fa, na, va, w, wka, we, wi, wu, wt, wha, ea, ma, ua, wia, rwa, da, gwa, woa, la, kwa, wam, wag, swa, hwa, wla, wma, ca, wea, ka, wba, owa, sa, 2a, dwa, :a, wca, a, ba, *a, ja, wb, wj, wq, ewa, ra, wao, wan, wal, wak, waj, wai, wah, waf, wae, wad, wac, wab, waa, waz, way, wax, waw, wav, wau, wat, was, war, wap, za, 1a, wpa, wfa, twa
+
+wackg
+3
+wacky, wacko, wack
+
+wadnker
+1
+wanker
+
+wadnky
+0
+
+
+wakner
+5
+wagner, wanner, waner, waker, warner
+
+wallow
+18
+callow, wellow, willow, warlow, mallow, wallowa, wallows, dallow, wadlow, fallow, wallon, wallow, wallop, tallow, hallow, swallow, allow, sallow
+
+waner
+26
+caner, wagner, wanner, winer, wader, wyner, wanzer, waver, waned, waner, wanes, taner, laner, wager, wafer, waker, wanker, wander, warner, saner, wane, wrner, water, wanger, maner, baner
+
+warmongres
+0
+
+
+wass
+50
+hass, cass, sass, nass, mass, wss, wacs, jass, vass, dass, waas, wess, ass, wafs, wyss, woss, wags, wasas, lass, tass, wasp, wass, wasu, wast, wasi, wash, wasl, wasg, fass, wasa, wasc, wars, wads, kass, wans, waks, waps, pass, bass, wais, wiss, wasis, wats, gass, wals, ways, wasps, was, rass, yass
+
+wasshole
+1
+asshole
+
+wast
+43
+hast, bast, cast, nast, wst, vast, waste, dast, west, ast, oast, iast, last, mast, wasp, wass, wasu, wast, wasi, wash, wasl, wasg, fast, wasa, wasc, wart, kast, waqt, wgst, wait, past, waht, east, wasit, watt, want, wasnt, waist, gast, rast, walt, wat, was
+
+wat
+84
+:at, vat, wrt, cat, uat, zat, wst, jat, wet, aat, wpt, sat, xat, fat, hat, wa, qat, wtt, lat, wut, wast, wart, oat, dat, tat, wt, waqt, wiat, swat, wht, wit, mat, wait, rat, wnt, waht, bat, wot, wam, wag, kat, iat, what, watl, wath, wati, wata, watt, wats, pat, want, wbt, gat, walt, wct, nat, at, *at, twat, wao, wan, wal, wak, waj, wai, wah, waf, wae, wad, wac, wab, waa, waz, way, wax, waw, wav, wau, wat, was, war, wap, eat, yat
+
+wats
+52
+wits, rats, vats, twats, swats, gats, wacs, watts, walts, whats, wets, ats, waas, wafs, dats, fats, pats, wags, wts, eats, wass, lats, jats, tats, kats, wars, wads, wans, waks, waps, oats, wants, wais, hats, watl, wath, wati, wata, watt, wats, waits, mats, wals, wates, ways, warts, bats, sats, nats, wat, was, cats
+
+way
+63
+ay, wgy, vay, wray, wry, zay, kway, jay, wey, away, say, hay, yay, wa, wy, fay, sway, pay, cay, wary, may, wky, day, why, bay, ray, woy, wam, wag, kay, wavy, gay, nay, ways, waya, way., tway, waxy, wao, wan, wal, wak, waj, wai, wah, waf, wae, wad, wac, wab, waa, waz, way, wax, waw, wav, wau, wat, was, war, wap, lay, tay
+
+wcf
+55
+ecf, wrf, wdf, wsf, wch, wef, hcf, ucf, jcf, rcf, wcft, wcfl, wwf, wf, wc, wtf, ocf, dcf, tcf, vcf, fcf, whf, wif, pcf, bcf, acf, gcf, wmf, scf, cf, icf, wbf, mcf, wcp, wcs, wcr, wcu, wct, wcw, wca, wcc, wcd, wcg, wcf, wci, wck, wcm, wcl, wco, lcf, waf, ncf, ccf, wpf, wff
+
+wcko
+9
+wacko, cko, wcco, wako, wrko, ecko, wck, wco, wicko
+
+weasls
+1
+weasels
+
+wee
+72
+aee, gee, see, dee, hee, wre, wse, weve, wec, web, weg, wef, wee, wed, wei, weh, wem, wel, wes, wer, wep, wew, weu, wet, wey, eee, vee, lee, fee, wete, uee, zee, wwe, weie, were, jee, swee, weeb, weer, wme, we, kee, iee, whe, ee, pee, wie, yee, woe, nee, tee, wle, twee, mee, wea, wen, bee, ree, wege, wye, cee, week, weei, ween, weel, weee, weed, wees, weep, kwee, hwee, wae
+
+weebs
+8
+webs, weems, webbs, weeb, weeds, weeps, wees, weeks
+
+weido
+5
+weirdo, weide, weibo, wedo, eido
+
+wf
+94
+fwf, nwf, af, if, dwf, qf, wrf, lf, yf, wdf, wsf, mwf, uwf, wef, bwf, hf, pf, xf, pwf, f, swf, gf, wwf, of, w/, w., wg, wf, wd, wc, wa, wo, wn, wm, wl, wk, wh, ww, wv, ws, wr, wp, wz, wy, wx, lwf, wtf, cwf, awf, iwf, ff, nf, vf, w, =f, ewf, we, wi, wu, wt, vwf, whf, ef, mf, uf, wif, rwf, gwf, tf, wmf, cf, kf, wbf, sf, wcf, bf, jf, wb, wj, wq, rf, waf, zf, wpf, df, wfl, wfm, wfc, wfa, wff, wfd, wfs, wfp, 2f
+
+wft
+48
+aft, wrt, wst, hft, wet, wpt, qft, wcft, wf, fft, uft, wtt, kft, wut, wftv, wftu, ft, wt, pft, oft, wht, eft, wfmt, ift, wit, wnt, dft, wot, cft, wbt, nft, tft, wct, weft, mft, sft, bft, rft, wat, wfxt, wfl, wfm, wfc, wfa, wff, wfd, wfs, wfp
+
+wfuck
+4
+:fuck, fuck, 'fuck, .fuck
+
+wfucked
+1
+fucked
+
+wgaht
+1
+waht
+
+what
+27
+phat, whats, that, hat, whit, *what, 'what, nhat, wheat, whatd, wiat, wha, wht, .what, :what, ghat, khat, what, whas, whan, wham, `what, bhat, chat, shat, whet, wat
+
+whie
+15
+while, whine, white, weie, whin, whim, whig, whiz, whit, whip, whe, whi, wie, hie, chie
+
+whimpreed
+0
+
+
+who
+51
+iho, wso, wpo, ho, 'who, nho, kho, bho, rho, wo, wh, wto, wuo, cho, pho, whe, whf, wha, whb, whc, whl, whn, who, whi, whk, wht, whp, whr, why, sho, whos, whom, whoa, wno, w/o, lho, woo, zho, whoi, wmo, aho, wbo, :who, wyo, wco, whs, dho, whoo, whod, tho, wao
+
+whoe
+19
+whove, whose, hoe, whore, shoe, whole, whe, who, whos, whom, whoa, choe, woe, thoe, whoi, wroe, whome, whoo, whod
+
+whoer
+2
+whler, wher
+
+whogre
+1
+whore
+
+whomo
+6
+whamo, khomo, homo, whom, whome, whoo
+
+whor
+23
+shor, hor, bhor, whorl, whorf, whore, ghor, who, whr, whos, whom, whoa, wwor, chor, wor, wpor, thor, whoi, khor, ihor, wher, whoo, whod
+
+whorde
+3
+whore, worde, horde
+
+whoreo
+2
+whore, whores
+
+whorer
+2
+whore, whores
+
+whorhe
+1
+whore
+
+whroe
+1
+wroe
+
+whsore
+1
+whore
+
+wht
+47
+hht, iht, wrt, whtz, wst, wet, wpt, ht, wqht, nht, bht, wh, whit, wtt, wut, cht, pht, uht, dht, wt, whe, whf, wha, whb, whc, whl, whn, who, whi, whk, wht, whp, whr, why, sht, wit, wnt, aht, waht, wot, what, wbt, wct, whs, whet, tht, wat
+
+wi
+112
+ai, wgi, ii, cwi, qi, wri, li, yi, kwi, wdi, pi, mwi, uwi, wei, bwi, ni, `i, wpi, hi, 'i, xi, pwi, gi, wwi, oi, w/, w., wg, wf, wd, wc, wa, wo, wn, wm, wl, wk, wh, ww, wv, ws, wr, wp, wz, wy, wx, .i, wti, awi, iwi, wui, fi, vi, wir, w, ewi, we, wi, wu, wt, i, whi, ei, mi, ui, wig, wif, wie, wid, wic, wib, wia, win, wim, wil, wik, wij, wii, wit, wis, wip, wiz, wix, twi, rwi, di, gwi, woi, wsi, swi, ti, |i, wli, wmi, ki, wbi, owi, si, *i, ci, dwi, :i, wci, bi, ji, wb, wj, wq, ri, wai, zi, -i
+
+wigger
+9
+nigger, rigger, winger, bigger, tigger, jigger, wigger, digger, wigner
+
+wiik
+10
+wijk, wiig, wiis, wink, wiik, wik, wii, wiek, wick, wilk
+
+wiipedia
+3
+wikpedia, wkipedia, wikipedia
+
+wikinaiz
+0
+
+
+wikipedi
+4
+wikipedi, wikipeda, wikiped, wikipedia
+
+wikniazi
+0
+
+
+wkiinazi
+0
+
+
+wloser
+2
+closer, loser
+
+wmoron
+1
+moron
+
+wmotherfucker
+1
+motherfucker
+
+wn
+82
+an, wgn, qn, wrn, yn, wpn, hn, pn, 'n, xn, pwn, in, gn, wwn, on, bn, w/, w., wg, wf, wd, wc, wa, wo, wn, wm, wl, wk, wh, ww, wv, ws, wr, wp, wz, wy, wx, awn, wun, fn, nn, vn, w, wkn, we, wi, wu, wt, whn, en, mn, un, win, wnc, wng, wnd, wno, wnr, wns, wnp, wnw, wnt, dn, won, ln, tn, gwn, n, cn, wen, kn, sn, wyn, dwn, own, jn, wb, wj, wq, rn, wan, zn
+
+wnaker
+2
+weaker, waker
+
+wnt
+46
+dnt, knt, tnt, wrt, wst, wet, pnt, unt, wpt, wont, nnt, wnit, wint, wn, wtt, wut, nt, mnt, wnet, lnt, went, wt, gnt, wht, ent, bnt, wit, snt, wnc, wng, wnd, wno, wnr, wns, wnp, wnw, wnt, wot, ant, cnt, want, wbt, wct, ont, int, wat
+
+woanker
+1
+wanker
+
+wold
+34
+kold, wola, wolf, wold, wole, wolk, woll, wyld, 'old, wood, vold, bold, hold, told, word, wild, would, wolde, wfld, mold, weld, wol, wod, sold, dold, wld, cold, old, woad, wald, world, wolds, fold, gold
+
+womr
+8
+omr, womp, womb, wsmr, wmr, wmmr, wor, wom
+
+wonorem
+2
+honorem, onorem
+
+wore
+41
+nore, more, wre, wole, yore, wone, swore, core, worse, sore, kore, work, rore, were, lore, word, wore, worf, worm, worn, wort, whore, pore, ware, worde, wove, wyre, ore, dore, wor, woe, vore, hore, wode, wire, gore, tore, worle, bore, fore, woke
+
+worhless
+3
+worthless, workless, wordless
+
+wormr
+3
+worm, wormer, worms
+
+wors
+37
+mors, wos, cors, woos, worfs, wons, worse, worst, sors, kors, words, work, woss, works, lors, word, wore, worf, worm, worn, wort, wrs, pors, wars, wows, worts, ors, dors, woes, wor, hors, wprs, tors, worms, bors, fors, woks
+
+worsit
+1
+worst
+
+worthaless
+1
+worthless
+
+wost
+29
+wos, yost, rost, oost, wst, woot, cost, wont, worst, kost, west, wosm, woss, wort, lost, wout, wast, wgst, wot, gost, dost, host, ost, fost, tost, jost, bost, post, most
+
+woyrst
+1
+worst
+
+wpussy
+1
+pussy
+
+wrcek
+0
+
+
+wreaky
+4
+freaky, wreak, creaky, wreaks
+
+wsate
+2
+wste, sate
+
+wstupid
+1
+stupid
+
+wt
+89
+nwt, it, cwt, qt, wrt, yt, wst, mwt, wet, jwt, wpt, ht, pt, 't, xt, t, pwt, gt, ot, w/, w., wg, wf, wd, wc, wa, wo, wn, wm, wl, wk, wh, ww, wv, ws, wr, wp, wz, wy, wx, lwt, twt, wtp, wts, wtt, wta, wtc, wtf, wth, wti, wto, awt, wut, ft, nt, vt, w, bt, we, wi, wu, wt, wht, et, mt, ut, wit, wnt, dt, gwt, wot, lt, swt, tt, hwt, ct, kt, wbt, st, dwt, wct, at, jt, wb, wj, wq, rt, wat, zt
+
+wtaf
+11
+weaf, wtam, waaf, wdaf, wta, wtf, wtvf, taf, wlaf, wtae, waf
+
+wtat
+14
+wtam, wtt, wta, atat, ltat, wtvt, tat, wiat, stat, what, dtat, wtae, etat, wat
+
+wte
+50
+wre, cte, bte, ete, wse, wste, wee, wete, wyte, ate, wwe, ite, pte, wtp, wts, wtt, wta, wtc, wtf, wth, wti, wto, wite, vte, lte, wme, rte, we, wt, whe, wie, zte, wtem, woe, tte, te, gte, wle, kte, ste, wye, hte, ote, nte, wtae, dte, wae, fte, mte, ute
+
+wtfe
+6
+wwfe, ptfe, wtf, tfe, wife, wtae
+
+wtfk
+1
+wtf
+
+wtsf
+7
+wsf, tsf, wts, wtf, wtvf, atsf, wtsp
+
+wves
+16
+wes, yves, ves, wvs, waves, aves, rves, wvus, wives, woes, eves, wies, ives, wees, tves, wwes
+
+wxorse
+1
+worse
+
+wyoure
+1
+youre
+
+wzore
+2
+wore, whore
+
+xay
+33
+ay, vay, zay, jay, xa, xy, say, xap, xar, xat, xav, xak, xam, xan, xaa, hay, yay, fay, pay, cay, may, day, xray, bay, ray, kay, gay, xyy, nay, xxy, way, lay, tay
+
+xbastard
+1
+bastard
+
+xcocks
+2
+cocks, acocks
+
+xelete
+1
+delete
+
+xfuck
+4
+:fuck, fuck, 'fuck, .fuck
+
+xfucks
+1
+fucks
+
+xhate
+1
+hate
+
+xi
+81
+ai, ii, qi, li, yi, pi, ni, pxi, `i, hi, xj, xk, xa, xq, 'i, xh, xi, xn, xo, xl, xb, xc, xf, xg, xd, xe, xz, xx, xy, xr, xs, xp, xv, xw, xt, xu, x., x2, x3, x, xvi, gi, oi, .i, xmi, xii, fi, vi, xli, wi, i, ei, mi, xie, xix, ui, xia, xin, xio, xis, xit, xiu, xiv, xri, di, ti, |i, ki, si, *i, ci, :i, xxi, lxi, bi, ji, ri, zi, -i, xm, xfi
+
+xlosers
+2
+closers, losers
+
+xlousy
+1
+lousy
+
+xomit
+3
+omit, comit, vomit
+
+xshit
+2
+shit, ashit
+

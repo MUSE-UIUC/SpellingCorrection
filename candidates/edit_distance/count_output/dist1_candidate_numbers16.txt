@@ -1,0 +1,400 @@
+﻿fuzck
+2
+funck, fuck
+
+fuzcking
+1
+fucking
+
+fvck
+6
+fock, fuck, f*ck, fck, fack, fick
+
+fvuck
+1
+fuck
+
+fvucking
+1
+fucking
+
+fvucktard
+1
+fucktard
+
+fwck
+8
+fwc, fock, fuck, f*ck, fck, fack, fick, wck
+
+fweckless
+1
+feckless
+
+fwking
+3
+fuking, faking, fking
+
+fwuck
+1
+fuck
+
+fwucker
+1
+fucker
+
+fxcking
+2
+f*cking, fucking
+
+fxuck
+1
+fuck
+
+fxucker
+1
+fucker
+
+fxuckin
+1
+fuckin
+
+fxucking
+1
+fucking
+
+fyuck
+2
+yuck, fuck
+
+fyucking
+1
+fucking
+
+fyucks
+1
+fucks
+
+fzaggot
+1
+faggot
+
+fzck
+6
+fock, fuck, f*ck, fck, fack, fick
+
+fzuck
+2
+zuck, fuck
+
+fzucking
+1
+fucking
+
+g
+128
+;, ag, +, ig, qg, d, yg, :, pg, ,, s, e, hg, 9, -, xg, t, f, x, o, <, u, g, gw, gu, gt, gs, gr, gq, gp, gz, gy, gx, gg, gf, ge, gd, gc, gb, ga, go, gn, gm, gl, gk, gi, gh, g7, g6, g5, g4, g3, g2, g1, g8, g., =, wg, !, v, r, h, >, 0, ng, [, ], vg, ?, 1, w, #, j, \, ., fg, @, i, 2, eg, $, y, mg, k, ug, 3, %, z, l, og, dg, 4, lg, &, tg, {, m, 3g, 5, ', |, gv, gj, n, `, cg, kg, sg, _, }, a, 7, ), ^, 6, ~, bg, p, jg, b, /, rg, zg, 8, (, *, q, c
+
+ga
+138
+gfa, gea, aa, wga, ia, fga, qa, gza, lga, ya, aga, pa, ta, `a, ha, xa, 'a, gya, vga, 3a, g, gw, gu, gt, gs, gr, gq, gp, gz, gy, gx, gg, gf, ge, gd, gc, gb, ga, go, gn, gm, gl, gk, gi, gh, g7, g6, g5, g4, g3, g2, g1, g8, g., dga, oa, wa, goa, uga, ega, jga, gha, fa, kga, na, gra, va, pga, gia, gsa, gna, gpa, ea, oga, ma, ua, tga, gla, gva, iga, gma, gaw, gab, da, gwa, la, gba, gta, yga, gca, gua, nga, gv, gj, ca, cga, ka, sa, 2a, gda, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, :a, a, mga, bga, rga, ba, *a, ja, gga, ra, gja, sga, za, 1a, hga, ga.
+
+gaa
+99
+gfa, gea, gava, aa, qaa, gza, gaua, caa, uaa, zaa, gata, jaa, gaas, gaar, gaap, gaal, aaa, gya, saa, xaa, faa, gaga, haa, gaya, gada, gaza, gafa, ga, gaea, goa, vaa, gha, gra, oaa, gia, gaja, gsa, daa, taa, gna, gaia, gpa, gnaa, kgaa, maa, gaba, gla, baa, gva, gma, gaw, gab, gana, gwa, gba, kaa, gama, graa, raa, gta, iaa, eaa, paa, gca, gala, gua, gasa, yaa, gda, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, gara, naa, gaan, gga, gja, waa, laa, ga.
+
+gaay
+18
+gary, gday, gaby, gaas, gaar, gaap, gaal, gacy, gabay, guay, glay, gray, garay, ganay, gay, gaa, gaan, gamay
+
+gabrage
+1
+garage
+
+gaby
+19
+gary, gabby, gaby, gabr, gabs, gabo, gabi, aby, gacy, gabay, gabys, goby, raby, gabe, gaba, faby, gab, gay, baby
+
+gacy
+16
+gary, gach, gaby, lacy, kacy, acy, gacy, macy, racy, gacys, tacy, sacy, gay, gac, pacy, gracy
+
+gafy
+9
+gary, gaby, gafa, gaff, gafr, gacy, zafy, gay, gaf
+
+gag
+70
+ag, gng, vag, cag, uag, zag, jag, aag, sag, gags, gage, gaga, gago, gagn, hag, gg, ga, gkg, fag, ghg, grg, oag, gig, gsg, dag, gpg, agag, gog, gqg, mag, glg, bag, rag, gmg, gaw, gab, wag, iag, pag, yag, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, garg, nag, gang, ggg, eag, lag, tag, ga.
+
+gaj
+46
+aj, caj, aaj, saj, haj, ga, faj, gaja, gajs, daj, taj, maj, raj, gaw, gab, baj, kaj, paj, gj, gaji, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, naj, ganj, waj, ga.
+
+gak
+65
+gek, ak, vak, cak, uak, zak, jak, aak, gyk, xak, hak, ga, gk, sak, gok, fak, ghk, gaki, gakk, grk, oak, gsk, dak, tak, gnk, guk, mak, bak, glk, rak, gaw, gab, gbk, kak, gtk, pak, gask, yak, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, nak, gfk, wak, lak, ga.
+
+gal
+84
+gel, egal, gual, gaul, cal, ual, zal, jal, gaal, aal, sal, hal, ga, gl, goal, qal, val, grl, gil, gals, gale, gall, gsl, dal, tal, gnl, gail, gpl, gral, gol, mal, gaol, bal, gll, ral, gml, yal, gaw, gab, gwl, gbl, kal, gtl, pal, gcl, galt, gala, galn, galo, gali, gul, fal, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, ial, nal, al, gfl, wal, eal, gdl, lal, gael, ga.
+
+gapy
+9
+gary, gaby, gacy, apy, gay, gap, gape, gapp, gaps
+
+gar
+109
+ger, ar, garn, gary, garp, gaur, gabr, uar, vgar, jar, gaar, aar, gyr, sar, xar, har, gafr, egar, gr, ga, gjr, gaer, goar, qar, var, far, guar, ghr, par, grr, car, oar, gir, gsr, gwar, dar, gkar, tar, gnr, gair, gpr, ugar, agar, gor, gahr, mar, glr, bar, rar, ghar, gmr, gaw, gab, gwr, gbr, kar, gtr, iar, zar, gur, dgar, yar, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, garo, garm, garh, gari, garg, gard, gare, garb, gara, garz, garw, gart, garu, garr, gars, nar, lar, gfr, gcr, war, lgar, ear, gdr, gear, ga.
+
+garage
+6
+garbage, farage, gurage, garages, gamage, garage
+
+garbae
+4
+garbage, garbie, garba, garbe
+
+garbaeg
+0
+
+
+garbag
+2
+garbage, garba
+
+garbagde
+1
+garbage
+
+garbagew
+2
+garbage, garbages
+
+garbagye
+1
+garbage
+
+garbge
+4
+garbage, garbie, garbe, garage
+
+garnddaddy
+0
+
+
+gasshole
+1
+asshole
+
+gat
+93
+:at, get, vat, cat, uat, zat, gatt, gatv, gats, gato, gath, gate, gata, jat, aat, gbt, gpt, sat, xat, fat, hat, gt, ga, goat, qat, lat, giat, grt, oat, git, gst, got, dat, tat, gnt, gait, gnat, agat, ggt, gmat, mat, glt, rat, ghat, gvt, gsat, gmt, gaw, gab, bat, gwt, kat, grat, gtt, iat, pat, gct, galt, gati, gut, gast, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, gart, nat, at, *at, gant, wat, eat, yat, gdt, ga.
+
+gate
+47
+rate, gaue, yate, gatt, gatv, gats, gato, gath, gate, gata, gave, gaze, ate, gage, gates, gated, gaye, date, fate, gade, agate, late, tate, kate, gale, gute, oate, gabe, gete, gane, hate, game, gte, grate, gati, gase, pate, gat, gae, mate, gare, cate, bate, nate, gape, gote, sate
+
+gawy
+6
+gary, gaby, gacy, gaw, gay, gawd
+
+gax
+50
+gex, ax, zax, jax, hax, gx, ga, gpx, vax, fax, gsx, dax, tax, gox, max, bax, rax, gaw, gab, sax, gtx, pax, yax, gaz, gay, gav, gau, gat, gas, gar, gap, gao, gan, gam, gal, gak, gaj, gai, gah, gag, gaf, gae, gad, gac, gaa, glx, wax, eax, lax, ga.
+
+gayb
+9
+gayi, gayo, gaya, gaye, gays, gab, gasb, gay, garb
+
+gayc
+8
+gayi, gayo, gaya, gaye, gays, ayc, gay, gac
+
+gayh
+13
+gach, gath, gayi, gayo, gaya, gaye, gays, gadh, bayh, gash, gay, gah, garh
+
+gayj
+8
+gayi, gayo, gaya, gaye, gays, gay, gaj, ganj
+
+gayl
+14
+gaul, gaal, gayi, gayo, gaya, gaye, gays, gall, gail, gaol, gay, gal, gayle, gael
+
+gayo
+27
+ayo, gabo, gato, gyo, gamo, gago, yayo, gayi, gayo, gaya, gaye, gays, rayo, kayo, gado, bayo, cayo, sayo, mayo, dayo, gano, galo, gay, gao, garo, tayo, payo
+
+gayq
+6
+gayi, gayo, gaya, gaye, gays, gay
+
+gays
+44
+gaus, ays, gabs, gats, gaas, pays, kays, gags, garys, gayi, gayo, gaya, gaye, gays, hays, rays, guys, bays, qays, gads, fays, nays, gabys, gajs, gals, cays, says, gacys, gais, mays, gaos, gans, gayes, lays, jays, gams, gass, days, gay, gas, gars, grays, ways, gaps
+
+gayu
+14
+ayu, kayu, gayi, gayo, gaya, gaye, gays, bayu, mayu, vayu, dayu, gay, gau, garu
+
+gayx
+6
+gayi, gayo, gaya, gaye, gays, gay
+
+gbay
+12
+gday, gabay, ebay, guay, glay, bay, gba, gray, abay, gbaya, gay, ubay
+
+gcunt
+4
+grunt, gunt, cunt, gaunt
+
+gday
+18
+oday, gday, vday, mday, eday, kday, dday, mgday, guay, glay, day, bday, aday, gray, gda, gay, uday, g'day
+
+gddamn
+1
+goddamn
+
+ge
+119
+ges, ger, gep, gev, get, gey, gex, gec, geb, gea, gef, gee, ged, gek, gei, geh, geo, gen, gem, gel, ie, qe, 7e, lge, age, e, he, pe, ghe, xe, gye, ae, ege, vge, g, gw, gu, gt, gs, gr, gq, gp, gz, gy, gx, gg, gf, ge, gd, gc, gb, ga, go, gn, gm, gl, gk, gi, gh, g7, g6, g5, g4, g3, g2, g1, g8, g., oe, oge, uge, zge, fe, kge, ne, gre, ye, pge, gie, gse, we, gne, gpe, ee, me, goe, se, ue, dge, tge, gle, gve, ige, gme, de, gwe, ve, le, te, gbe, gte, gce, gue, nge, gv, gj, ce, cge, ke, gde, gae, mge, bge, rge, be, je, re, sge, ze
+
+gect
+12
+geht, get, gec, ect, gent, gest, gert, gct, geet, dect, sect, lect
+
+gee
+80
+aee, ges, ger, gep, gev, get, gey, gex, gec, geb, gea, gef, gee, ged, gek, gei, geh, geo, gen, gem, gel, see, dee, hee, gede, gere, wee, eee, ngee, vee, lee, fee, ghe, gye, ogee, glee, uee, zee, ge, jee, gene, gre, gie, gele, gse, gne, kee, gpe, iee, ee, pee, goe, gete, gle, gve, yee, gme, gwe, nee, tee, gbe, gte, agee, gce, gue, mee, bee, ree, ghee, geez, gees, geer, geet, geek, geen, geel, gde, gae, cee, gree
+
+geet
+31
+geht, geeta, get, gee, peet, eet, jeet, genet, meet, reet, gent, neet, greet, geert, deet, feet, gest, beet, gert, leet, geez, gees, geer, geet, geek, geen, geel, gret, geest, keet, heet
+
+geg
+60
+aeg, ges, ger, gep, gev, get, gey, gex, gec, geb, gea, gef, gee, ged, gek, gei, geh, geo, gen, gem, gel, seg, gng, heg, weg, eeg, veg, leg, feg, gg, ge, jeg, gkg, geng, ghg, grg, gig, gsg, keg, gpg, ieg, eg, peg, gog, gqg, glg, oeg, gmg, neg, deg, teg, gega, meg, beg, reg, gheg, gag, ceg, greg, ggg
+
+gejt
+6
+geht, get, gent, gest, gert, geet
+
+geo
+64
+aeo, ges, ger, gep, gev, get, gey, gex, gec, geb, gea, gef, gee, ged, gek, gei, geh, geo, gen, gem, gel, deo, seo, heo, eeo, leo, feo, gyo, zeo, ge, go, geos, geok, geom, geon, geof, geno, gio, gelo, gso, keo, gpo, eo, peo, goo, geto, glo, gro, yeo, oeo, gmo, gwo, neo, teo, gero, gto, ueo, guo, meo, beo, reo, gao, gedo, ceo
+
+ger
+92
+aer, ges, ger, gep, gev, get, gey, gex, gec, geb, gea, gef, gee, ged, gek, gei, geh, geo, gen, gem, gel, ser, her, gere, fer, wer, jger, eer, ver, ier, gyr, iger, gger, zer, gr, ge, jer, gjr, gaer, gner, genr, hger, ghr, grr, gir, gsr, gnr, ker, goer, gpr, er, per, gor, lger, glr, gier, geir, yer, oer, gmr, gwr, ner, der, ter, gerb, gera, gerd, geri, gern, gero, germ, gerr, gers, gert, gery, gbr, gtr, gler, ager, gur, mer, ber, rer, geer, gar, eger, gfr, cer, gcr, gdr, ler, gear
+
+getc
+11
+get, gec, aetc, etc, geth, geto, geta, gete, getz, gets, gtc
+
+gfet
+4
+get, fet, geet, gret
+
+gfk
+35
+gfa, gek, ofk, afk, gyk, gf, gk, gok, kfk, ghk, grk, ifk, gsk, pfk, gnk, fk, guk, glk, jfk, gbk, gtk, mfk, gak, gfr, gfs, gfp, gfw, gfk, gfi, gfl, gfm, gfc, gff, sfk, rfk
+
+gfo
+42
+gfa, geo, afo, lfo, gyo, gf, go, gtfo, ufo, fo, ifo, gio, gso, pfo, ofo, gpo, goo, glo, gro, dfo, tfo, gmo, gwo, gto, cfo, guo, nfo, mfo, gao, gfr, gfs, gfp, gfw, gfk, gfi, gfl, gfm, gfc, gff, sfo, bfo, rfo
+
+gfuck
+7
+:fuck, fuck, 'fuck, gluck, gauck, gfunk, .fuck
+
+gfucking
+1
+fucking
+
+gfy
+21
+gfa, gey, gy, gf, gky, fy, gry, goy, gly, guy, gay, gfr, gfs, gfp, gfw, gfk, gfi, gfl, gfm, gfc, gff
+
+ggay
+6
+gday, guay, glay, gray, gay, gga
+
+ggiantic
+0
+
+
+ggy
+21
+gey, wgy, iggy, gy, gg, oggy, gky, egy, kgy, gry, goy, ggt, gly, igy, guy, ngy, gay, ggp, ggs, ggg, gga
+
+ghay
+15
+gday, chay, thay, hay, guay, gha, glay, ghan, gham, ghai, ghat, ghar, gray, shay, gay
+
+giay
+14
+gday, giry, guay, gias, giat, giao, gian, gia, glay, giap, gray, biay, gay, giray
+
+gidiot
+1
+idiot
+
+gil
+73
+fil, gel, il, cil, mil, ril, gill, gilo, gili, gild, gile, gila, gilt, gils, gl, gi, eil, kil, nil, egil, grl, bil, giv, git, gis, gir, gip, gig, gif, gie, gid, gic, gib, gia, gio, gin, gim, gil, uil, zil, gsl, jil, gnl, gail, gpl, gol, wil, sil, giel, lil, gll, geil, hil, gml, gwl, girl, gbl, gtl, gcl, gul, gii, giz, ail, oil, gal, dil, pil, til, gfl, agil, cgil, gdl, vil
+
+giy
+30
+gey, iy, giry, gy, gi, gky, gry, giv, git, gis, gir, gip, gig, gif, gie, gid, gic, gib, gia, gio, gin, gim, gil, goy, gly, guy, gii, giz, gay, diy
+
+gkay
+9
+gday, gky, guay, glay, gkar, kay, gray, gay, okay
+
+gly
+43
+gey, glyn, cly, gy, gl, mly, sly, ply, gky, aly, gry, ely, glay, bly, rly, goy, glm, gln, glo, gla, glc, gld, gle, glf, glg, gly, glp, glr, glt, glu, glv, glk, gll, glb, gls, ly, guy, ugly, gay, gli, glx, fly, oly
+
+gmy
+35
+gey, dmy, `my, gy, gm, gky, rmy, gry, hmy, 'my, my, goy, :my, gly, amy, gmi, gmo, gmm, gml, gmc, gmb, gma, gmg, gmf, gme, gmd, gms, gmr, gmp, gmv, gmu, gmt, *my, guy, gay
+
+gnay
+13
+gday, gney, guay, glay, gna, gnat, gnaw, gnas, gnaa, gray, ganay, gay, nay
+
+gnone
+5
+gone, none, gnome, agnone, enone
+
+gnorant
+1
+ignorant
+
+go
+114
+geo, ao, yo, ago, ho, po, xo, gyo, o, ego, ugo, g, :go, io, gw, gu, gt, gs, gr, gq, gp, gz, gy, gx, gg, gf, ge, gd, gc, gb, ga, go, gn, gm, gl, gk, gi, gh, g7, g6, g5, g4, g3, g2, g1, g8, g., oo, wo, bgo, gok, goa, rgo, fo, kgo, no, vo, pgo, gio, gso, got, gpo, eo, ogo, mo, gom, gol, goo, gon, goi, goh, goe, god, gog, gof, goc, gob, goy, gox, goz, gou, gow, gov, gop, gos, gor, uo, glo, gro, igo, gmo, do, gwo, lo, to, 3o, gto, .go, guo, ngo, gv, gj, co, ko, so, gao, 'o, mgo, bo, jo, ro, sgo, zo, hgo
+
+goas
+46
+goads, boas, gaas, goes, goans, gons, goyas, gras, gmas, zoas, coas, moas, goa, goal, goan, goad, goas, goar, goat, goats, loas, guas, gias, gods, goals, oas, glas, gobs, gwas, doas, gnas, gohs, gos, gpas, gsas, gops, goias, goss, gogs, gois, soas, gots, gas, goms, gzas, goos
+
+goay
+17
+gday, golay, goa, goal, goan, goad, goas, goar, goat, guay, glay, goby, goy, gray, gory, soay, gay
+
+godamn
+2
+godan, goddamn
+
+godd
+23
+codd, grodd, gond, goad, gadd, gord, gods, rodd, god, godi, godo, goda, gode, god., odd, goud, godda, gowd, dodd, gold, gdd, todd, good
+
+goddamnd
+2
+goddamn, goddamned
+
