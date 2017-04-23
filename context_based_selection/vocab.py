@@ -78,14 +78,29 @@ class Vocab:
 		#print vecMatrix[:2]
 		print >>sys.stdout, "Done loading vectors."
 
-                def readFuncWords(self, isFunctional):
-                        funcWords = set()
-                        if isFunctional:
-                                f = open(FUNCWORD, 'r')
-                                for line in f.readlines():
-                                        funcWords.add(line.rstrip())
+        def readFuncWords(self, isFunctional):
+                funcWords = set()
+                if isFunctional:
+                    f = open(FUNCWORD, 'r')
+                    for line in f.readlines():
+                        funcWords.add(line.rstrip())
 
-                        self.funcWords = funcWords
+                self.funcWords = funcWords
+
+	def getWordIdList(self, word_list):
+                                """
+                                return a list of indices of word_list
+                                """
+                                wordId = []
+                                for word in word_list:
+                                        if (word in self.funcWords):
+                                                continue
+                                        try:
+                                                wordId.append(self.vocabIndex[word])
+                                        except:
+                                                pass
+                                return wordId
+                                        
 
 	def getContextIdList(self, contexts):
 		contextList = []
@@ -116,18 +131,20 @@ class Vocab:
 
 	def getVectors(self, word_list):
 		#vecDim = self.vecDim
-		idxList = self.getContextIdList(word_list)
+		idxList = self.getWordIdList(word_list)
 
+		#print "debugging", "idxList:", idxList
 		vecList = []
 		for i in range(len(idxList)):
 		    idx = idxList[i]
 		    if (idx == []):
 			vecs = np.array([[0]*self.vecDim])
-			print "no embedding for context", contexts[i]
+			print "no embedding for word",word_list
 		    else:
                         vecs = self.vecMatrix[np.array(idx)]
                     vecList.append(vecs)
 
+		#print "debugging", "vecList:", vecList
                 return vecList
         """                           
         def getAvgCxtVec(self, contexts):

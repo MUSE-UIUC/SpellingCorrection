@@ -45,7 +45,7 @@ def getRelevance(X, w):
     col = np.dot(X,w)
     coef = np.linalg.solve(mat,col)
     w_appro = np.dot(np.transpose(X),coef)
-    relevance = getSimilarity(w,w_appro)
+    relevance = cosSim(w,w_appro)
     return relevance
 
 def scoreWord(cand_words,  sent, vecDim, isFunctional):
