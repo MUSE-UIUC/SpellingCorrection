@@ -1,0 +1,66 @@
+Files:
+
+closest_edit_distance.py: 
+This program finds a list of closest words for each input word in terms of edit distance
+
+corpus_util.py:
+Contains various functions that prepare a vocabulary as the format of dictionary
+
+dict.pickle:
+A vocabulary as the format of dictionary stored in pickle format.
+
+===========================================
+
+Requirements:
+
+1. Python 2
+(note that Python 3 will encounter errors at pickle)
+
+2. editdistance package is installed
+(pip install editdistance)
+
+3. To run the function "closest_words_edit_distance_pickle", the file dict.pickle must be in the same folder as closest_edit_distance.py
+
+===========================================
+
+Functions:
+
+1. closest_words_edit_distance(word, vocab, cutoff=1)
+
+- use in this way:
+
+from closest_edit_distance import closest_words_edit_distance
+
+then you can use the function "closest_words_edit_distance". Its documentation is given below:
+
+Find a list of closest words for each input word in terms of edit distance
+input:
+    word - input word
+    vocab - the vocabulary that is used, in dictionary format
+    cutoff - (optional, default: 1) the cutoff edit distance below which closest matches 
+             are found     
+output:
+    Closest_Words - a list of closest matches to the input word
+
+
+---------------------------------------------
+
+
+2. closest_words_edit_distance_pickle(word, cutoff=1)
+
+- use in this way:
+
+from closest_edit_distance import closest_words_edit_distance_pickle
+
+then you can use the function "closest_words_edit_distance_pickle". The main function inside closest_edit_distance.py gives an example of using this function. Its documentation is given below:
+
+Find a list of closest words for each input word in terms of edit distance, 
+using a "dict.pickle" file in the same folder as vocabulary
+input:
+    word - input word
+    cutoff - (optional, default: 1) the cutoff edit distance below which closest matches 
+             are found     
+output:
+    Closest_Words - a list of closest matches to the input word
+
+===========================================
