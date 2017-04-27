@@ -1,0 +1,13 @@
+Statistics on the number_of_candidates_if_include_original_word: 
+Max: 162
+Min: 1
+Average: 27
+Median: 6
+Standard Deviation: 38
+Variance: 1454
+Total: 4128
+Zero: 0
+One: 1106
+Less than 5: 1923
+Less than 10: 2402
+
