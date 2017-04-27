@@ -1,0 +1,500 @@
+﻿d31
+1
+3
+d3, d1, 31
+
+d31p
+2
+46
+dnp, dmp, dehp, dlp, dyp, dpp, dbp, diop, dhcp, dcp, dhap, dewp, depp, dflp, dap, 31`, drop, deep, dgp, dup, dfp, dump, dorp, dsp, d3, d1, dep, damp, drp, 31, ddp, 31., dkp, doop, diep, dmsp, dwp, drip, dip, dvp, delp, dhp, dnvp, dop, dtp, dp
+
+d31q
+2
+10
+dnq, drdq, 31`, dsq, d3, d1, dq, deq, 31, 31.
+
+d31rf
+2
+3
+dwarf, dorf, drf
+
+d3b1r
+2
+6
+dabur, dobr, dbr, debar, dibr, debr
+
+d3gr
+1
+1
+dagr
+
+d3j1r
+2
+1
+djr
+
+d3or
+1
+8
+dior, dcor, d'or, door, dzor, dror, dor, dvor
+
+d3p1r
+2
+4
+depor, dupr, dpr, duper
+
+d3r
+1
+24
+dnr, dmr, dlr, 3r, dcr, dbr, dar, dfr, dsr, d3, dr, der, drr, ddr, dkr, dpr, djr, dwr, dir, dvr, dhr, dur, dor, dtr
+
+d3r1
+2
+113
+dnr, dmr, 3.1, dlr, dprk, dsrv, dbrs, dary, dars, darr, dart, dark, dari, daro, darn, darc, darb, dara, dare, dard, dre, 3r, derm, dere, dcr, dbr, dtre, dar, derz, derr, dero, dern, derk, deri, derg, dera, dzrh, 3rd, 3rr, duro, durn, durk, duri, durg, dure, dura, dury, durr, dhra, r1, dfr, doru, dort, dorp, dors, dorr, dory, dore, dorf, dora, dorm, doro, dori, dork, dsr, d3, d1, dr, der, duru, dr., dry, drp, drs, drr, dru, drt, drv, dri, drk, drm, drl, dro, drn, dra, drc, drb, drd, drg, drf, 31, ddr, dvrs, dmrc, dkr, dpr, djr, dwr, dir, dvr, dorn, dhr, dirt, dira, dire, dirk, diri, daru, dur, dor, 23rd, dyre, dtr
+
+da
+1
+137
+dna, aa, dma, ia, qa, d, dza, ya, xda, wda, eda, dla, dsa, pa, ta, `a, dd, dxa, ha, xa, 'a, vda, lda, dba, uda, 3a, ga, dga, oa, mda, d6, wa, dda, dah, fda, dca, fa, na, va, kda, ida, dad, dae, daf, dag, daa, dab, dac, dal, dam, dan, dao, dai, daj, dak, dat, daw, dap, dar, das, dax, day, daz, ea, ma, ua, pda, oda, dua, dfa, d3, d0, d1, dn, do, dl, dm, dj, dk, dh, di, dg, de, db, dc, da, dx, dy, dv, dw, dt, dr, ds, dq, dea, la, dra, nda, tda, dka, ca, dpa, ka, sa, dja, dqa, 2a, gda, cda, bda, dwa, :a, rda, a, dia, hda, dva, sda, dha, ba, *a, ja, ra, dau, dav, za, jda, doa, 1a, ada, d.a, dta, d., df, dz, du, dp
+
+da1r
+1
+8
+dagr, darr, daur, dar, dair, dayr, daar, dalr
+
+dad
+1
+87
+dnd, dado, dadi, dade, dadu, dadt, dads, ad, dmd, cad, dld, zad, jad, dada, aad, dd, dard, dyad, kad, sad, had, daad, daud, ddd, vad, dah, fad, dcd, dadd, dpad, dasd, dbd, oad, mad, dad, dae, daf, dag, daa, dab, dac, dal, dam, dan, dao, dai, daj, dak, dat, daw, dap, dar, das, dax, day, daz, tad, dud, bad, rad, dfd, dsd, da, ded, adad, drd, iad, ead, pad, dand, dead, dpd, yad, gad, dwd, nad, did, dvd, edad, dhd, djd, dau, dav, wad, dod, lad, dtd
+
+daed
+1
+24
+aed, daei, daen, dael, daet, dard, dred, djed, daad, daud, dared, dyed, dadd, dasd, dad, dae, deed, dazed, ded, saed, dand, died, raed, dated
+
+daeth
+1
+5
+darth, daet, deth, dath, daesh
+
+daick
+1
+2
+dack, dick
+
+daie
+1
+36
+haie, dade, daia, dbie, danie, daire, dare, dave, date, laie, dawe, daim, daine, dae, dai, dain, dail, daix, dait, dair, dais, daiei, dake, daime, daye, baie, dale, davie, dame, dane, daze, drie, die, daae, aie, dace
+
+dam
+1
+94
+dnm, :am, am, dmm, djam, cam, dlm, uam, zam, jam, nam, edam, aam, dami, sam, xam, ham, jdam, qam, vam, dah, idam, fam, dcm, dham, daim, oam, dim, dahm, dram, dad, dae, daf, dag, daa, dab, dac, dal, dam, dan, dao, dai, daj, dak, dat, daw, dap, dar, das, dax, day, daz, mam, dgm, bam, diam, ram, dsm, dfm, dm, da, dbm, dem, wam, adam, kam, dams, damp, damu, damn, damo, damm, dama, dame, drm, iam, ddm, pam, daum, dpm, yam, gam, dwm, dvm, djm, dhm, dum, dau, dav, eam, dom, lam, dtm, tam
+
+damnd
+1
+4
+damned, damn, dand, daund
+
+damnf
+1
+1
+damn
+
+damnh
+1
+4
+amnh, damoh, damn, danh
+
+damon
+1
+29
+damin, kamon, damson, amon, danon, damot, damon, damoh, daron, damion, demon, lamon, tamon, dagon, daman, dimon, dmon, damn, damo, daemon, damor, hamon, eamon, daimon, damen, domon, ramon, damons, damone
+
+dan
+1
+106
+dnn, :an, an, van, daen, can, zan, dyn, jan, adan, edan, dyan, dpn, darn, aan, san, xan, fan, han, duan, daun, dah, idan, dwan, dcn, dhan, dawn, dman, oan, dahn, danz, dant, dann, man, djan, dad, dae, daf, dag, daa, dab, dac, dal, dam, dan, dao, dai, daj, dak, dat, daw, dap, dar, das, dax, day, daz, tan, dain, doan, dsan, dun, ban, dian, ran, dsn, dn, da, den, kan, damn, drn, ian, 'an, pan, uan, dany, danu, dans, dano, danl, dank, dani, danh, dang, dane, dand, dana, dean, yan, gan, dwn, nan, din, daan, *an, dmn, dhn, dau, dav, wan, ean, don, lan, dtn, |an
+
+darse
+1
+15
+darst, darte, dars, dare, darbe, darge, danse, darke, carse, varse, parse, darme, darre, arse, barse
+
+date
+1
+48
+dite, dade, rate, darte, yate, gate, dare, ate, dave, dante, datu, datt, dats, dato, dati, dath, date, data, fate, dawe, late, tate, kate, dae, dat, dote, oate, dake, daye, dale, dete, hate, dame, dane, daze, pate, mate, cate, daae, dte, bate, nate, dates, dater, dated, daste, dace, sate
+
+dbitch
+1
+3
+ditch, bitch, deitch
+
+dbont
+1
+2
+bont, dont
+
+dcik
+1
+4
+dik, dcis, dci, cik
+
+dcikbutt
+2
+1
+dickbutt
+
+dcikhead
+2
+1
+dickhead
+
+dck
+1
+55
+dack, eck, dmk, dyk, deck, dik, uck, ack, dyck, ock, dcl, dcv, dcn, dco, dcm, dch, dci, dcf, dcg, dcd, dce, dcb, dcc, dca, dcx, dct, dcr, dcs, dcp, duck, tck, dock, dak, fck, kck, pck, dsk, dk, dc, dek, bck, drk, dick, ddk, dkk, ck, ick, djk, wck, dcu, cck, lck, duk, nck, dok
+
+dcks
+1
+16
+docks, cks, dcps, decks, dcis, ducks, dcns, dcs, dcms, dicks, daks, dyks, ecks, dks, dycks, dcas
+
+dcumb
+1
+1
+dumb
+
+ddicks
+1
+2
+dicks, addicks
+
+de
+1
+125
+dne, deo, ie, dex, dee, qe, 7e, d, dze, ede, dle, e, dd, dxe, he, pe, xe, vde, lde, ae, dre, ude, dme, ge, oe, d6, dde, dce, fe, ne, dbe, ye, kde, ide, dae, we, ee, me, se, ue, dge, yde, ode, pde, dfe, dse, d3, d0, d1, dn, do, dl, dm, dj, dk, dh, di, dg, de, db, dc, da, dx, dy, dv, dw, dt, dr, ds, dq, ve, dey, dez, dep, deq, der, des, det, deu, dev, dew, deh, dei, dej, dek, del, dem, den, dea, deb, dec, ded, def, deg, le, te, nde, mde, dye, tde, dke, ce, dpe, ke, gde, cde, bde, rde, die, dte, dve, dhe, be, je, due, re, ze, doe, ade, sde, d., df, dz, du, dp
+
+dea
+1
+113
+dna, aea, gea, deo, sea, dma, dex, dee, hea, dza, pdea, edea, deha, dla, dsa, vea, lea, dxa, iea, deja, fea, deda, deva, dba, deka, deta, uea, zea, drea, dga, dda, dca, daa, kea, ea, idea, pea, dera, defa, dhea, desa, dua, udea, yea, oea, dfa, de, da, nea, dega, dey, dez, dep, deq, der, des, det, deu, dev, dew, deh, dei, dej, dek, del, dem, den, dea, deb, dec, ded, def, deg, tea, dra, dewa, duea, mea, deak, deah, dean, deal, deac, deaf, dead, dear, deas, deau, dka, wea, bea, dpa, rea, deba, dja, dqa, dwa, odea, deca, dia, adea, cea, dva, jea, eea, dela, dha, deza, dema, doa, d.a, dta, dena
+
+deah
+1
+26
+death, seah, neah, weah, dyah, dekh, dejah, yeah, deth, dah, desh, deh, dea, deak, deah, dean, deal, deac, deaf, dead, dear, deas, deau, beah, leah, dezh
+
+deat
+1
+41
+death, seat, neat, meat, dealt, detat, deut, teat, dehat, dept, keat, dat, deet, dest, deft, dfat, det, dea, dbeat, deak, deah, dean, deal, deac, deaf, dead, dear, deas, deau, dtat, heat, debt, dect, beat, duat, leat, daat, feat, peat, eat, dent
+
+decath
+1
+1
+death
+
+ded
+1
+81
+dnd, aed, ged, deo, sed, xed, dmd, dex, dee, hed, dld, ted, wed, qed, ved, led, dd, fed, dedi, deda, ed, zed, dred, djed, ped, jed, ced, ddd, dyed, dcd, dbd, dad, ked, ied, dedo, dede, deed, dud, dfd, dsd, de, ned, dey, dez, dep, deq, der, des, det, deu, dev, dew, deh, dei, dej, dek, del, dem, den, dea, deb, dec, ded, def, deg, drd, oed, med, dead, died, bed, dpd, red, dwd, oded, did, dvd, dhd, djd, dod, dtd
+
+deete
+1
+10
+delete, leete, dente, deet, deste, deese, peete, dete, dette, deere
+
+dei
+1
+88
+dni, aei, gei, deo, sei, dex, dee, hei, daei, dzi, dli, wei, deir, deis, dein, eei, vei, lei, fei, dedi, deki, dmei, zei, drei, jei, rei, devi, dci, deli, dbi, dai, dewi, kei, iei, ei, pei, deri, dgi, desi, dui, dfi, yei, oei, dsi, di, de, nei, dey, dez, dep, deq, der, des, det, deu, dev, dew, deh, dei, dej, dek, del, dem, den, dea, deb, dec, ded, def, deg, tei, dri, ddi, doi, mei, bei, dpi, debi, dji, cei, dwi, dii, dvi, dmi, dhi, demi, dti, deni
+
+deis
+1
+47
+deism, deist, duis, dris, deir, deis, dein, delis, devs, beis, desis, peis, deus, eis, dcis, oeis, dews, leis, dais, feis, dees, dess, heis, geis, dewis, des, dei, meis, weis, seis, deas, debs, devis, keis, decs, dis, deys, denis, dels, dois, reis, dsis, dezs, dems, demis, deris, dens
+
+delet
+1
+8
+delete, devlet, deet, delft, dalet, deleo, delet, dele
+
+delusionla
+2
+3
+delusional, delusions, delusion
+
+demetned
+1
+1
+demeaned
+
+deqlet
+1
+2
+devlet, delet
+
+des
+1
+111
+dns, aes, ges, deo, ses, dms, dex, dee, dtes, pdes, dys, dues, wes, deis, ees, ves, fes, devs, dls, ues, dres, jes, deus, does, dyes, dcs, dews, dbs, das, kes, hes, dnes, ies, es, ides, pes, dees, dgs, mes, desy, dest, desu, dess, desh, desi, dese, desa, desk, yes, oes, dss, les, de, ds, nes, dey, dez, dep, deq, der, des, det, deu, dev, dew, deh, dei, dej, dek, del, dem, den, dea, deb, dec, ded, def, deg, tes, drs, dds, deas, dks, dfs, bes, dps, dies, ndes, res, debs, dfes, dws, odes, decs, dis, ades, deys, ces, dvs, djs, dels, dhs, dezs, dus, dems, mdes, dos, edes, dts, dxs, dens
+
+deserwve
+1
+1
+deserve
+
+despsie
+1
+1
+dessie
+
+destory
+1
+1
+destry
+
+destroyj
+1
+2
+destroys, destroy
+
+devi
+1
+29
+divi, dedi, deva, devs, deki, deve, nevi, devi, devo, devn, davi, sevi, deli, dewi, zevi, deri, dervi, desi, dev, dei, evi, debi, devin, devil, devis, dvi, levi, demi, deni
+
+dfcuk
+1
+1
+fcuk
+
+dfuck
+1
+6
+druck, :fuck, fuck, 'fuck, duck, .fuck
+
+dfucking
+1
+2
+fucking, ducking
+
+dfucks
+1
+2
+ducks, fucks
+
+dgie
+1
+9
+rgie, dbie, gie, ogie, dge, dgi, drie, die, dgse
+
+di
+1
+129
+dni, ai, ii, qi, d, li, dzi, yi, wdi, edi, dli, pi, hdi, ni, `i, dd, dik, dig, dit, hi, 'i, mdi, xi, vdi, ldi, fdi, udi, adi, gi, oi, d6, .i, dci, fi, dbi, vi, dim, dic, idi, dai, wi, i, ei, mi, ui, dgi, pdi, odi, dui, dfi, dsi, d3, d0, d1, dn, do, dl, dm, dj, dk, dh, di, dg, de, db, dc, da, dx, dy, dv, dw, dt, dr, ds, dq, dei, ti, dri, |i, ndi, ddi, doi, tdi, dpi, ki, si, dji, *i, ci, cdi, bdi, dwi, :i, rdi, dil, din, dio, dih, dii, did, die, dif, dia, dib, dix, diy, diz, diu, div, diw, dip, dir, dis, dvi, dmi, dhi, bi, ji, ri, zi, -i, gdi, dti, sdi, d., df, dz, du, dp
+
+diadnt
+1
+1
+didnt
+
+diae
+1
+25
+dite, dike, dive, dile, dime, dine, iae, biae, dae, diane, dian, diao, dial, diam, diab, diaa, diaz, diaw, diar, dias, dice, die, dia, daae, dire
+
+diapshit
+1
+1
+dipshit
+
+dic
+1
+79
+dnc, fic, ditc, dmc, ic, iic, dlc, dxc, dik, dig, dit, mic, nic, bic, ric, adic, eic, kic, pic, dcc, cic, dbc, gic, dim, dic, uic, fdic, dac, jic, wic, dgc, sic, lic, duc, hic, dfc, dsc, di, dc, dec, drc, dice, dich, dick, dico, dict, ddc, dpc, aic, oic, vic, dwc, difc, dil, din, dio, dih, dii, did, die, dif, dia, dib, dix, diy, diz, diu, div, diw, dip, dir, dis, tic, dvc, dhc, doc, disc, qic, dtc
+
+dicak
+1
+2
+dipak, dick
+
+dicbkutt
+2
+1
+dickbutt
+
+dicdk
+1
+1
+dick
+
+dicekhead
+1
+1
+dickhead
+
+dichead
+1
+1
+dickhead
+
+dicjk
+1
+2
+dijk, dick
+
+dickafce
+3
+5
+dictate, dickie, distance, pickaxe, dicke
+
+dickbott
+1
+1
+dickbutt
+
+dickbtt
+1
+1
+dickbutt
+
+dickbut
+1
+1
+dickbutt
+
+dickbutet
+1
+1
+dickbutt
+
+dickc
+1
+5
+dicko, dicke, dicky, dicks, dick
+
+dicke
+1
+16
+dickey, dicker, dickel, dike, dickie, icke, dicken, eicke, dicko, dicke, dicky, dicks, dice, dick, dilke, nicke
+
+dickead
+1
+2
+dickwad, dickhead
+
+dickehad
+2
+2
+dickwad, dickhead
+
+dickelss
+1
+1
+dickenss
+
+dickfae
+2
+4
+dickman, dickwad, dickie, dicke
+
+dickfutt
+1
+1
+dickbutt
+
+dickhad
+1
+2
+dickwad, dickhead
+
+dickhdad
+1
+1
+dickhead
+
+dickhea
+1
+1
+dickhead
+
+dickheadd
+1
+2
+dickheads, dickhead
+
+dickheadj
+1
+2
+dickheads, dickhead
+
+dickheao
+1
+1
+dickhead
+
+dickheas
+1
+2
+dickheads, dickhead
+
+dickheda
+2
+2
+dickheads, dickhead
+
+dickhejad
+1
+1
+dickhead
+
+dickhread
+1
+1
+dickhead
+
+dickmface
+3
+3
+dickman, fuckface, rockface
+
+dickn
+1
+8
+dickin, dickon, dicken, dicko, dicke, dicky, dicks, dick
+
+dickphead
+1
+1
+dickhead
+
+dickq
+1
+5
+dicko, dicke, dicky, dicks, dick
+
+dickqead
+1
+1
+dickhead
+
+dickr
+1
+7
+dicker, dicer, dicko, dicke, dicky, dicks, dick
+
+dickutt
+1
+1
+dickbutt
+
+dickw
+1
+5
+dicko, dicke, dicky, dicks, dick
+
