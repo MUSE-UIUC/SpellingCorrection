@@ -4,6 +4,7 @@ construct dictionary
 from nltk import word_tokenize
 from collections import Counter
 import pickle
+from twokenize import tokenize
 
 
 def readWikiVocab(fn="/projects/csl/viswanath/data/hgong6/Preposition/data/prepositions_word_vector/vocab.txt"):
@@ -17,7 +18,7 @@ def readWikiVocab(fn="/projects/csl/viswanath/data/hgong6/Preposition/data/prepo
     return cnt
 
     
-def tokenizeText(fn, output_fn):
+def pythonTokenizeText(fn, output_fn):
     f = open(fn, "r")
     lines = f.readlines()
     f.close()
@@ -31,8 +32,26 @@ def tokenizeText(fn, output_fn):
     print >> g, tok_text.encode("utf8")
     print "done processing train text..."
 
-    
 
+def twitterTokenizeText(fn, output_fn):
+    f = open(fn, "r")
+    lines = f.readlines()
+    f.close()
+    tok_lines = []
+    for line in lines:
+        line = line.strip().lower().decode('utf8')
+	line = line.replace("`"," ")
+        tok_seq = tokenize(line)
+	tok_line = " ".join(tok_seq)
+	#print "tok_line", tok_line
+	#break
+        tok_lines.append(tok_line)
+    g = open(output_fn, "w")
+    tok_text = "\n".join(tok_lines)
+    print >> g, tok_text.encode('utf8')
+    print "done twitter tokenizing text...."
+        
+    
 def dumpDict(fn="tok_train.txt"):
     """
     dict: words in lower case
@@ -83,12 +102,15 @@ def sanityCheck(cnt_dump="dict.pickle", test_fn="tok_test.txt"):
 
 if __name__=="__main__":
     # tokenize train and test data
-    #tokenizeText("train.txt", "tok_train.txt")
-    #tokenizeText("test.txt", "tok_test.txt")
+    #pythonTokenizeText("train.txt", "tok_train.txt")
+    #pythonTokenizeText("test.txt", "tok_test.txt")
+    twitterTokenizeText("train.txt", "norm_train.txt")
+    twitterTokenizeText("test.txt", "norm_test.txt")
+    
 
     # load dictionary
     #dumpDict("tok_train.txt")
-    sanityCheck()
+    #sanityCheck()
 
 
 
