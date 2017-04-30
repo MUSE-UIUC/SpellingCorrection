@@ -4,7 +4,7 @@ construct dictionary
 from nltk import word_tokenize
 from collections import Counter
 import pickle
-import codecs
+from twokenize import tokenize
 
 
 def readWikiVocab(fn="/projects/csl/viswanath/data/hgong6/Preposition/data/prepositions_word_vector/vocab.txt"):
@@ -18,7 +18,7 @@ def readWikiVocab(fn="/projects/csl/viswanath/data/hgong6/Preposition/data/prepo
     return cnt
 
     
-def tokenizeText(fn, output_fn):
+def pythonTokenizeText(fn, output_fn):
     f = open(fn, "r")
     lines = f.readlines()
     f.close()
@@ -30,10 +30,28 @@ def tokenizeText(fn, output_fn):
     g = open(output_fn, "w")
     tok_text = "\n".join(tok_lines)
     print >> g, tok_text.encode("utf8")
-    print ("done processing train text...")
+    print "done processing train text..."
 
+
+def twitterTokenizeText(fn, output_fn):
+    f = open(fn, "r")
+    lines = f.readlines()
+    f.close()
+    tok_lines = []
+    for line in lines:
+        line = line.strip().lower().decode('utf8')
+	line = line.replace("`"," ")
+        tok_seq = tokenize(line)
+	tok_line = " ".join(tok_seq)
+	#print "tok_line", tok_line
+	#break
+        tok_lines.append(tok_line)
+    g = open(output_fn, "w")
+    tok_text = "\n".join(tok_lines)
+    print >> g, tok_text.encode('utf8')
+    print "done twitter tokenizing text...."
+        
     
-
 def dumpDict(fn="tok_train.txt"):
     """
     dict: words in lower case
@@ -52,7 +70,7 @@ def dumpDict(fn="tok_train.txt"):
     # dump dictionary
     with open("dict.pickle", "wb") as handle:
         pickle.dump(cnt, handle)
-    print ("done dumping the vocabulary...")
+    print "done dumping the vocabulary..."
 
 
 
@@ -62,22 +80,8 @@ def loadDict(fn="dict.pickle", freq_threshold=6):
     rare_words = [word for word in cnt if cnt[word] < freq_threshold]
     for word in rare_words:
         cnt.pop(word)
-    print ("done loading dictionary...")
+    print "done loading dictionary..."
     return cnt
-    
-
-'''
-# tried to add support for utf-8 in Python 3 but failed
-# the other parts work for Python 2
-def loadDict_utf8(fn="dict.pickle", freq_threshold=6):
-    with codecs.open(fn, "r", "utf-8-sig") as handle:
-        cnt = pickle.load(handle,encoding="utf-8-sig")
-    rare_words = [word for word in cnt if cnt[word] < freq_threshold]
-    for word in rare_words:
-        cnt.pop(word)
-    print ("done loading dictionary...")
-    return cnt
-'''
 
 
 def sanityCheck(cnt_dump="dict.pickle", test_fn="tok_test.txt"):
@@ -94,16 +98,19 @@ def sanityCheck(cnt_dump="dict.pickle", test_fn="tok_test.txt"):
             print >> g, word
     g.close()
 
-    print ("done sanity check...")
+    print "done sanity check..."
 
 if __name__=="__main__":
     # tokenize train and test data
-    #tokenizeText("train.txt", "tok_train.txt")
-    #tokenizeText("test.txt", "tok_test.txt")
+    #pythonTokenizeText("train.txt", "tok_train.txt")
+    #pythonTokenizeText("test.txt", "tok_test.txt")
+    twitterTokenizeText("train.txt", "norm_train.txt")
+    twitterTokenizeText("test.txt", "norm_test.txt")
+    
 
     # load dictionary
     #dumpDict("tok_train.txt")
-    sanityCheck()
+    #sanityCheck()
 
 
 
