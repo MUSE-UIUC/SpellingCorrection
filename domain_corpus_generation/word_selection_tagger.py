@@ -21,8 +21,8 @@ def readTag(fn):
         selected_inds.append(inds[:])
         words = [sent_seq[ind] for ind in inds]
         selected_words.append(words[:])
-	if (len(selected_words)>=2):
-	    break
+	#if (len(selected_words)>=2):
+	#    break
     return selected_inds, selected_words
 
 if __name__=="__main__":
