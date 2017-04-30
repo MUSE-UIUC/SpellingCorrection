@@ -13,6 +13,7 @@ def readTag(fn):
     lines = f.readlines()
     selected_inds = []
     selected_words = []
+    tok_sent = []
     for line in lines:
         orig_sent, tag, score, sent = line.strip().split("\t")
         tag_seq = tag.split()
@@ -21,9 +22,10 @@ def readTag(fn):
         selected_inds.append(inds[:])
         words = [sent_seq[ind] for ind in inds]
         selected_words.append(words[:])
+	tok_sent.append(sent)
 	#if (len(selected_words)>=2):
 	#    break
-    return selected_inds, selected_words
+    return selected_inds, selected_words, tok_sent
 
 if __name__=="__main__":
     selected_inds, selected_words = readTag("tagged_test.txt")
