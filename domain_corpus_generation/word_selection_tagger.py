@@ -15,7 +15,10 @@ def readTag(fn):
     selected_words = []
     tok_sent = []
     for line in lines:
-        sent, tag, score, orig_sent = line.strip().split("\t")
+	try:
+		sent, tag, score, orig_sent = line.strip().split("\t")
+	except:
+		continue
         tag_seq = tag.split()
         sent_seq = sent.split()
         inds = [ind for ind in range(len(tag_seq)) if tag_seq[ind] in TARGET_TAG_SET]
