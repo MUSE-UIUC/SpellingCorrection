@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Apr 30 14:58:27 2017
-
-@author: liyuchen
+Created on Sat Apr  8 18:41:01 2017
 
 This file contrains functions that can be used to deliberately add mis-spellings
 to sentences.

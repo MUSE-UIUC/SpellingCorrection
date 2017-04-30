@@ -237,7 +237,7 @@ print('last:',Sentences_With_Labels[len(Sentences_With_Labels)-1])
 print(len(Sentences_With_Labels))
 
 folder_prefix = 'output/separated_by_revised_type/'
-Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'permute',folder_prefix+'replace',folder_prefix+'separate']
+Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
 for i in range(34,int(len(Sentences_With_Labels)/100)+1):
     print('Processing the %d-th batch of 100 sentences\n' % i)
     All_Sentences_Scores = revise_sentence_and_test_list_5_ways(Sentences_With_Labels[i*100:i*100+100], Folder_List, 'sentences_and_revised_scores'+str(i)+'_')
