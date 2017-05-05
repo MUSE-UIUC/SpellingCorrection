@@ -1,35 +1,43 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Apr  8 18:41:01 2017
+Created on Sun Apr 30 14:58:27 2017
+
+@author: liyuchen
 
 This file contrains functions that can be used to deliberately add mis-spellings
 to sentences.
 """
 
-from nltk import word_tokenize, pos_tag
 import random
 import string
-
-'''
-Return a list of words that are likely to be important in feeling
-input:
-    list_of_str - a list of sentences as strings
-output:
-    selected_word_list - a list of list of words that are likely to be important in feeling
-Example:
-    input: [“he likes tea", "it has good flavor"]
-    output: [["likes", "tea"], ["has", "good", "flaor"]]
-''' 
-def getContentWords(list_of_str):
-    tag_set = ["JJ", "JJR", "JJS", "NN", "NNS", "NNP", "NNPS", "RB", "RBR", "RBS",\
-               "VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
-    selected_word_list = []
-    for s in list_of_str:
-        text = word_tokenize(s)
-        word_pos_list = pos_tag(text)
-        words = [item[0] for item in word_pos_list if item[1] in tag_set]
-        selected_word_list.append(words)
-    return selected_word_list
+    
+"""
+    - added on 2017.4.30 
+    input: fn - pos-tagged file
+    output: a list of a list of inds, a list of a list of words, a list of sentences
+"""
+def readTag(fn):
+    TARGET_TAG_SET = ["V", "N", "A"]    
+    f = open(fn, "r")
+    lines = f.readlines()
+    selected_inds = []
+    selected_words = []
+    tok_sent = []
+    for line in lines:
+        try:
+            sent, tag, score, orig_sent = line.strip().split("\t")
+        except:
+            continue
+        tag_seq = tag.split()
+        sent_seq = sent.split()
+        inds = [ind for ind in range(len(tag_seq)) if tag_seq[ind] in TARGET_TAG_SET]
+        selected_inds.append(inds[:])
+        words = [sent_seq[ind] for ind in inds]
+        selected_words.append(words[:])
+        tok_sent.append(sent)
+        #if (len(selected_words)>=2):
+        #    break
+    return selected_inds, selected_words, tok_sent
 
 '''
 A method to change a word that maintains edit distance 1
@@ -167,12 +175,12 @@ output:
     Modified_Sentences - a list of sentences, with each being the input sentence
                          with one word that are likely to be important in feeling modified.
 '''
-def modify_key_words_dis1(sentence):
-    #Words_In_Sentence = sentence.split()
-    selected_word_list = getContentWords([sentence])
-    selected_word_list = list(set(selected_word_list[0]))
-    Modified_Sentences = modify_one_word_dis1(sentence, selected_word_list)
-    return Modified_Sentences
+#def modify_key_words_dis1(sentence):
+#    #Words_In_Sentence = sentence.split()
+#    selected_word_list = getContentWords([sentence])
+#    selected_word_list = list(set(selected_word_list[0]))
+#    Modified_Sentences = modify_one_word_dis1(sentence, selected_word_list)
+#    return Modified_Sentences
     
 '''
 Modify certain words in a sentence
@@ -223,53 +231,47 @@ output:
                          the method is an int 0 - add, 1 - delete, 2 - replace, 3 - permute, 
                          4 - separate
 '''
-def modify_key_words_5_ways(sentence):
-    #Words_In_Sentence = sentence.split()
-    selected_word_list = getContentWords([sentence])
-    selected_word_list = list(set(selected_word_list[0]))
+#def modify_key_words_5_ways(sentence):
+#    #Words_In_Sentence = sentence.split()
+#    selected_word_list = getContentWords([sentence])
+#    selected_word_list = list(set(selected_word_list[0]))
+#    Modified_Sentences = modify_one_word_5_ways(sentence, selected_word_list)
+#    return Modified_Sentences
+
+'''
+- added on 2017.5.4 
+Modify certain words in a sentence that are likely to be important in feeling
+input:
+    indices - a list of indices of keywords
+    sentence - a string representing the sentence
+output:
+    Modified_Sentences_And_Words - a list of [sentence, method, revised_word] list, 
+                         with each being the input sentence with one word that are 
+                         likely to be important in feeling modified. (punctuations are deleted) and
+                         the method is an int 0 - add, 1 - delete, 2 - replace, 3 - permute, 
+                         4 - separate
+'''
+
+def modify_key_words_5_ways_readTag(indices,sentence):
+    Words_In_Sentence = sentence.split()
+    selected_word_list = [Words_In_Sentence[i] for i in indices]
+    selected_word_list = list(set(selected_word_list)) # unique
     Modified_Sentences = modify_one_word_5_ways(sentence, selected_word_list)
-    return Modified_Sentences    
+    #print(Modified_Sentences)
+    Modified_Sentences_And_Words = [[Modified_Sentences[i][0], Modified_Sentences[i][1], selected_word_list[i]] for i in range(len(selected_word_list))]
+    #print(Modified_Sentences_And_Words)    
+    return Modified_Sentences_And_Words    
     
 '''
 Main
 '''
-
-#print('\nTesting function change_a_word_dis1: \n')
-#for i in range(10):
-#    print(change_a_word_dis1('123456789'))
-#print('\n')
-
-#
-#print('Testing modify_key_words')
-#sentence = '<><> You bunch of fwcking twssers.' 
-#print('Original sentence: %s\n\n' %sentence)
-#print('Content words: ')
-#print(getContentWords(sentence))
-#print('Modified sentences: \n\n')
-#Modified_Sentences = modify_key_words(sentence)
-#for s in Modified_Sentences:
-#    print('%s\n\n' % s)
-
 '''
-print('Testing modify_key_words\n')
-sentence = 'Today is Saturday ha ha ha.' 
-print('Original sentence: %s\n' %sentence)
-#print('Content words: ')
-#print(getContentWords([sentence]))
-print()
-print('Modified sentences: \n')
-Modified_Sentences = modify_key_words_5_ways(sentence)
-for s in Modified_Sentences:
-    print('%s' % s)
-'''
+selected_inds, selected_words, tok_sent = readTag("tagged_test.txt")
+print (selected_inds[0:2],'\n\n')
+print (selected_words[0:2],'\n\n')
+print (tok_sent[0:2],'\n\n')
 
-#print('Testing modify_key_words\n')
-#sentence = 'Today is Saturday ha ha ha.' 
-#print('Original sentence: %s\n' %sentence)
-#print('Content words: ')
-#print(getContentWords([sentence]))
-#print()
-#print('Modified sentences: \n')
-#Modified_Sentences = modify_key_words_dis1(sentence)
-#for s in Modified_Sentences:
-#    print('%s' % s)
+for i in range(2):
+    Modified_Sentences_And_Words = modify_key_words_5_ways_readTag(selected_inds[i],tok_sent[i])
+    print(Modified_Sentences_And_Words)
+'''

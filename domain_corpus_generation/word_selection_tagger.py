@@ -25,6 +25,7 @@ def readTag(fn):
         selected_inds.append(inds[:])
         words = [sent_seq[ind] for ind in inds]
         selected_words.append(words[:])
+
 	tok_sent.append(sent)
 	#if (len(selected_words)>=2):
 	#    break
@@ -32,5 +33,5 @@ def readTag(fn):
 
 if __name__=="__main__":
     selected_inds, selected_words = readTag("tagged_test.txt")
-    print selected_inds
-    print selected_words
+    print (selected_inds)
+    print (selected_words)
