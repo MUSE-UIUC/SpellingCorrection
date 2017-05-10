@@ -1,0 +1,14 @@
+Data preparation:
+perspective_data_util.py        return train/test_toxic/healthy_data.txt
+corpus_util.py  return tok_train.txt & dict.pickle
+run Twitter tagger              input: test_toxic_data.txt return tagged_test_toxic_data
+(count the number of test_toxic_data)
+Add error:
+word_selection_tagger.py        to add errors
+Evaluation:
+spell_checker.py on
+revised toxic data
+healthy data
+(1) check correction accuracy;
+(2) rescore the data with google API
+~                                    
