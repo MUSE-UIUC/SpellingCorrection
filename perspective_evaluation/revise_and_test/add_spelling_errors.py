@@ -10,6 +10,7 @@ to sentences.
 
 import random
 import string
+from corpus_util import loadDict
     
 """
     - added on 2017.4.30 
@@ -38,7 +39,7 @@ def readTag(fn):
         #if (len(selected_words)>=2):
         #    break
     return selected_inds, selected_words, tok_sent
-
+    
 '''
 A method to change a word that maintains edit distance 1
 input:
@@ -134,6 +135,77 @@ def change_a_word_5_ways(word):
             modified_word = modified_word+' '+c
         modified_word = modified_word[1:len(modified_word)]
         return modified_word, 4
+        
+'''
+- added on 2017.5.13 
+A method to change a word that randomly picks one of {add 1 char, delete 1 char, 
+replace 1 char, permute 2 adjacent chars, separate all chars with ' '}.
+input:
+    word - the input word
+output:
+    modified_word - a word that has edit distance 1 from the input word
+    method - the method used to modify. (0 - add, 1 - delete, 2 - replace, 3 - permute, 4 - separate)
+effect:
+    make sure that the revised word cannot be a valid word in the dictionary
+'''
+def change_a_word_5_ways_invalid(word):
+    Alphabet_List = list(string.ascii_lowercase)
+    Alphabet_List.append(' ')
+    cnt = loadDict()
+    
+    # 0 - add
+    # 1 - delete
+    # 2 - replace  
+    # 3 - permute
+    # 4 - separate
+    method = random.randint(0, 4) # if method>4, then no return value
+    ret_word_and_method = ''
+    ret_flag = False
+    
+    while (ret_flag == False):
+    
+        if (method==0):
+            pos = random.randint(0, len(word))
+            word1 = word[0:pos]
+            word2 = word[pos:len(word)]
+            add = Alphabet_List[random.randint(0, len(Alphabet_List)-1)]
+            ret_word_and_method = (word1+add+word2, 0)
+            
+        elif (method==1):
+            pos = random.randint(0, len(word)-1)
+            word1 = word[0:pos]
+            word2 = word[pos+1:len(word)]
+            ret_word_and_method = (word1+word2, 1)
+            
+        elif (method==2):
+            pos = random.randint(0, len(word)-1)
+            word1 = word[0:pos]
+            word2 = word[pos+1:len(word)]
+            change = word[pos]
+            while (change==word[pos]):        
+                change = Alphabet_List[random.randint(0, len(Alphabet_List)-1)]
+            ret_word_and_method =( word1+change+word2, 2)
+            
+        elif (method==3):
+            if (len(word)<=1):
+                ret_word_and_method = (word, 3)
+            else:
+                pos = random.randint(0, len(word)-2)
+                word1 = word[0:pos]
+                word2 = word[pos+2:len(word)]
+                ret_word_and_method = (word1+word[pos+1]+word[pos]+word2, 3)
+            
+        elif (method==4):
+            modified_word = ''        
+            for c in list(word):
+                modified_word = modified_word+' '+c
+            modified_word = modified_word[1:len(modified_word)]
+            ret_word_and_method = (modified_word, 4)
+            
+        if (cnt[ret_word_and_method[0]] == 0):
+            ret_flag == True
+            
+    return ret_word_and_method[0], ret_word_and_method[1]
 
 '''
 Modify certain words in a sentence
@@ -219,6 +291,40 @@ def modify_one_word_5_ways(sentence, Words_List):
             new_sentence = new_sentence + w + ' '
         Modified_Sentences.append([new_sentence, method])
     return Modified_Sentences
+    
+'''
+- added on 2017.5.13 
+Modify certain words in a sentence
+input:
+    sentence - a string representing the sentence
+    Words_List - a list of words that should be modified
+output:
+    Modified_Sentences - a list of [sentence, method, original_sentence, new_sentence] list, with each being the input sentence
+                         with one word from Words_List modified (punctuations are deleted), and
+                         the method is an int 0 - add, 1 - delete, 2 - replace, 3 - permute, 
+                         4 - separate
+effect:
+    make sure that the revised word cannot be a valid word in the dictionary
+'''
+def modify_one_word_5_ways_invalid(sentence, Words_List):
+    s_wo_punctuation = sentence
+    for p in list(string.punctuation):
+        s_wo_punctuation = s_wo_punctuation.replace(p,'')
+    Words_In_Sentence = s_wo_punctuation.split()
+
+    Modified_Sentences = []
+  
+    for word in Words_List:
+        New_Words_In_Sentence = Words_In_Sentence[:] # Note that Python by default passes by reference
+        Indices = [i for i, x in enumerate(Words_In_Sentence) if x == word]
+        method = -1        
+        for i in Indices:
+            New_Words_In_Sentence[i], method = change_a_word_5_ways_invalid(New_Words_In_Sentence[i])            
+        new_sentence = ''
+        for w in New_Words_In_Sentence:
+            new_sentence = new_sentence + w + ' '
+        Modified_Sentences.append([new_sentence, method, word, New_Words_In_Sentence[Indices[0]]])
+    return Modified_Sentences
 
 '''
 Modify certain words in a sentence that are likely to be important in feeling
@@ -260,7 +366,33 @@ def modify_key_words_5_ways_readTag(indices,sentence):
     #print(Modified_Sentences)
     Modified_Sentences_And_Words = [[Modified_Sentences[i][0], Modified_Sentences[i][1], selected_word_list[i]] for i in range(len(selected_word_list))]
     #print(Modified_Sentences_And_Words)    
-    return Modified_Sentences_And_Words    
+    return Modified_Sentences_And_Words 
+    
+'''
+- added on 2017.5.13 
+Modify certain words in a sentence that are likely to be important in feeling
+input:
+    indices - a list of indices of keywords
+    sentence - a string representing the sentence
+output:
+    Modified_Sentences_And_Words - a list of [sentence, method, original_word, new_word] list, 
+                         with each being the input sentence with one word that are 
+                         likely to be important in feeling modified. (punctuations are deleted) and
+                         the method is an int 0 - add, 1 - delete, 2 - replace, 3 - permute, 
+                         4 - separate
+effect:
+    make sure that the revised word cannot be a valid word in the dictionary
+'''
+
+def modify_key_words_5_ways_readTag_invalid(indices,sentence):
+    Words_In_Sentence = sentence.split()
+    selected_word_list = [Words_In_Sentence[i] for i in indices]
+    selected_word_list = list(set(selected_word_list)) # unique
+    Modified_Sentences = modify_one_word_5_ways_invalid(sentence, selected_word_list)
+    #print(Modified_Sentences)
+    Modified_Sentences_And_Words = [[Modified_Sentences[i][0], Modified_Sentences[i][1], selected_word_list[i], Modified_Sentences[i][3]] for i in range(len(selected_word_list))]
+    #print(Modified_Sentences_And_Words)    
+    return Modified_Sentences_And_Words 
     
 '''
 Main
