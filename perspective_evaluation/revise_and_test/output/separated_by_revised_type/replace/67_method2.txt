@@ -1,0 +1,12 @@
+﻿you are a pothead ... colscott is a genious !!!!
+0.639041
+you are a potbead colscott is a genious 
+0.2985485
+pothead ,potbead ;
+
+: hurt ? i'm alright and don't give a damn fool .
+0.8383432
+hurt im alright and dont give a damn fjol 
+0.8241994
+fool ,fjol ;
+

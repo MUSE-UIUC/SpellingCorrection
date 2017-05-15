@@ -159,10 +159,13 @@ def change_a_word_5_ways_invalid(word):
     # 3 - permute
     # 4 - separate
     method = random.randint(0, 4) # if method>4, then no return value
-    ret_word_and_method = ''
+    ret_word_and_method = ('',-1)
+    count = 0
     ret_flag = False
     
-    while (ret_flag == False):
+    while (ret_flag == False and count < 10):
+        
+        count = count + 1
     
         if (method==0):
             pos = random.randint(0, len(word))
@@ -315,16 +318,62 @@ def modify_one_word_5_ways_invalid(sentence, Words_List):
     Modified_Sentences = []
   
     for word in Words_List:
+        for p in list(string.punctuation):
+            word = word.replace(p,'')
         New_Words_In_Sentence = Words_In_Sentence[:] # Note that Python by default passes by reference
         Indices = [i for i, x in enumerate(Words_In_Sentence) if x == word]
-        method = -1        
-        for i in Indices:
-            New_Words_In_Sentence[i], method = change_a_word_5_ways_invalid(New_Words_In_Sentence[i])            
-        new_sentence = ''
-        for w in New_Words_In_Sentence:
-            new_sentence = new_sentence + w + ' '
-        Modified_Sentences.append([new_sentence, method, word, New_Words_In_Sentence[Indices[0]]])
+        if (len(Indices)>0):  
+            method = -1        
+            for i in Indices:
+                New_Words_In_Sentence[i], method = change_a_word_5_ways_invalid(New_Words_In_Sentence[i])            
+            new_sentence = ''
+            for w in New_Words_In_Sentence:
+                new_sentence = new_sentence + w + ' '
+            Modified_Sentences.append([new_sentence, method, word, New_Words_In_Sentence[Indices[0]]])
     return Modified_Sentences
+    
+#'''
+#- added on 2017.5.14 (debug)
+#Modify certain words in a sentence
+#input:
+#    sentence - a string representing the sentence
+#    Words_List - a list of words that should be modified
+#output:
+#    Modified_Sentences - a list of [sentence, method, original_sentence, new_sentence] list, with each being the input sentence
+#                         with one word from Words_List modified (punctuations are deleted), and
+#                         the method is an int 0 - add, 1 - delete, 2 - replace, 3 - permute, 
+#                         4 - separate
+#effect:
+#    make sure that the revised word cannot be a valid word in the dictionary
+#'''
+#def modify_one_word_5_ways_invalid(sentence, Words_List):
+#    s_wo_punctuation = sentence
+#    for p in list(string.punctuation):
+#        s_wo_punctuation = s_wo_punctuation.replace(p,'')
+#    Words_In_Sentence = s_wo_punctuation.split()
+#
+#    Modified_Sentences = []
+#    for word in Words_List[25::]:
+#        for p in list(string.punctuation):
+#            word = word.replace(p,'')
+#        New_Words_In_Sentence = Words_In_Sentence[:] # Note that Python by default passes by reference
+#        Indices = [i for i, x in enumerate(Words_In_Sentence) if x == word]
+#        method = -1        
+#        for i in Indices:
+#            New_Words_In_Sentence[i], method = change_a_word_5_ways_invalid(New_Words_In_Sentence[i])            
+#        new_sentence = ''
+#        for w in New_Words_In_Sentence:
+#            new_sentence = new_sentence + w + ' '
+#        try:
+#            Modified_Sentences.append([new_sentence, method, word, New_Words_In_Sentence[Indices[0]]])
+#        except:
+#            print(Indices)
+#            print(Words_In_Sentence)
+#            print('word:',word)
+#            print(New_Words_In_Sentence)
+#            print(method)
+#            
+#    return Modified_Sentences
 
 '''
 Modify certain words in a sentence that are likely to be important in feeling

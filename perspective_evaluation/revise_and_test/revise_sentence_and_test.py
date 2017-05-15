@@ -51,7 +51,7 @@ output:
 def revise_sentence_and_test_5_ways_invalid(indices,sentence):
     Sentences_Scores = []    
     score = fetch_toxic_score_online(sentence)
-    Sentences_Scores.append((score,sentence,-1,None))
+    Sentences_Scores.append((score,sentence,-1,None,None))
     
     Modified_Sentences_And_Words = modify_key_words_5_ways_readTag_invalid(indices,sentence)
     for l in Modified_Sentences_And_Words:
@@ -153,13 +153,12 @@ def revise_sentence_and_test_list_5_ways_invalid(selected_inds, selected_words, 
     count = 0    
     for i in range(len(selected_inds)):
         count = count+1
-        if (count%100==0):
-            print('\t%d sentences processed' % count)
-        #print('\t%d sentences processed' % count)
         Sentences_Scores = revise_sentence_and_test_5_ways_invalid(selected_inds[i],tok_sent[i])
         best_revise = sorted(Sentences_Scores)[0]
-        if (len(best_revise)<4):
-            print(best_revise)
+        if (len(best_revise)<5):
+            print('best_revise:',best_revise)
+            print('len(best_revise)<5 for index =',i)
+            print(Sentences_Scores)
         revised_toxic_score = best_revise[0]
         revised_sentence = best_revise[1]
         revised_method = best_revise[2]
@@ -168,6 +167,9 @@ def revise_sentence_and_test_list_5_ways_invalid(selected_inds, selected_words, 
         if ((Sentences_Scores[0][0] != -1) and (revised_toxic_score != -1)):
             print('\tmethod:',revised_method,Sentences_Scores[0][0],revised_toxic_score)
             All_Sentences_Scores[revised_method].append((Sentences_Scores[0][1],Sentences_Scores[0][0],revised_sentence,revised_toxic_score, revised_word, new_word))
+        if (count%10==0):
+            print('\t%d sentences processed' % count)
+            #print('\t%d sentences processed' % count)
     if (out_file_name_prefix != 0):
         for k in range(5):        
             if (Folder_List != 0):
@@ -179,12 +181,15 @@ def revise_sentence_and_test_list_5_ways_invalid(selected_inds, selected_words, 
                 #print('\twriting to folder',k)
                 for i in range(0,len(All_Sentences_Scores[k])):
                     #print(k)
-                    for j in range(len(All_Sentences_Scores[k][i])):  
-                        #print(All_Sentences_Scores[i][j]) 
-                        temp.write(str(All_Sentences_Scores[k][i][j]))
-                        temp.write('\n')
-                    temp.write('\n')
-                temp.close()
+                    try:
+                        for j in range(4):  
+                            #print(All_Sentences_Scores[i][j]) 
+                            temp.write(str(All_Sentences_Scores[k][i][j])+'\n')
+                        temp.write(str(All_Sentences_Scores[k][i][4])+', '+str(All_Sentences_Scores[k][i][5])+';\n')
+                        temp.write('\n')   
+                    except:
+                        pass
+            temp.close()
     #        outFile=open(out_file_name,'wt')
     #        for i in range(0,len(All_Sentences_Scores)):
     #            for j in range(len(All_Sentences_Scores[i])):  
@@ -201,12 +206,45 @@ def revise_sentence_and_test_list_5_ways_invalid(selected_inds, selected_words, 
 Main
 '''
 
+
 selected_inds, selected_words, tok_sent = readTag("tagged_test_toxic_data.txt")
 print('Number of sentences:',len(selected_inds))
+
+#valid_inds = []
+#out_file_name = 'try.txt'
+#with codecs.open(out_file_name, "w", "utf-8-sig") as temp:
+#    temp.write('蛤\n')
+#    temp.close()
+#for i in range(len(selected_inds)):
+    
+
+'''
+# 100 sentences per batch
 folder_prefix = 'output/separated_by_revised_type/'
 Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
 for i in range(0,int(len(selected_inds)/100)+1):
     print('Processing the %d-th batch of 100 sentences\n' % i)
     All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[i*100:i*100+100], selected_words[i*100:i*100+100], tok_sent[i*100:i*100+100], Folder_List, 'sentences_and_revised_scores'+str(i)+'_')
     #print(len(All_Sentences_Scores))
+'''
 
+'''
+# 10 sentences per batch
+folder_prefix = 'output/separated_by_revised_type/'
+Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
+for i in range(0,int(len(selected_inds)/10)+1):
+    print('Processing the %d-th batch of 10 sentences\n' % i)
+    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[i*10:i*10+10], selected_words[i*10:i*10+10], tok_sent[i*10:i*10+10], Folder_List, str(i)+'_')
+    #print(len(All_Sentences_Scores))
+'''
+
+#==============================================================================
+# # debug
+# selected_inds, selected_words, tok_sent = readTag("tagged_test_toxic_data.txt")
+# print(tok_sent[1])
+# #selected_inds = 
+# #selected_words = 
+# #tok_sent = 
+# All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[1:2], selected_words[1:2], tok_sent[1:2])
+# 
+#==============================================================================
