@@ -1,0 +1,18 @@
+﻿utci you run the nfl draft page poorly
+0.4392413
+utci you run the nl draft page poorly 
+0.43270943
+nfl, nl;
+
+admins suck !! the fucking admins suck ass ! i fucking hate the people who delete my fucking shit !!!!!!!!
+0.9942953
+admins suck the fucing admins suck ass i fuckng hate the people who delete my fcking shit 
+0.9858257
+fucking, fucing;
+
+* hey this guy is awesome , ya kill the muslims and all that , this bitch doesnt know what shes talking about , haha thats awesome , i wish i could have seen what you said
+0.8201754
+hey this guy is awesome ya kill the muslims and all that this bitc doesnt know what shes talking about haha thats awesome i wish i could have seen what you said 
+0.589103
+bitch, bitc;
+

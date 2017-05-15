@@ -1,0 +1,18 @@
+﻿brendan rodgers i suggest that you go fuck yourself .
+0.9835383
+brendan rodgers i suggest that you go fucrk yourself 
+0.46362582
+fuck, fucrk;
+
+* have you stopped beating your wife ? don't answer that . just keep in mind that what i just gave you was a final warning .
+0.5934792
+have you stopped beatintg your wife dont answer that just keep in mind that what i just gave you was a final warning 
+0.48012167
+beating, beatintg;
+
+: if they are idiots what i can do ?
+0.76835704
+if they are ihdiots what i can do 
+0.09307465
+idiots, ihdiots;
+

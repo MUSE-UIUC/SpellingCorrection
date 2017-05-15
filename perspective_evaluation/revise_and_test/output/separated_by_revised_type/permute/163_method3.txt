@@ -1,0 +1,6 @@
+﻿: silly rabbit , this is a known case for functional equation : . it is known to have multiple solutions .
+0.22492321
+slily rabbit this is a known case for functional equation it is known to have multiple solutions 
+0.035065684
+silly, slily;
+

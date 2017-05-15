@@ -1,0 +1,18 @@
+﻿who changes shit which shouldn't be changed
+0.6716081
+who changes slit which shouldnt be changed 
+0.15440398
+shit, slit;
+
+op-eds are worthless sources when they don't work for chriso's narrative ; must-reads which establish the fact of the matter when they do work for chriso's narrative . court-appointed forensic ballistics experts are fringe kooks also . side note , i actually added text which stated discretly that the libel conviction had been overturned by a higher court , but that was rv'd . the operative definition here for npov violation , after all is not chriso's pov .
+0.29117307
+opeds are worwhless sources when they dont work for chrisos narrative mustreads which establish the fact of the matter when they do work for chrisos narrative courtappointed forensic ballistics experts are fringe kooks also side note i actually added text which stated discretly that the libel conviction had been overturned by a higher court but that was rvd the operative definition here for npov violation after all is not chrisos pov 
+0.19093966
+worthless, worwhless;
+
+beligerents something is definetly screwed up with the belligerents section , the mahdi army and al qaeda are not allies , in fact as sunni and shia they would shoot each other , baathist party also persecuted shia , they would definetly not be allies with the mahdi army , and the iraqi government in fact supported the mhadi army becasue they were both shia
+0.23884146
+beligerents something is definetly ssrewed up with the belligerents section the mahdi army and al qaeda are not allies in fact as sunni and shia they would shoot each other baathist party also persecuted shia they would definetly not be allies with the mahdi army and the iraqi government in fact supported the mhadi army becasue they were both shia 
+0.15583095
+screwed, ssrewed;
+
