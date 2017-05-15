@@ -27,7 +27,10 @@ output:
 '''
 def fetch_toxic_score_online(sentence):
     # the variable "sessionId" is a random value written arbitrarily
-    r = requests.post('http://www.perspectiveapi.com/check', json={"comment":sentence, "sessionId":"10002022"})
+    try:
+        r = requests.post('http://www.perspectiveapi.com/check', json={"comment":sentence, "sessionId":"10002022"})
+    except:
+        return 2 # bug
     #r = requests.post('http://www.perspectiveapi.com/check', data={"comment":sentence, "sessionId":"10002022"})        
     # The json variable is of the following format:
     # {'attributeScores': {'TOXICITY': {'spanScores': [{'end': 6, 'score': {'type': 'PROBABILITY', 'value': 0.3378245}, 'begin': 0}], 'summaryScore': {'type': 'PROBABILITY', 'value': 0.3378245}}}, 'languages': ['en']}
