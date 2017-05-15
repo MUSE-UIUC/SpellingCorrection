@@ -18,16 +18,16 @@ for i in range(361):
 print('missing indices:',missing_inds)
 print('number of missing indices:',len(missing_inds))
 
-
+'''
 selected_inds, selected_words, tok_sent = readTag("tagged_test_toxic_data.txt")
 
 inds = []
 words = []
 tok = []
-for i in range(len(missing_inds)):
-    inds.append(selected_inds[missing_inds[i]])
-    words.append(selected_words[missing_inds[i]])
-    tok.append(tok_sent[missing_inds[i]])
+#for i in range(len(missing_inds)):
+#    inds.append(selected_inds[missing_inds[i]])
+#    words.append(selected_words[missing_inds[i]])
+#    tok.append(tok_sent[missing_inds[i]])
 
 # 10 sentences per batch
 folder_prefix = 'output/separated_by_revised_type/'
@@ -36,5 +36,6 @@ for j in range(0,int(len(missing_inds)/10)+1):
     i = missing_inds[j]
     print(i)
     print('Processing the %d-th batch of 10 sentences\n' % i)
-    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(inds[i*10:i*10+10], words[i*10:i*10+10], tok[i*10:i*10+10], Folder_List, str(i)+'_')
+    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[i*10:i*10+10], selected_words[i*10:i*10+10], tok_sent[i*10:i*10+10], Folder_List, str(i)+'_')
     #print(len(All_Sentences_Scores))
+'''

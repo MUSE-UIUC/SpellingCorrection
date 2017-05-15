@@ -27,15 +27,24 @@ output:
 '''
 def fetch_toxic_score_online(sentence):
     # the variable "sessionId" is a random value written arbitrarily
-    r = requests.post('http://www.perspectiveapi.com/check', json={"comment":sentence, "sessionId":"10002022"})
+    try:
+        r = requests.post('http://www.perspectiveapi.com/check', json={"comment":sentence, "sessionId":"10002022"})
+    except:
+        return 2 # bug
+    #r = requests.post('http://www.perspectiveapi.com/check', data={"comment":sentence, "sessionId":"10002022"})        
     # The json variable is of the following format:
     # {'attributeScores': {'TOXICITY': {'spanScores': [{'end': 6, 'score': {'type': 'PROBABILITY', 'value': 0.3378245}, 'begin': 0}], 'summaryScore': {'type': 'PROBABILITY', 'value': 0.3378245}}}, 'languages': ['en']}
-    j = r.json()
-    #print(j)
-    if ('attributeScores' in j):
-        toxic_score = j['attributeScores']['TOXICITY']['summaryScore']['value']
+    #print(r)
+    if (str(r)=='<Response [200]>'):    
+        j = r.json()
+        #print(j)
+        #print()
+        if ('attributeScores' in j):
+            toxic_score = j['attributeScores']['TOXICITY']['summaryScore']['value']
+        else:
+            toxic_score = -1
     else:
-        toxic_score = -1
+            toxic_score = -1
     return toxic_score
 
 '''

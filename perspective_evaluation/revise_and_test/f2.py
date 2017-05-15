@@ -36,5 +36,5 @@ for j in range(10,20):
     i = missing_inds[j]
     print(i)
     print('Processing the %d-th batch of 10 sentences\n' % i)
-    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(inds[i*10:i*10+10], words[i*10:i*10+10], tok[i*10:i*10+10], Folder_List, str(i)+'_')
+    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[i*10:i*10+10], selected_words[i*10:i*10+10], tok_sent[i*10:i*10+10], Folder_List, str(i)+'_')
     #print(len(All_Sentences_Scores))

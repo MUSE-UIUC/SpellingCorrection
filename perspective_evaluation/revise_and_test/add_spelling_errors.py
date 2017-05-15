@@ -439,7 +439,12 @@ def modify_key_words_5_ways_readTag_invalid(indices,sentence):
     selected_word_list = list(set(selected_word_list)) # unique
     Modified_Sentences = modify_one_word_5_ways_invalid(sentence, selected_word_list)
     #print(Modified_Sentences)
-    Modified_Sentences_And_Words = [[Modified_Sentences[i][0], Modified_Sentences[i][1], selected_word_list[i], Modified_Sentences[i][3]] for i in range(len(selected_word_list))]
+    Modified_Sentences_And_Words = []
+    for i in range(len(selected_word_list)):
+        try:
+            Modified_Sentences_And_Words.append([[Modified_Sentences[i][0], Modified_Sentences[i][1], selected_word_list[i], Modified_Sentences[i][3]]])
+        except:
+            print('len(Modified_Sentences) < 4:',i)
     #print(Modified_Sentences_And_Words)    
     return Modified_Sentences_And_Words 
     
