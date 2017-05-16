@@ -10,7 +10,7 @@ to sentences.
 
 import random
 import string
-from corpus_util import loadDict
+from corpus_util import loadDict, loadDict_std
 import pickle
     
 """
@@ -473,9 +473,20 @@ for i in range(2):
 '''
 
 Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word.pickle')
-print(len(Sentence_And_Toxic_Word))
-print(Sentence_And_Toxic_Word[0])
-print(Sentence_And_Toxic_Word[len(Sentence_And_Toxic_Word)-1])
+print('number of sentences: ',len(Sentence_And_Toxic_Word))
+#print(Sentence_And_Toxic_Word[0])
+#print(Sentence_And_Toxic_Word[len(Sentence_And_Toxic_Word)-1])
+
+# check which toxic words are not in the dictionary
+Toxic_Word_Invalid = []
+cnt = loadDict()
+for i in range(len(Sentence_And_Toxic_Word)):
+    if (cnt[Sentence_And_Toxic_Word[i][2]]==0):
+        Toxic_Word_Invalid.append(Sentence_And_Toxic_Word[i][2])
+print(Toxic_Word_Invalid)
+with open("Toxic_Word_Invalid.pickle", "wb") as handle:
+    pickle.dump(Toxic_Word_Invalid, handle)
+    
 
 
 #Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Words/Sentence_And_Toxic_Word0.pickle')

@@ -65,6 +65,15 @@ def loadDict(fn="dict.pickle", freq_threshold=6):
     print ("done loading dictionary...")
     return cnt
     
+def loadDict_std(fn="standard_en.pickle", freq_threshold=6):
+    with open(fn, "rb") as handle:
+        cnt = pickle.load(handle)
+    rare_words = [word for word in cnt if cnt[word] < freq_threshold]
+    for word in rare_words:
+        cnt.pop(word)
+    print ("done loading dictionary...")
+    return cnt
+    
 
 '''
 # tried to add support for utf-8 in Python 3 but failed
