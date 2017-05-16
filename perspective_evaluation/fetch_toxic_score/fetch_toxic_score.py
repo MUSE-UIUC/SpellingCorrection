@@ -42,9 +42,9 @@ def fetch_toxic_score_online(sentence):
         if ('attributeScores' in j):
             toxic_score = j['attributeScores']['TOXICITY']['summaryScore']['value']
         else:
-            toxic_score = -1
+            toxic_score = 2
     else:
-            toxic_score = -1
+            toxic_score = 2
     return toxic_score
 
 '''
