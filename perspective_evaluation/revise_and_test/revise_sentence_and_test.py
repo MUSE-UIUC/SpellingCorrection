@@ -57,7 +57,10 @@ def revise_sentence_and_test_5_ways_invalid(indices,sentence):
     for l in Modified_Sentences_And_Words:
         #print(l)
         score = fetch_toxic_score_online(l[0])
-        Sentences_Scores.append((score,l[0],l[1],l[2],l[3]))
+        try:
+            Sentences_Scores.append((score,l[0],l[1],l[2],l[3]))
+        except:
+            pass
     return Sentences_Scores
 
 '''

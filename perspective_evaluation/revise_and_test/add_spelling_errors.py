@@ -11,6 +11,7 @@ to sentences.
 import random
 import string
 from corpus_util import loadDict
+import pickle
     
 """
     - added on 2017.4.30 
@@ -39,6 +40,15 @@ def readTag(fn):
         #if (len(selected_words)>=2):
         #    break
     return selected_inds, selected_words, tok_sent
+    
+'''
+load a list of (toxic_score, sentence, most_toxic_word)
+'''
+def load_toxic_word(fn):
+    with open(fn, "rb") as handle:
+        Sentence_And_Toxic_Word = pickle.load(handle)
+    return Sentence_And_Toxic_Word
+        
     
 '''
 A method to change a word that maintains edit distance 1
@@ -461,3 +471,19 @@ for i in range(2):
     Modified_Sentences_And_Words = modify_key_words_5_ways_readTag(selected_inds[i],tok_sent[i])
     print(Modified_Sentences_And_Words)
 '''
+
+Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word.pickle')
+print(len(Sentence_And_Toxic_Word))
+print(Sentence_And_Toxic_Word[0])
+print(Sentence_And_Toxic_Word[len(Sentence_And_Toxic_Word)-1])
+
+
+#Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Words/Sentence_And_Toxic_Word0.pickle')
+#
+#for i in range(1,37):
+#    fn = 'Sentence_And_Toxic_Words/Sentence_And_Toxic_Word'+str(i)+'.pickle'
+#    Sentence_And_Toxic_Word = Sentence_And_Toxic_Word + load_toxic_word(fn)
+#    
+#with open("Sentence_And_Toxic_Word.pickle", "wb") as handle:
+#    pickle.dump(Sentence_And_Toxic_Word, handle)
+

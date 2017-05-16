@@ -1,6 +1,0 @@
-﻿still not listening . this ip locates to nyc , so i don't know if that's closer or further away from the actual location . of course the user could be anywhere in the us on the verizon network , but it's useful in identifying the socks , aside from the other duckish behavior . -
-0.05268968
-still not listening . this ip locates to nyc , so i don't know if that's closer or further away from the actual location . of course the user could be anywhere in the us on the verizon network , but it's useful in identifying the socks , aside from the other duckish behavior . -
-0.05268968
-None ,None ;
-
