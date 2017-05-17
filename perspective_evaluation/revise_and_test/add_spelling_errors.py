@@ -665,7 +665,7 @@ for i in range(2):
 #    pickle.dump(Sentence_And_Toxic_Word, handle)
 
 #All_Sentences_Scores = load_toxic_word('All_Sentences_Scores/All_Sentences_Scores0.pickle')
-#for i in range(37):
+#for i in range(370):
 #    fn = 'All_Sentences_Scores/All_Sentences_Scores'+str(i)+'.pickle'
 #    l = load_toxic_word(fn)
 #    print(len(l), len(l[0]), len(l[1]), len(l[2]), len(l[3]), len(l[4]))
