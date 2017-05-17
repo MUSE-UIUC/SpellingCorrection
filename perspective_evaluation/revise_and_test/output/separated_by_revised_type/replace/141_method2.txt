@@ -1,0 +1,30 @@
+﻿raise it as their own . # your mother is so fat , she thinks a balanced meal is a ham in each hand . # your mother is so fat , when she sings - it's over !
+0.6123688
+raise it as their own your mother is so faxt she thinks a balanced meal is a ham in each hand your mother is so fzt when she sings its over 
+0.27285412
+fat, faxt; fat, fzt; 
+
+::: the investigation is not going to stop , and you would do well to reinstate my account and apologize to myself and the myriad users you have abused . if you have any questions as to who these users are , i can provide you with a list of them . you should also out yourself , as i will be offering a $50 . reward to the first timestamped outer of your identity , which will then be circulated to your victims so that your actions may be ridiculed on their respective websites . a description of this unfortunate series of events is also to appear in a print magazine to be circulated in milwaukee , with an emphasis on orangemike's misuse of wikipedia , his horrific clothing , and his horrible fanzine . contextflexed
+0.23863304
+the investigation is not going to stop and you would do well to reinstate my account and apologize to myself and the myriad users you have abused if you have any questions as to who these users are i can provide you with a list of them you should also out yourself as i will be offering a 50 reward to the first timestamped outer of your identity which will then be circulated to your victims so that your actions may be ridiculed on their respective websites a description of this unfortunate series of events is also to appear in a print magazine to be circulated in milwaukee with an emphasis on orangemikes misuse of wikipedia his horrific clothing and his gorrible fanzine contextflexed 
+0.16946484
+horrible, gorrible; 
+
+* no , go ahead , we'd love to hear your bright ideas . oh , wait , you are a coward , nevermind , f off
+0.8427313
+no go ahead wed love to hear your bright ideas oh wait you are a csward nevermind f off 
+0.6054771
+coward, csward; 
+
+lol !! you're gay !! you will never know how good it feels to fuck a woman up the ass !!
+0.97056806
+lol youre gay you will never know how good it feels to fwck a woman up the ass 
+0.93149716
+fuck, fwck; 
+
+helly jimmy , well ; fuck you . according to wikipedia talk : no legal threats ; people shouldn't say to one another what you do is supporting terrorism , and you should be judged front of law . on the other hand , we can say fuck you and the punishment for that is only two weeks . well it's okay for me to get away from wikipedia for two weeks ; and i'm willing to curse to you . fuck you jimmy wales . your stupid eye showing video about begging money for wikipedia was stupidest thing i have ever seen . once again ; fuck you , fuck you , and fuck you . now go ahead with your wikilobbying idiot members and have fun . i just wanted to get this out and get my wikipedia legal two week ban . fuck you ; you dumb idiot .
+0.9681372
+helly jimmy well fiuck you according to wikipedia talk no legal threats people shouldnt say to one another what you do is supporting terrorism and you should be judged front of law on the other hand we can say sfuck you and the punishment for that is only two weeks well its okay for me to get away from wikipedia for two weeks and im willing to curse to you fuce you jimmy wales your stupid eye showing video about begging money for wikipedia was stupidest thing i have ever seen once again fuczk you fwuck you and fxuck you now go ahead with your wikilobbying idiot members and have fun i just wanted to get this out and get my wikipedia legal two week ban quck you you dumb idiot 
+0.9218627
+fuck, fiuck; fuck, sfuck; fuck, fuce; fuck, fuczk; fuck, fwuck; fuck, fxuck; fuck, quck; 
+

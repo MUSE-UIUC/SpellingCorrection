@@ -1,0 +1,24 @@
+﻿why you're being a complete jerk
+0.83216256
+why youre being a complete jerkn 
+0.48952568
+jerk, jerkn; 
+
+* have you stopped beating your wife ? don't answer that . just keep in mind that what i just gave you was a final warning .
+0.5934792
+have you stopped beatinpg your wife dont answer that just keep in mind that what i just gave you was a final warning 
+0.48012167
+beating, beatinpg; 
+
+:: all the admins on this shitty site are neurotic control freaks . don't let their hideous attitudes prevent you from doing what you think is right
+0.8427825
+all the admins on this sthitty site are neurotic control freaks dont let their hideous attitudes prevent you from doing what you think is right 
+0.6041851
+shitty, sthitty; 
+
+::: and as fully expected , yet another abusive admin gets away with abusing their tools .
+0.38550758
+and as fully expected yet another abusivme admin gets away with abusing their tools 
+0.37266412
+abusive, abusivme; 
+

@@ -1,0 +1,10 @@
+﻿douchebag award {| style background-color : #fdffe7 ; border : 1px solid #fceb92 ; |rowspan 2 style vertical-align : middle ; padding : 5px ; | |style font-size : x-large ; padding : 3px 3px 0 3px ; height : 1.5 em ; | being a massive dick ) |- |style vertical-align : middle ; padding : 3px ; | yeeey ! you've been a massive douchebag ! here's your award . |}
+0.65890926
+douchebag award {| style background-color : #fdffe7 ; border : 1px solid #fceb92 ; |rowspan 2 style vertical-align : middle ; padding : 5px ; | |style font-size : x-large ; padding : 3px 3px 0 3px ; height : 1.5 em ; | being a massive dick ) |- |style vertical-align : middle ; padding : 3px ; | yeeey ! you've been a massive douchebag ! here's your award . |}
+0.65890926
+reply hello thepeg , you do yourself a grave injustice . there are no stupid questions , only stupid answers . cheers
+0.7837628
+reply hello thepeg you do yourself a grave injustice there are no stubpid questions only  answers cheers 
+0.2586029
+stupid, stubpid; stupid, ; 
+

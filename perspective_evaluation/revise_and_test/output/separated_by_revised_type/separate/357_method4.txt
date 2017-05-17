@@ -1,0 +1,6 @@
+﻿:: how long did it take you to make that snippy comment ? - mister
+0.28997794
+how long did it take you to make that  comment mister 
+0.05546268
+snippy, ; 
+

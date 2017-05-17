@@ -1,0 +1,4 @@
+﻿the dick {| style background-color : #fdffe7 ; border : 1px solid #fceb92 ; |rowspan 2 style vertical-align : middle ; padding : 5px ; | |style font-size : x-large ; padding : 3px 3px 0 3px ; height : 1.5 em ; | the dickhead award |- |style vertical-align : middle ; padding : 3px ; | booooooo |}
+0.5145677
+the dick {| style background-color : #fdffe7 ; border : 1px solid #fceb92 ; |rowspan 2 style vertical-align : middle ; padding : 5px ; | |style font-size : x-large ; padding : 3px 3px 0 3px ; height : 1.5 em ; | the dickhead award |- |style vertical-align : middle ; padding : 3px ; | booooooo |}
+0.5145677
