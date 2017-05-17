@@ -12,12 +12,16 @@ from context_based_selection.vocab import Vocab
 from context_based_selection.context_score import cosSim, pcaSenEmb, getRelevance
 import numpy as np
 from domain_corpus_generation.corpus_util import loadDict
-from preprocess.regular_check import rawCheck, rawCheckOnDist
+from preprocess.regular_check import rawCheck#, rawCheckOnDist
 import editdistance
 from pyxdameraulevenshtein import damerau_levenshtein_distance as dist
 
 corpus = loadDict(fn="domain_corpus_generation/dict_v1.pickle", freq_threshold=100)
 small_corpus = loadDict(fn="domain_corpus_generation/dict_v1.pickle", freq_threshold=500) # 1500, 500, 100, 200
+
+
+#corpus = loadDict(fn="domain_corpus_generation/standard_en.pickle")
+#small_corpus = corpus
 
 vecDim = 300
 embedding_directory = "/projects/csl/viswanath/data/hgong6/SpellingCorrection/SpellingCorrection/domain_corpus_generation/embeddings/"
@@ -150,7 +154,7 @@ def generateAlgoCandCorrection(sent_str_list, context_size=4):
     revised_corrections = []
     cand_corrections = []
     # stage 1: context-free check
-    sent_token_list, corrections = rawCheckOnDist(sent_str_list)
+    sent_token_list, corrections = rawCheck(sent_str_list) #rawCheckOnDist(sent_str_list)
 
     # stage 2: context-dependent check
     corrections2 = []
@@ -173,13 +177,13 @@ def readInputSent(error_type):
     path = "perspective_evaluation/revise_and_test/output/separated_by_revised_type/"+error_type+"/"
     orig_sent_list = []
     error_sent_list = []
-    correct_word_list = []
+    correction_list = []
     for fn in os.listdir(path):
 	if (not fn.endswith(".txt")):
 	    continue
         f = open(path+fn, "r")
         lines = f.readlines()
-        while (lines != []):
+        while (len(lines) >= 5):
             # original sent
             orig_sent = lines.pop(0)
             orig_sent_list.append(orig_sent)
@@ -190,24 +194,29 @@ def readInputSent(error_type):
             error_sent_list.append(error_sent)
             # revised score
             revised_score = float(lines.pop(0))
-            # correct word
-            correct_word = lines.pop(0).strip()
-            correct_word_list.append(correct_word)
+            # corrections
+	    correction_str = lines.pop(0).strip()
+	    #print "cor_str", correction_str
+            seq = correction_str.split(";")
+	    #print "seq", seq
+	    s = seq[0]
+	    #print (s.split(",")[0].strip(), s.split(",")[1].strip())
+            corrections = [(s.split(",")[0].strip(), s.split(",")[1].strip()) for s in seq if s!=""]
+            correction_list.append(corrections[:])
             # empty line
             lines.pop(0)
         f.close()
-        #break
-    return orig_sent_list, error_sent_list, correct_word_list
+    return orig_sent_list, error_sent_list, correction_list
 
 
-def evalCorrections(gold_corrections, algo_corrections, cand_corrections):
+def evalCorrections(gold_corrections, algo_corrections, cand_corrections, error_type):
     # accuracy: correct_algo_corrections/gold_corrections
     # precision: correct_algo_corrections/total_algo_corrections
     # recall: correction
     total_gold_corrections = 0
     total_algo_corrections = 0
     correct_algo_corrections = 0
-    logs = open("logs.txt", "a+")
+    logs = open("logs_"+error_type+".txt", "a+")
     for ind in range(len(gold_corrections)):
         gold_list = gold_corrections[ind]
         algo_list = algo_corrections[ind]
@@ -234,16 +243,18 @@ if __name__=="__main__":
     args = parser.parse_args()
     error_type = args.errorType
 
-    # read raw data
-    orig_sent_list, error_sent_list, correct_word_list = readInputSent(error_type)
+    # read raw data & gold corrections
+    #orig_sent_list, error_sent_list, correct_word_list = readInputSent(error_type)
+    orig_sent_list, error_sent_list, gold_corrections = readInputSent(error_type)
     # generate gold corrections
-    gold_corrections = generateTrueCandCorrection(orig_sent_list, error_sent_list, correct_word_list)
+    # gold_corrections = generateTrueCandCorrection(orig_sent_list, error_sent_list, correct_word_list)
+    
     # generate algo corrections
     revised_sent_seq, algo_corrections, cand_corrections = generateAlgoCandCorrection(error_sent_list)
     # output algo sentences
     # ???
     # evaluate
-    evalCorrections(gold_corrections, algo_corrections, cand_corrections)
+    evalCorrections(gold_corrections, algo_corrections, cand_corrections, error_type)
 
     
 
