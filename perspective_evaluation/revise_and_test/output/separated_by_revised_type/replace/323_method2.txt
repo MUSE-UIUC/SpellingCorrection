@@ -1,0 +1,18 @@
+﻿: this is incorrect . i have not been blocked for violating arbitration . i have been blocked for remarked about my displeasure at another member's harassing behavior towards me .
+0.15260492
+this is incorrect i have not been blocked for violating arbitration i have been blocked for remarked about my displeasure at another members harassibg behavior towards me 
+0.09658498
+harassing, harassibg; 
+
+: yes . whilst it is illegal to * be * drunk whilst editing wikipedia , nobody can ever actually be banned for editing it whilst drunk , because it is also illegal to ask anyone if they are drunk . and if anyone is asked , they don't have to answer . this may seem bizarre , but it is also the same rules that apply in the house of commons , and also may fondly remind us of the laws of thermodynamics , where it is impossible to break even until you reach absolute zero , but of the law says you cannot ever reach absolute zero in a finite number of steps .
+0.14082405
+yes whilst it is illegal to be  whilst editing wikipedia nobody can ever actually be banned for editing it whilst drulnk because it is also illegal to ask anyone if they are jrunk and if anyone is asked they dont have to answer this may seem bizarre but it is also the same rules that apply in the house of commons and also may fondly remind us of the laws of thermodynamics where it is impossible to break even until you reach absolute zero but of the law says you cannot ever reach absolute zero in a finite number of steps 
+0.06793322
+drunk, ; drunk, drulnk; drunk, jrunk; 
+
+shut up katie your not even real
+0.6987973
+shuc up katie your not even real 
+0.15905227
+shut, shuc; 
+

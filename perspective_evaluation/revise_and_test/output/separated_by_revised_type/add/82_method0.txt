@@ -1,0 +1,18 @@
+﻿oh do you really - who cares what you think
+0.31224108
+oh do you really who cawres what you think 
+0.19426593
+cares, cawres; 
+
+you suck gordo !! screw you gordo !! what are you gonna send the bill o'reilly police after me ? go back to canada you wannabe rent-a-web-cop !
+0.9388864
+you sujck gordo screw you gordo what are you gonna send the bill oreilly police after me go back to canada you wannabe rentawebcop 
+0.7846262
+suck, sujck; 
+
+ok dude she's not in there if you're doin april fool joke this is lame ok
+0.67713565
+ok dude shes not in there if youre doin april fkool joke this is lame ok 
+0.45382708
+fool, fkool; 
+
