@@ -302,7 +302,7 @@ def revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word, Fol
         print(All_Sentences_Scores[4])
         
     if (out_file_name_prefix != 0):
-        for k in range(5):        
+        for k in range(len(Folder_List)):        
             if (Folder_List != 0):
                 out_file_name = Folder_List[k]+'/'
             else:
@@ -341,19 +341,19 @@ Main
 #selected_inds, selected_words, tok_sent = readTag("tagged_test_toxic_data.txt")
 #print('Number of sentences:',len(selected_inds))
 
-Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word.pickle')
-print('number of sentences: ',len(Sentence_And_Toxic_Word))
-
-# 10 sentences per batch
-folder_prefix = 'output/separated_by_revised_type/'
-Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
-for i in range(0,int(len(Sentence_And_Toxic_Word)/10)+1):
-    print('Processing the %d-th batch of 10 sentences\n' % i)
-    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word[i*10:i*10+10], Folder_List, str(i)+'_')
-    #print(len(All_Sentences_Scores))
-    out_file_name = 'All_Sentences_Scores/All_Sentences_Scores'+str(i)+'.pickle'
-    with open(out_file_name, "wb") as handle:
-        pickle.dump(All_Sentences_Scores, handle)
+#Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word.pickle')
+#print('number of sentences: ',len(Sentence_And_Toxic_Word))
+#
+## 10 sentences per batch
+#folder_prefix = 'output/separated_by_revised_type/'
+#Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
+#for i in range(0,int(len(Sentence_And_Toxic_Word)/10)+1):
+#    print('Processing the %d-th batch of 10 sentences\n' % i)
+#    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word[i*10:i*10+10], Folder_List, str(i)+'_')
+#    #print(len(All_Sentences_Scores))
+#    out_file_name = 'All_Sentences_Scores/All_Sentences_Scores'+str(i)+'.pickle'
+#    with open(out_file_name, "wb") as handle:
+#        pickle.dump(All_Sentences_Scores, handle)
     
 
 '''
