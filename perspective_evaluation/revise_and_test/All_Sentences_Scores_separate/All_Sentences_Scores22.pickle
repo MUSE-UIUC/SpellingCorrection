@@ -1,79 +1,79 @@
 (lp0
 (lp1
-(S'you are a homo , a big homo .'
-p2
-F0.8698396
-S'you are a thomo a big hodmo '
-p3
-F0.626478
-S'homo'
-p4
-(lp5
-S'thomo'
-p6
-aS'hodmo'
-p7
-atp8
-a(S'vaginas do you have a problem with vaginas ?'
-p9
-F0.8645688
-S'vaignas do you have a problem with vaginars '
-p10
-F0.28081217
-S'vaginas'
-p11
-(lp12
-S'vaignas'
-p13
-aS'vaginars'
-p14
-atp15
-aa(lp16
-a(lp17
-(S"kim , please don't use your arcane wikipedia logic to protect your friends . i have reverted your deletion of my deletion note . this idiot should not have a page on wikipedia , he's a nobody that has never accomplished anything notable ."
-p18
-F0.6943813
-S'kim please dont use your arcane wikipedia logic to protect your friends i have reverted your deletion of my deletion note this iwiot should not have a page on wikipedia hes a nobody that has never accomplished anything notable '
-p19
-F0.20532909
-S'idiot'
-p20
-(lp21
-S'iwiot'
-p22
-atp23
-aa(lp24
 (S'vegan what in the hell does all that junk have to do with photos ?'
-p25
+p2
 F0.46673644
-S'vegan what in the hlel does all that junk have to do with photos '
-p26
+S'vegan what in the dhell does all that junk have to do with photos '
+p3
 F0.22153196
 S'hell'
+p4
+(lp5
+S'dhell'
+p6
+atp7
+a(S"kim , please don't use your arcane wikipedia logic to protect your friends . i have reverted your deletion of my deletion note . this idiot should not have a page on wikipedia , he's a nobody that has never accomplished anything notable ."
+p8
+F0.6943813
+S'kim please dont use your arcane wikipedia logic to protect your friends i have reverted your deletion of my deletion note this idiont should not have a page on wikipedia hes a nobody that has never accomplished anything notable '
+p9
+F0.20532909
+S'idiot'
+p10
+(lp11
+S'idiont'
+p12
+atp13
+aa(lp14
+a(lp15
+(S"you are a rouge admin i just wanted to let you know that me and a few people don't like what you've been doing ( with what little power you have ) on wikipedia . and that we are working on ways to get rid of you . your days are numbered ..."
+p16
+F0.28759816
+S'ybu are a rouge admin i just wanted to let yovu know that me and a few people dont like what youve been doing with what little power youz have on wikipedia and that we are working on ways to get rid of yqu your days are numbered '
+p17
+F0.25044167
+S'you'
+p18
+(lp19
+S'ybu'
+p20
+aS'yovu'
+p21
+aS'youz'
+p22
+aS'yqu'
+p23
+atp24
+a(S'you are a homo , a big homo .'
+p25
+F0.8698396
+S'you are a homfo a big hymo '
+p26
+F0.626478
+S'homo'
 p27
 (lp28
-S'hlel'
+S'homfo'
 p29
-atp30
-a(S"you are a rouge admin i just wanted to let you know that me and a few people don't like what you've been doing ( with what little power you have ) on wikipedia . and that we are working on ways to get rid of you . your days are numbered ..."
-p31
-F0.28759816
-S'yuou are a rouge admin i just wanted to let ywu know that me and a few people dont like what youve been doing with what little power lyou have on wikipedia and that we are working on ways to get rid of yuo your days are numbered '
+aS'hymo'
+p30
+atp31
+a(S'vaginas do you have a problem with vaginas ?'
 p32
-F0.23690808
-S'you'
+F0.8645688
+S'vaginjas do you have a problem with vagibas '
 p33
-(lp34
-S'yuou'
-p35
-aS'ywu'
+F0.28081217
+S'vaginas'
+p34
+(lp35
+S'vaginjas'
 p36
-aS'lyou'
+aS'vagibas'
 p37
-aS'yuo'
-p38
-atp39
-aa(lp40
+atp38
+aa(lp39
+a(lp40
 (S'here you go , nerdlinger :'
 p41
 F0.16873662

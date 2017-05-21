@@ -1,12 +1,18 @@
 ﻿:::: content opponent ? no , see this . just a liar and hate-monger .
 0.7177077
-content opponent no see this just a dliar and hatemonger 
+content opponent no see this just a lpiar and hatemonger 
 0.18387768
-liar, dliar; 
+liar, lpiar; 
+
+you are meany pants !
+0.7109415
+you are meany kpants 
+0.5102731
+pants, kpants; 
 
 :: menudo is gay ! amadeus ! * sings that amadeus song * i'm a jackass , i'm a jackass , i'm a jackass . i'm a jackass , i'm a jackass , i'm a jackass . i'm a jackass , i'm a jackass , i'm a jackass . oh oh oh oh , i'm a jackass d
 0.916642
-menudo is gay amadeus sings that amadeus song im a  im a jackasu im a jacbass im a djackass im a jacksas im a jakcass im a jakcass im a  im a jcakass oh oh oh oh im a jackgass d 
-0.71656054
-jackass, ; jackass, jackasu; jackass, jacbass; jackass, djackass; jackass, jacksas; jackass, jakcass; jackass, jakcass; jackass, ; jackass, jcakass; jackass, jackgass; 
+menudo is gay amadeus sings that amadeus song im a jackess im a jackwss im a jackaqs im a jcakass im a jackasns im a jiackass im a jkckass im a jacksas im a gackass oh oh oh oh im a jackasws d 
+0.71261126
+jackass, jackess; jackass, jackwss; jackass, jackaqs; jackass, jcakass; jackass, jackasns; jackass, jiackass; jackass, jkckass; jackass, jacksas; jackass, gackass; jackass, jackasws; 
 

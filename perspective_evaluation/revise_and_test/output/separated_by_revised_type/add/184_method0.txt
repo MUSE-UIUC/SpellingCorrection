@@ -1,18 +1,30 @@
-﻿telling that you wouldn't answer my question . you are a hypocrit as anyone can see
-0.8098596
-telling that you wouldnt answer my question you are a hypiocrit as anyone can see 
-0.30018526
-hypocrit, hypiocrit; 
+﻿fuck you and fuck your mom . and her dog .
+0.9866665
+fuct you and jfuck your mom and her dog 
+0.7370421
+fuck, fuct; fuck, jfuck; 
 
-you are a racist i'm simply calling you out . improve thyself .
-0.77081805
-you are a racmist im simply calling you out improve thyself 
-0.518333
-racist, racmist; 
+re : mark lester shut up ! i'll write whatever i want ! geez !!!!!!
+0.6455076
+re mark lester shxut up ill write whatever i want geez 
+0.3355218
+shut, shxut; 
 
-question if someone was to move this article to italian empire , would you use the term vandalism when you were reverting the idiots move ?
-0.61246336
-question if someone was to move this article to italian empire would you use the term vandalism when you were reverting the idiotsm move 
-0.10937703
-idiots, idiotsm; 
+stop ! plz just leave me alone you jerk ! stay out of my way ! plz !
+0.83901316
+stop plz just leave me alone you jerak stay out of my way plz 
+0.37361923
+jerk, jerak; 
+
+boring why are you so boring gail .. stop harassing me !
+0.74441284
+ why are you so borqing gail stop harassing me 
+0.5706539
+boring, ; boring, borqing; 
+
+fuck you bitch ! i will go to your house and kill you with my gun as well ! prepare to die !
+0.9887841
+fpuck you bitch i will go to your house and kill you with my gun as well prepare to die 
+0.9654421
+fuck, fpuck; 
 

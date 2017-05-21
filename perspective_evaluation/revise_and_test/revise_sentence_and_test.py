@@ -252,6 +252,7 @@ Difference from the above:
 (1) see revise_sentence_and_test_5_ways_invalid_v2
 (2) for each sentence, add errors only to the world determined in find_toxic_word.most_toxic_word
 to be the most toxic word in the sentence 
+(3) consider toxic_score = 0 if the fetch score request fails, because it is regarded as successfully deceiving Perspective API
 
 Return a list of (rev_id, sentence, toxic_score, revised_sentence, revised_toxic_score, method)
 input:
@@ -320,6 +321,7 @@ def revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word, Fol
                             temp.write(str(All_Sentences_Scores[k][i][4])+', '+str(All_Sentences_Scores[k][i][5][j])+'; ')
                         temp.write('\n\n')   
                     except:
+                        print('revise_sentence_and_test_list_5_ways_invalid_v2: around line 320: write bug')
                         pass
             temp.close()
     #        outFile=open(out_file_name,'wt')
@@ -340,20 +342,23 @@ Main
 
 #selected_inds, selected_words, tok_sent = readTag("tagged_test_toxic_data.txt")
 #print('Number of sentences:',len(selected_inds))
-
-#Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word.pickle')
-#print('number of sentences: ',len(Sentence_And_Toxic_Word))
 #
-## 10 sentences per batch
-#folder_prefix = 'output/separated_by_revised_type/'
-#Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
-#for i in range(0,int(len(Sentence_And_Toxic_Word)/10)+1):
-#    print('Processing the %d-th batch of 10 sentences\n' % i)
-#    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word[i*10:i*10+10], Folder_List, str(i)+'_')
-#    #print(len(All_Sentences_Scores))
-#    out_file_name = 'All_Sentences_Scores/All_Sentences_Scores'+str(i)+'.pickle'
-#    with open(out_file_name, "wb") as handle:
-#        pickle.dump(All_Sentences_Scores, handle)
+Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word.pickle')
+print('number of sentences: ',len(Sentence_And_Toxic_Word))
+
+# 10 sentences per batch
+folder_prefix = 'output/separated_by_revised_type/'
+Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
+for i in range(0,int(len(Sentence_And_Toxic_Word)/10)+1):
+    print('Processing the %d-th batch of 10 sentences\n' % i)
+    if (i*10 < int(len(Sentence_And_Toxic_Word)/10)+1):
+        if (i*10+10 < int(len(Sentence_And_Toxic_Word)/10)+1):
+            All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word[i*10:i*10+10], Folder_List, str(i)+'_')
+        else:
+            All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word[i*10:int(len(Sentence_And_Toxic_Word)/10)+1], Folder_List, str(i)+'_')
+        out_file_name = 'All_Sentences_Scores/All_Sentences_Scores'+str(i)+'.pickle'
+        with open(out_file_name, "wb") as handle:
+            pickle.dump(All_Sentences_Scores, handle)
     
 
 '''
@@ -371,9 +376,13 @@ for i in range(0,int(len(selected_inds)/100)+1):
 #folder_prefix = 'output/separated_by_revised_type/'
 #Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
 #for i in range(0,int(len(selected_inds)/10)+1):
-#    print('Processing the %d-th batch of 10 sentences\n' % i)
-#    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[i*10:i*10+10], selected_words[i*10:i*10+10], tok_sent[i*10:i*10+10], Folder_List, str(i)+'_')
-#    #print(len(All_Sentences_Scores))
+#    if (i*10 < len(selected_inds)):
+#        print('Processing the %d-th batch of 10 sentences\n' % i)
+#        if (i*10+10 < len(selected_inds)):
+#            All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[i*10:i*10+10], selected_words[i*10:i*10+10], tok_sent[i*10:i*10+10], Folder_List, str(i)+'_')
+#        else:
+#            All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[i*10:len(selected_inds)], selected_words[i*10:len(selected_inds)], tok_sent[i*10:len(selected_inds)], Folder_List, str(i)+'_')
+         
 
 
 #==============================================================================

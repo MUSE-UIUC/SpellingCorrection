@@ -678,10 +678,10 @@ for i in range(2):
 #with open("All_Sentences_Scores_separate.pickle", "wb") as handle:
 #    pickle.dump(All_Sentences_Scores[4], handle)
 
-All_Sentences_Scores = load_toxic_word('All_Sentences_Scores_separate/All_Sentences_Scores0.pickle')
-for i in range(51):
-    fn = 'All_Sentences_Scores_separate/All_Sentences_Scores'+str(i)+'.pickle'
-    l = load_toxic_word(fn)
-    print(len(l))
-    All_Sentences_Scores = All_Sentences_Scores + l
-print(len(All_Sentences_Scores))
+#All_Sentences_Scores = load_toxic_word('All_Sentences_Scores_separate/All_Sentences_Scores0.pickle')
+#for i in range(51):
+#    fn = 'All_Sentences_Scores_separate/All_Sentences_Scores'+str(i)+'.pickle'
+#    l = load_toxic_word(fn)
+#    print(len(l))
+#    All_Sentences_Scores = All_Sentences_Scores + l
+#print(len(All_Sentences_Scores))

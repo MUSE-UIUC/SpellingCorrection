@@ -1,30 +1,18 @@
 ﻿filth shave your beard . cut your hair . dirty hippie .
 0.86614937
-filth shave your beard cut your hair dirmty hippie 
+filth shave your beard cut your hair dirkty hippie 
 0.8119777
-dirty, dirmty; 
-
-coelcan you a bitch
-0.9686669
-coelcan you a bnitch 
-0.58970416
-bitch, bnitch; 
-
-why ae you deleting my edits , they arent vandalism , the facts are wrong you didnt check my references . noob
-0.45517325
-why ae you deleting my edits they arent vandalism the facts are wrong you didnt check my references nooba 
-0.3502429
-noob, nooba; 
-
-:::::::::: that long list of vices , but no sex ? wp really is bad for you !
-0.4596234
-that long list of vices but no sgex wp really is bad for you 
-0.26449
-sex, sgex; 
+dirty, dirkty; 
 
 stop this ochlarchical nonscence !!!! what you are doing is ochlarchical and not anarchistic or matter of fact . stop it now . this only futher proves your obvious mental deficiencies .
 0.6036552
-stop this ochlarchical nonscence what you are doing is ochlarchical and not anarchistic or matter of fact stop it now this only futher proves your obvious menwtal deficiencies 
+stop this ochlarchical nonscence what you are doing is ochlarchical and not anarchistic or matter of fact stop it now this only futher proves your obvious mentalo deficiencies 
 0.2909605
-mental, menwtal; 
+mental, mentalo; 
+
+series scrapped on 4th july ??!? on http://www.insidebigbrother.net a few ppl hav left comments saying that the current series is to end on the 4th of july but i believe that this is complete and utter rubbish .... has anyone heard anything about this ???
+0.43912083
+series scrapped on 4th july on httpwwwinsidebigbrothernet a few ppl hav left comments saying that the current series *s to end on the 4th of july but i believe that this is* complete and utter rubbish has anyone heard anything about this 
+0.39508018
+is, *s; is, is*; 
 

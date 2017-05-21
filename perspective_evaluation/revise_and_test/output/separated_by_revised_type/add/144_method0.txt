@@ -1,18 +1,12 @@
-﻿i hate you , unfriends ! i hate you , unfriends ! leave ! stop ! i will block you , because i administrator !
-0.8371842
-i hatl you unfriends i haqte you unfriends leave stop i will block you because i administrator 
-0.5907026
-hate, hatl; hate, haqte; 
-
-the new york yankees suck !!!!!!!!
-0.9421244
-the new york yankees skuck 
-0.19294661
-suck, skuck; 
-
-hey djbullshit , worry about your own talk page ... or lack of one you have .
+﻿hey djbullshit , worry about your own talk page ... or lack of one you have .
 0.20441249
-hey djbullshit worry about your own talk page or lamck of one you have 
+hey djbullshit worry about your own talk page or lackn of one you have 
 0.13374512
-lack, lamck; 
+lack, lackn; 
+
+don't you fucking touch my edits again !!!!!
+0.9586732
+dont you fuckcing touch my edits again 
+0.54798216
+fucking, fuckcing; 
 

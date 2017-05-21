@@ -1,6 +1,18 @@
-﻿john cline is a fucking twat
-0.9811519
-john cline is a fuckgng twat 
-0.6351364
-fucking, fuckgng; 
+are you a racist ? do you have something against north korea ?
+0.7565029
+are you a rlcist do you have something against north korea 
+0.35592932
+racist, rlcist; 
+
+white racist white girl what makes you think you can talk down to me ? another arrogant white girl talking down to an african man . somehow i get the feeling you wouldn't say a word to my face because i would knock all your front teeth out . i'm going to find you and show you why little white girls get sticky thighs when the big bad moroccan comes knockin with his meat out holla at cha boy
+0.7839232
+white racist white girl what makes you think you can talk down to me another aprogant white girl talking down to an african man somehow i get the feeling you wouldnt say a word to my face because i would knock all your front teeth out im going to find you and show you why little white girls get sticky thighs when the big bad moroccan comes knockin with his meat out holla at cha boy 
+0.76323366
+arrogant, aprogant; 
+
+disgust you sir are a cunt , nothing more , nothing less .
+0.87266797
+disgust you sir are a cuot nothing more nothing less 
+0.7603203
+cunt, cuot; 
 

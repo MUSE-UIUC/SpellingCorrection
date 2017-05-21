@@ -48,8 +48,8 @@ Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word_separate.pick
 print('len(Sentence_And_Toxic_Word): ',len(Sentence_And_Toxic_Word))
 
 # 10 sentences per batch
-folder_prefix = 'output/separated_by_revised_type/'
-Folder_List = [folder_prefix+'separate_redo']
+folder_prefix = 'output/separated_by_revised_type/separate_redo/'
+Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
 for i in range(0,int(len(Sentence_And_Toxic_Word)/10)+1):
     print('Processing the %d-th batch of 10 sentences\n' % i)
     if (i*10+10 <= len(Sentence_And_Toxic_Word)):
