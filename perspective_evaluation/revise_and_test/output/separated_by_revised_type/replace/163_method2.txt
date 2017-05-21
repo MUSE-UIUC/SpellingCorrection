@@ -1,12 +1,12 @@
-﻿the link to useful idiot would seem to be a decidedly non-neutral point of view . unless anyone objects soon , i'll remove it .
-0.5618111
-the link to useful xdiot would seem to be a decidedly nonneutral point of view unless anyone objects soon ill remove it 
-0.08556954
-idiot, xdiot; 
+﻿i'll report you , i'm not doing anything wrong . it's not a difficult request , and you are being a bully . i told you i would stop commenting if you deleted it .
+0.4304926
+ill report you im not doing anything wrong its not a difficult request and you are being a bullm i told you i would stop commenting if you deleted it 
+0.2717414
+bully, bullm; 
 
-be careful who you call a moron .
-0.80437857
-be careful who you call a mornn 
-0.18764798
-moron, mornn; 
+: silly rabbit , this is a known case for functional equation : . it is known to have multiple solutions .
+0.22492321
+sigly rabbit this is a known case for functional equation it is known to have multiple solutions 
+0.035065684
+silly, sigly; 
 

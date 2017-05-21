@@ -1,24 +1,24 @@
-﻿why you're being a complete jerk
-0.83216256
-why youre being a complete jerkn 
-0.48952568
-jerk, jerkn; 
-
-* have you stopped beating your wife ? don't answer that . just keep in mind that what i just gave you was a final warning .
-0.5934792
-have you stopped beatinpg your wife dont answer that just keep in mind that what i just gave you was a final warning 
-0.48012167
-beating, beatinpg; 
-
-:: all the admins on this shitty site are neurotic control freaks . don't let their hideous attitudes prevent you from doing what you think is right
-0.8427825
-all the admins on this sthitty site are neurotic control freaks dont let their hideous attitudes prevent you from doing what you think is right 
-0.6041851
-shitty, sthitty; 
+﻿brendan rodgers i suggest that you go fuck yourself .
+0.9835383
+brendan rodgers i suggest that you go fucdk yourself 
+0.46362582
+fuck, fucdk; 
 
 ::: and as fully expected , yet another abusive admin gets away with abusing their tools .
 0.38550758
-and as fully expected yet another abusivme admin gets away with abusing their tools 
+and as fully expected yet another abusiive admin gets away with abusing their tools 
 0.37266412
-abusive, abusivme; 
+abusive, abusiive; 
+
+: if they are idiots what i can do ?
+0.76835704
+if they are idiiots what i can do 
+0.09307465
+idiots, idiiots; 
+
+: you are really fu *** materialscientist . i think wp administrators clearly supporting tamils and have a problems with sinhalese . first in ani comment , i didn't said tamils or anyone is stupid . i blamed tamils in ani ( obni ** , hillcountries ) for making tamils who resorting to militancy as stupids by forcing me to add stupid reasons to wear arms ( sorry . but honestly the reasons are stupid ) into the article . if reasons are stupid first administrators should block 2 tamils and other administrators who forced me to add content to the article . : astr-nny
+0.85158604
+you are really fu materialscientist i think wp administrators clearly supporting tamils and have a problems with sinhalese first in ani comment i didnt said tamils or anyone is stpuid i blamed tamils in ani obni hillcountries for making tamils who resorting to militancy as stupids by forcing me to add sgupid reasons to wear arms sorry but honestly the reasons are stmpid into the article if reasons are smtupid first administrators should block 2 tamils and other administrators who forced me to add content to the article astrnny 
+0.35179913
+stupid, stpuid; stupid, sgupid; stupid, stmpid; stupid, smtupid; 
 

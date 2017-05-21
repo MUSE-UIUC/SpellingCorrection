@@ -1,24 +1,12 @@
-﻿isn't tart a kind of whore or concubine or courtesane ? e.g. she's a politician's tart
-0.7187007
-isnt tart a kind of whoje or concubine or courtesane eg shes a politicians tart 
-0.20230131
-whore, whoje; 
-
-liar this guy is such a thief and a liar ! he should be quartered !
-0.92894524
-lgiar this guy is such a thief and a giar he should be quartered 
-0.84330076
-liar, lgiar; liar, giar; 
-
-not after , smartass . in case you forgot , i was here way before the hardrock-idiot started his stupid webbased forum .
+﻿not after , smartass . in case you forgot , i was here way before the hardrock-idiot started his stupid webbased forum .
 0.8864642
-not after smartass in case you forgot i was here way before the hardrockidiot started his stufid webbased forum 
+not after smartass in case you forgot i was here way before the hardrockidiot started his stuxid webbased forum 
 0.42267212
-stupid, stufid; 
+stupid, stuxid; 
 
-( utc ) changlc and jiang , always together ?? why are you two communist clowns so annoying ??? 05:12 , 20 may 2005
-0.65536886
-utc changlc and jiang always together why are you two communist clownv so annoying 0512 20 may 2005 
-0.39207867
-clowns, clownv; 
+i'm sure you eat alot of tube steak
+0.25594229
+im sure you eao alot of tube steak 
+0
+eat, eao; 
 

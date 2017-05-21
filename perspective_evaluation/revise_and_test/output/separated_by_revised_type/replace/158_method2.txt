@@ -1,6 +1,24 @@
-﻿for an idiot such as yourself
-0.9495981
-for an iwiot such as yourself 
-0.2303706
-idiot, iwiot; 
+﻿adolf ... one of these days gonna come pay you a visit . would love for you to stick your nose in affairs that don't concern you when we meet . it's real easy to be a little wannabe nazi while hiding in front of your little screen .
+0.6040658
+adolf one of these days gonna come pay you a visit would love for you to stick your nose in affairs that dont concern you when we meet its real easy to be a little wannabe nazn while hiding in front of your little screen 
+0.41375542
+nazi, nazn; 
+
+don't be a douchebag . just leave the edit in .
+0.68718874
+dont be a douchtbag just leave the edit in 
+0.20624286
+douchebag, douchtbag; 
+
+and then i was walking down the street in india and it was gandhi and he was all ' i don't eat the smoked meats but toddt he's so gay
+0.47604868
+and then i was walking down the street in india and it was gandhi and he was all i dont eat the smoked meats but toddt hes so ggy 
+0.2509738
+gay, ggy; 
+
+i received your messages ... .... and i say get over yourself bitch !!!!!!!!!!!!
+0.95681953
+i received your messages and i say get over yourself bitcu 
+0.30271378
+bitch, bitcu; 
 

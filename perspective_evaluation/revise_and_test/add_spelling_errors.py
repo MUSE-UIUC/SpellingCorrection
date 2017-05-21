@@ -671,7 +671,17 @@ for i in range(2):
 #    print(len(l), len(l[0]), len(l[1]), len(l[2]), len(l[3]), len(l[4]))
 #    for i in range(5):
 #        All_Sentences_Scores[i] = All_Sentences_Scores[i] + l[i]
-#    
+    
 #with open("All_Sentences_Scores.pickle", "wb") as handle:
 #    pickle.dump(All_Sentences_Scores, handle)
+    
+#with open("All_Sentences_Scores_separate.pickle", "wb") as handle:
+#    pickle.dump(All_Sentences_Scores[4], handle)
 
+#All_Sentences_Scores = load_toxic_word('All_Sentences_Scores_separate/All_Sentences_Scores0.pickle')
+#for i in range(51):
+#    fn = 'All_Sentences_Scores_separate/All_Sentences_Scores'+str(i)+'.pickle'
+#    l = load_toxic_word(fn)
+#    print(len(l))
+#    All_Sentences_Scores = All_Sentences_Scores + l
+#print(len(All_Sentences_Scores))

@@ -1,12 +1,6 @@
-﻿: hurt ? i'm alright and don't give a damn fool .
-0.8383432
-hurt im alright and dont give a damn folo 
-0.8241994
-fool, folo; 
-
-ian black - caley have you seen ian black play . his irractic and life endagering challenges on dunfermline and rangers players , show he is an actual fucking nutter . he was when he played for the blackburn youth team and he still is .
-0.8498395
-ian black caley have you seen ian black play his irractic and life endagering challenges on dunfermline and rangers players show he is an actual fcuking nutter he was when he played for the blackburn youth team and he still is 
-0.27661544
-fucking, fcuking; 
+﻿liar : you certainly did put an alleged real name back ?!?! you lie , you protect scum and you intentionally with malice aforethought blast harmful , possibly dangerous , erroneous information all over the internet . who the hell do you think you are ???? you said that you are so worried about you getting sued ? ha ! that's your made-up public reason ? liar . and second source bs does not protect you . i'll go direct to sources & you can have have fun spending a fortune defending yourself . that's all she wrote ! get lost .
+0.7428628
+liar you certainly did put an alleged real name back you lie you protect sucm and you intentionally with malice aforethought blast harmful possibly dangerous erroneous information all over the internet who the hell do you think you are you said that you are so worried about you getting sued ha thats your madeup public reason liar and second source bs does not protect you ill go direct to sources you can have have fun spending a fortune defending yourself thats all she wrote get lost 
+0.6791445
+scum, sucm; 
 

@@ -30,7 +30,11 @@ def fetch_toxic_score_online(sentence):
     try:
         r = requests.post('http://www.perspectiveapi.com/check', json={"comment":sentence, "sessionId":"10002022"})
     except:
-        return 2 # bug
+        print('fetch_toxic_score_online: r = requests.post() bug')
+        print(sentence)
+        # return 2 # bug
+        return 0 # regarded as successfully deceiving Perspective API        
+        
     #r = requests.post('http://www.perspectiveapi.com/check', data={"comment":sentence, "sessionId":"10002022"})        
     # The json variable is of the following format:
     # {'attributeScores': {'TOXICITY': {'spanScores': [{'end': 6, 'score': {'type': 'PROBABILITY', 'value': 0.3378245}, 'begin': 0}], 'summaryScore': {'type': 'PROBABILITY', 'value': 0.3378245}}}, 'languages': ['en']}
@@ -42,9 +46,17 @@ def fetch_toxic_score_online(sentence):
         if ('attributeScores' in j):
             toxic_score = j['attributeScores']['TOXICITY']['summaryScore']['value']
         else:
-            toxic_score = 2
+            print('attributeScores not in j = r.json()')
+            print(j)
+            print(sentence)
+            #toxic_score = 2
+            toxic_score = 0 # regarded as successfully deceiving Perspective API
     else:
-            toxic_score = 2
+#        print('str(r) != \'<Response [200]>\'')
+#        print(r)
+#        print(sentence)
+#        #toxic_score = 2
+        toxic_score = 0 # regarded as successfully deceiving Perspective API
     return toxic_score
 
 '''

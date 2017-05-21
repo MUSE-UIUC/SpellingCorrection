@@ -1,18 +1,30 @@
 ﻿. fucking awesome . i bet you went to fucking ku
 0.97194415
-fcuking awesome i bet you went to fncking ku 
-0.40306523
-fucking, fcuking; fucking, fncking; 
+fucikng awesome i bet you went to fucxing ku 
+0.3410261
+fucking, fucikng; fucking, fucxing; 
 
-: give me hot anal sex , you sexy ip address
-0.848364
-give me hot onal sex you sexy ip address 
-0.7086625
-anal, onal; 
+i hate you i hate you .
+0.92919266
+i ahte you i hatn you 
+0.53741676
+hate, ahte; hate, hatn; 
 
-and lets be frank , its not as if you give a toss about your collegues . all you do is deleate , deleate , deleate , deleate , deleate and yeah more deleates ! hypocrite
-0.6539702
-and lets be frank its not as if you give a toss about your collegues all you do is deleate deleate deleate deleate deleate and yeah more deleates hywocrite 
-0.39882427
-hypocrite, hywocrite; 
+:: and then there all all those weasels ripping my flesh . rzz ! rzz !
+0.5250205
+and then there all all those weasels wipping my flesh rzz rzz 
+0.4808582
+ripping, wipping; 
+
+:: dude , don't try talking logically and kindly to this guy . hes hell bent on his stupid little state of mind , and because of his attitude he was reported . he won't stick around here too long .
+0.75698036
+dude dont try talking logically and kindly to this guy hes hell bent on his sttpid little state of mind and because of his attitude he was reported he wont stick around here too long 
+0.5389156
+stupid, sttpid; 
+
+:::: what is wrong with you and this extreme selective reading . if i said , don't breathe , when there's poison gas around , would you actually have the audacity to claim i told you not to breathe ? no , then how can you claim i said don't come to my talk page . what i said was that you shouldn't come and cite un general consensus . i refuse to read the rest of this rubbish , if you don't know how to read common law decisions and ignore that fact that affirmative action is considered unconstitutional ( that's unrelated to government breaking the law in action ) and the as of yet unrebutted statement that it is discrimination which is part of british case law . affirmatve action can not take positive steps towards ensuring equal rights because thats not affirmative action , don't lie about the definition , it makes you look idiotic . -
+0.62299454
+what is wrong with you and this extreme selective reading if i said dont breathe when theres poison gas around would you actually have the audacity to claim i told you not to breathe no then how can you claim i said dont come to my talk page what i said was that you shouldnt come and cite un general consensus i refuse to read the rest of this rubbish if you dont know how to read common law decisions and ignore that fact that affirmative action is considered unconstitutional thats unrelated to government breaking the law in action and the as of yet unrebutted statement that it is discrimination which is part of british case law affirmatve action can not take positive steps towards ensuring equal rights because thats not affirmative action dont lie about the definition it makes you look idiotit 
+0.48226956
+idiotic, idiotit; 
 

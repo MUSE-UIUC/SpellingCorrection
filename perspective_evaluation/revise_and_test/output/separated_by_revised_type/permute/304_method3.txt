@@ -1,18 +1,12 @@
-﻿brendan rodgers i suggest that you go fuck yourself .
-0.9835383
-brendan rodgers i suggest that you go ufck yourself 
-0.46362582
-fuck, ufck; 
+﻿why you're being a complete jerk
+0.83216256
+why youre being a complete jekr 
+0.48952568
+jerk, jekr; 
 
-: if they are idiots what i can do ?
-0.76835704
-if they are idoits what i can do 
-0.22137834
-idiots, idoits; 
-
-: you are really fu *** materialscientist . i think wp administrators clearly supporting tamils and have a problems with sinhalese . first in ani comment , i didn't said tamils or anyone is stupid . i blamed tamils in ani ( obni ** , hillcountries ) for making tamils who resorting to militancy as stupids by forcing me to add stupid reasons to wear arms ( sorry . but honestly the reasons are stupid ) into the article . if reasons are stupid first administrators should block 2 tamils and other administrators who forced me to add content to the article . : astr-nny
-0.85158604
-you are really fu materialscientist i think wp administrators clearly supporting tamils and have a problems with sinhalese first in ani comment i didnt said tamils or anyone is sutpid i blamed tamils in ani obni hillcountries for making tamils who resorting to militancy as stupids by forcing me to add sutpid reasons to wear arms sorry but honestly the reasons are stjpid into the article if reasons are sutpid first administrators should block 2 tamils and other administrators who forced me to add content to the article astrnny 
-0.35328463
-stupid, sutpid; stupid, sutpid; stupid, stjpid; stupid, sutpid; 
+* have you stopped beating your wife ? don't answer that . just keep in mind that what i just gave you was a final warning .
+0.5934792
+have you stopped beatnig your wife dont answer that just keep in mind that what i just gave you was a final warning 
+0.48012167
+beating, beatnig; 
 
