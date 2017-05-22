@@ -3,8 +3,8 @@ After one round, some sentences and errors are not generated due to errors
 This program finds which data are missing and generate them
 '''
 
-from add_spelling_errors import readTag, modify_key_words_5_ways_readTag, modify_key_words_5_ways_readTag_invalid
-from revise_sentence_and_test import revise_sentence_and_test_list_5_ways_invalid
+#from add_spelling_errors import readTag, modify_key_words_5_ways_readTag, modify_key_words_5_ways_readTag_invalid
+#from revise_sentence_and_test import revise_sentence_and_test_list_5_ways_invalid
 
 missing_inds = []
 
