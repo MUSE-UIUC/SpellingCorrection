@@ -1,75 +1,84 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 15 18:12:54 2017
+'''
+After one round, some sentences and errors are not generated due to errors
+This program finds which data are missing and generate them
+'''
 
-@author: liyuchen
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 15 17:13:21 2017
-
-@author: liyuchen
-"""
-
-from fetch_toxic_score import fetch_toxic_score_online
-from add_spelling_errors import readTag
 import pickle
-    
+print('done import pickle')
+from add_spelling_errors import load_toxic_word
+print('done from add_spelling_errors import load_toxic_word')
+from revise_sentence_and_test import revise_sentence_and_test_list_5_ways_invalid_v2
+print('done from revise_sentence_and_test import revise_sentence_and_test_list_5_ways_invalid_v2')
+
+# find which data are missing
+
+missing_inds = []
+
+for i in range(361):
+    in_file_name = 'output/separated_by_revised_type/add/'+str(i)+'_method0.txt'
+    try:
+        f = open(in_file_name, 'r')
+    except:
+        missing_inds.append(i)
+        
+print('missing indices:',missing_inds)
+print('number of missing indices:',len(missing_inds)) # 39
+
+# re-generate the missing data
+
+Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word.pickle')
+
+# 10 sentences per batch
+folder_prefix = 'output/separated_by_revised_type/'
+Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
+for j in range( 9, 10):
+    i = missing_inds[j]
+    print('Processing the %d-th batch of 10 sentences\n' % i)
+    if (i*10 < len(Sentence_And_Toxic_Word)):
+        if (i*10+10 < len(Sentence_And_Toxic_Word)):
+            All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word[i*10:i*10+10], Folder_List, str(i)+'_')
+        else:
+            All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid_v2(Sentence_And_Toxic_Word[i*10:len(Sentence_And_Toxic_Word)], Folder_List, str(i)+'_')
+        out_file_name = 'All_Sentences_Scores/All_Sentences_Scores'+str(i)+'.pickle'
+        with open(out_file_name, "wb") as handle:
+            pickle.dump(All_Sentences_Scores, handle)
+            
+
 '''
-Return a list of (toxic_score, sentence, most_toxic_word)
-input:
-    selected_inds - a list of a list of inds corresponding to selected_words below
-    selected_words - a list of a list of important words that readTag selects for each sentence
-    tok_sent - a list of sentences, each being a string
-output:
-    Sentence_And_Toxic_Word - a list of (toxic_score, sentence, most_toxic_word)
-effect:
-for each sentence in the input 
-(1) Call the function revise_sentence_and_test, including
-- delete all punctuations of a sentence 
-- test its toxic score on Google Perpective API 
-- modify each key words in the sentence one at a time, and test toxic score on API
-- record the (toxic_score, sentence, method) tuples, including the original sentence
-(2) pick the word whose removal results in the lowest toxic score for the sentence
-'''
-def most_toxic_word(selected_inds, selected_words, tok_sent):
-    Sentence_And_Toxic_Word = []   
-    for i in range(len(selected_inds)):
-        print(i)
-        score = fetch_toxic_score_online(tok_sent)
-        Scores_After_Deletion = [] # a list of (score_after_deletion, deleted_word)
-        for j in range(len(selected_inds[i])):
-            sentence_with_deletion = tok_sent[i].replace(selected_words[i][j],'')
-            score_after_deletion = fetch_toxic_score_online(sentence_with_deletion)
-            Scores_After_Deletion.append((score_after_deletion, selected_words[i][j]))
-        best_deletion = sorted(Scores_After_Deletion)[0]
-        if (len(best_deletion) != 2):
-            print('best_deletion:',best_deletion)
-            print('len(best_deletion) != 2 for index =', i)
-            print(Scores_After_Deletion)
-        if (best_deletion[0] == -1 or best_deletion[0] == 2):
-            print('score == -1 or 2 for index = ', i)
-            print(best_deletion)
-        Sentence_And_Toxic_Word.append((score, tok_sent[i], best_deletion[1]))
-    return Sentence_And_Toxic_Word
-    
-'''
-Main
-'''
+# past version
+
+from add_spelling_errors import readTag, modify_key_words_5_ways_readTag, modify_key_words_5_ways_readTag_invalid, load_toxic_word
+from revise_sentence_and_test import revise_sentence_and_test_list_5_ways_invalid
+
+missing_inds = []
+
+for i in range(361):
+    in_file_name = 'output/separated_by_revised_type/add/'+str(i)+'_method0.txt'
+    try:
+        f = open(in_file_name, 'r')
+    except:
+        missing_inds.append(i)
+        
+print('missing indices:',missing_inds)
+print('number of missing indices:',len(missing_inds))
+
 selected_inds, selected_words, tok_sent = readTag("tagged_test_toxic_data.txt")
 
-# different for each process
-i = 9
+inds = []
+words = []
+tok = []
+#for i in range(len(missing_inds)):
+#    inds.append(selected_inds[missing_inds[i]])
+#    words.append(selected_words[missing_inds[i]])
+#    tok.append(tok_sent[missing_inds[i]])
 
-if (i*100 < len(selected_inds)):
-    if (i*100+100 <= len(selected_inds)):
-        Sentence_And_Toxic_Word = most_toxic_word(selected_inds[i*100:i*100+100], selected_words[i*100:i*100+100], tok_sent[i*100:i*100+100])
-    else:
-        Sentence_And_Toxic_Word = most_toxic_word(selected_inds[i*100:len(selected_inds)], selected_words[i*100:len(selected_inds)], tok_sent[i*100:len(selected_inds)])
-print('number of sentences',len(Sentence_And_Toxic_Word))
-#print(Sentence_And_Toxic_Word[0])
-
-fn = 'Sentence_And_Toxic_Words/Sentence_And_Toxic_Word'+str(i)+'.pickle'
-with open(fn, "wb") as handle:
-    pickle.dump(Sentence_And_Toxic_Word, handle)
+# 10 sentences per batch
+folder_prefix = 'output/separated_by_revised_type/'
+Folder_List = [folder_prefix+'add',folder_prefix+'delete',folder_prefix+'replace',folder_prefix+'permute',folder_prefix+'separate']
+for j in range(0,int(len(missing_inds)/10)+1):
+    i = missing_inds[j]
+    print(i)
+    print('Processing the %d-th batch of 10 sentences\n' % i)
+    All_Sentences_Scores = revise_sentence_and_test_list_5_ways_invalid(selected_inds[i*10:i*10+10], selected_words[i*10:i*10+10], tok_sent[i*10:i*10+10], Folder_List, str(i)+'_')
+    #print(len(All_Sentences_Scores))
+'''

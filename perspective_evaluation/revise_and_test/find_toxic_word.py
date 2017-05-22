@@ -50,9 +50,11 @@ def most_toxic_word(selected_inds, selected_words, tok_sent):
 '''
 Main
 '''
+'''
 selected_inds, selected_words, tok_sent = readTag("tagged_test_toxic_data.txt")
 Sentence_And_Toxic_Word = most_toxic_word(selected_inds, selected_words, tok_sent)
 print('number of sentences',len(Sentence_And_Toxic_Word))
 #print(Sentence_And_Toxic_Word[0])
 with open("Sentence_And_Toxic_Word.pickle", "wb") as handle:
     pickle.dump(Sentence_And_Toxic_Word, handle)
+'''
