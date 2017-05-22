@@ -265,6 +265,15 @@ def change_a_word_5_ways_invalid_v2(word):
             word2 = word[pos:len(word)]
             add = Alphabet_List[random.randint(0, len(Alphabet_List)-1)]
             ret_word_and_method = (word1+add+word2, 0)
+            if (ret_word_and_method[0]==''):
+                print(word)
+                print(ret_word_and_method[0])
+                print(method)
+                print(pos)
+                print(word1)
+                print(word2)
+                print(add)
+                
             
         elif (method==1):
             if (len(word)<8):
@@ -275,6 +284,13 @@ def change_a_word_5_ways_invalid_v2(word):
             word1 = word[0:pos]
             word2 = word[pos+1:len(word)]
             ret_word_and_method = (word1+word2, 1)
+            if (ret_word_and_method[0]==''):
+                print(word)
+                print(ret_word_and_method[0])
+                print(method)
+                print(pos)
+                print(word1)
+                print(word2)
             
         elif (method==2):
             pos = random.randint(0, len(word)-1)
@@ -284,6 +300,13 @@ def change_a_word_5_ways_invalid_v2(word):
             while (change==word[pos]):        
                 change = Alphabet_List[random.randint(0, len(Alphabet_List)-1)]
             ret_word_and_method =( word1+change+word2, 2)
+            if (ret_word_and_method[0]==''):
+                print(word)
+                print(ret_word_and_method[0])
+                print(method)
+                print(pos)
+                print(word1)
+                print(word2)
             
         elif (method==3):
             if (len(word)<=1):
@@ -293,6 +316,13 @@ def change_a_word_5_ways_invalid_v2(word):
                 word1 = word[0:pos]
                 word2 = word[pos+2:len(word)]
                 ret_word_and_method = (word1+word[pos+1]+word[pos]+word2, 3)
+            if (ret_word_and_method[0]==''):
+                print(word)
+                print(ret_word_and_method[0])
+                print(method)
+                print(pos)
+                print(word1)
+                print(word2)
             
         if (cnt[ret_word_and_method[0]] == 0):
             ret_flag = True
@@ -311,6 +341,24 @@ def change_a_word_5_ways_invalid_v2(word):
         word2 = word[pos+1:len(word)]
         change = '*'
         ret_word_and_method =( word1+change+word2, 2)
+
+    if (ret_word_and_method[1]==-1):
+        if (len(word) >= 8):
+            pos = random.randint(0, len(word)-1)
+            word1 = word[0:pos]
+            word2 = word[pos+1:len(word)]
+            ret_word_and_method = (word1+word2, 1)
+        else:
+            pos = random.randint(0, len(word))
+            word1 = word[0:pos]
+            word2 = word[pos:len(word)]
+            add = '*'
+            ret_word_and_method = (word1+add+word2, 0)
+    
+    if (ret_word_and_method[0]==''):
+        print(word)
+        print(ret_word_and_method[0])
+        print(ret_word_and_method[1])
     
     return ret_word_and_method[0], ret_word_and_method[1]
 

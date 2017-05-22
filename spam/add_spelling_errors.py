@@ -554,7 +554,7 @@ input:
     fn - the name of the input file
     out_fn - the name of the output file
 output:
-    modified_content - a string containing the modified content in the file
+    original_and_modified_content - a string containing the original and the modified content in the file
     Correct_and_Wrong_Words - a list of (correct_word, wrong_word) tuples
 effect:
     every toxic word is revised using one of the following methods: 
@@ -563,7 +563,7 @@ effect:
     output file format:
     
     original sentence
-    revised score
+    revised sentence
     correct word, wrong word; correct word, wrong word; ……
 '''
 def modify_toxic_words_in_file(Toxic_Words, fn, out_fn):
@@ -588,9 +588,23 @@ def modify_toxic_words_in_file(Toxic_Words, fn, out_fn):
             print(New_Words_In_Sentence[i])
             print(Words_In_Sentence[i])
             print(sentence)
-    return modified_content, Correct_and_Wrong_Words
-    
-    
+    original_and_modified_content = (sentence, modified_content)
+
+    with open(out_fn, "w") as f:
+        try:
+            f.write(sentence+'\n')
+            f.write(modified_content+'\n')
+            for j in range(len(Correct_and_Wrong_Words)):
+                f.write(Correct_and_Wrong_Words[j][0]+', '+Correct_and_Wrong_Words[j][1]+'; ')
+        except:
+            print('modify_toxic_words_in_file: around line 600: write to file bug for sentence:')
+            print('sentence:',sentence)
+            print('modified_content:',modified_content)
+            print('Correct_and_Wrong_Words:',Correct_and_Wrong_Words)
+
+    return original_and_modified_content, Correct_and_Wrong_Words
+
+
 '''
 Main
 '''
@@ -601,25 +615,65 @@ Toxic_Words = load_pickle(fn)
 Toxic_Words = Toxic_Words[0:200]
 
 # add spelling errors to the toxic words in spam test data
+Original_and_Modified_Content_List = []
+Correct_and_Wrong_Words_List = []
 Missing_Filenames = []
 Except_Filenames = []
-for i in range(11,145):
+for i in range(11,164):
     fn = 'spam_data/'+'spam-test/'+'spmsga'+str(i)+'.txt'
     try:
         f = open(fn)
         f.close()
     except:
         Missing_Filenames.append(i)
-    out_fn = 'spam_data/'+'spam-test-w-errors/'+str(i)+'.txt'
-    #modified_content, Correct_and_Wrong_Words = modify_toxic_words_in_file(Toxic_Words, fn, out_fn)
+    out_fn = 'spam_data/'+'spam-test-w-errors/a'+str(i)+'.txt'
     try:
-        out_fn = 'spam_data/'+'spam-test-w-errors/'+str(i)+'.txt'
-        modified_content, Correct_and_Wrong_Words = modify_toxic_words_in_file(Toxic_Words, fn, out_fn)
-        print('processed file', i)
+        original_and_modified_content, Correct_and_Wrong_Words = modify_toxic_words_in_file(Toxic_Words, fn, out_fn)
+        Original_and_Modified_Content_List.append(original_and_modified_content)
+        Correct_and_Wrong_Words_List.append(Correct_and_Wrong_Words)
+        print('processed file a', i)
     except:
         Except_Filenames.append(i)
-        print('file', i, 'has bug')
+        print('file a', i, 'has bug')
+for i in range(5,164):
+    fn = 'spam_data/'+'spam-test/'+'spmsgb'+str(i)+'.txt'
+    try:
+        f = open(fn)
+        f.close()
+    except:
+        Missing_Filenames.append(i)
+    out_fn = 'spam_data/'+'spam-test-w-errors/b'+str(i)+'.txt'
+    try:
+        original_and_modified_content, Correct_and_Wrong_Words = modify_toxic_words_in_file(Toxic_Words, fn, out_fn)
+        Original_and_Modified_Content_List.append(original_and_modified_content)
+        Correct_and_Wrong_Words_List.append(Correct_and_Wrong_Words)
+        print('processed file a', i)
+    except:
+        Except_Filenames.append(i)
+        print('file b', i, 'has bug')
+for i in range(3,145):
+    fn = 'spam_data/'+'spam-test/'+'spmsgc'+str(i)+'.txt'
+    try:
+        f = open(fn)
+        f.close()
+    except:
+        Missing_Filenames.append(i)
+    out_fn = 'spam_data/'+'spam-test-w-errors/c'+str(i)+'.txt'
+    try:
+        original_and_modified_content, Correct_and_Wrong_Words = modify_toxic_words_in_file(Toxic_Words, fn, out_fn)
+        Original_and_Modified_Content_List.append(original_and_modified_content)
+        Correct_and_Wrong_Words_List.append(Correct_and_Wrong_Words)
+        print('processed file c', i)
+    except:
+        Except_Filenames.append(i)
+        print('file c', i, 'has bug')
         
+pickle_output_file_path_prefix = 'spam_data/spam-test-w-errors-pickle/'
+with open(pickle_output_file_path_prefix+'Original_and_Modified_Content_List.pickle', "wb") as handle:
+    pickle.dump(Original_and_Modified_Content_List, handle)
+with open(pickle_output_file_path_prefix+'Correct_and_Wrong_Words_List.pickle', "wb") as handle:
+    pickle.dump(Correct_and_Wrong_Words_List, handle)
+
 print(Missing_Filenames)
 print('length:',len(Missing_Filenames))
 print(Except_Filenames)

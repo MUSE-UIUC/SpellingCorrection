@@ -343,6 +343,8 @@ Main
 #selected_inds, selected_words, tok_sent = readTag("tagged_test_toxic_data.txt")
 #print('Number of sentences:',len(selected_inds))
 #
+
+'''
 Sentence_And_Toxic_Word = load_toxic_word('Sentence_And_Toxic_Word.pickle')
 print('number of sentences: ',len(Sentence_And_Toxic_Word))
 
@@ -359,7 +361,7 @@ for i in range(0,int(len(Sentence_And_Toxic_Word)/10)+1):
         out_file_name = 'All_Sentences_Scores/All_Sentences_Scores'+str(i)+'.pickle'
         with open(out_file_name, "wb") as handle:
             pickle.dump(All_Sentences_Scores, handle)
-    
+'''    
 
 '''
 # 100 sentences per batch
