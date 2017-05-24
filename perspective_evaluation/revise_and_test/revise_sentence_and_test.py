@@ -260,7 +260,7 @@ input:
     Folder_List - (optional) a list of folders that store the outputs for the 5 methods of revision
     out_file_name_prefix - (optional) the prefix of the output file name
 output:
-    All_Sentences_Scores - a list [0..4] of list of (original_sentence, original_score, revised_sentence, revised_toxic_score, revised_word, new_word)
+    All_Sentences_Scores - a list [0..4] of list of (original_sentence, original_score, revised_sentence, revised_toxic_score, revised_word, new_word_list)
 effect (below to be revised):
 for each sentence in the input 
 (1) Call the function revise_sentence_and_test, including

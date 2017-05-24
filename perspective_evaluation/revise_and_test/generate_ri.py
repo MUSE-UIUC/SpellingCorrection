@@ -5,16 +5,16 @@ Created on Mon May 15 23:19:59 2017
 @author: liyuchen
 """
 
-fname = 'find_missing.py'
+fname = 'empty_revision_v2.py'
 
 with open(fname) as f:
     content = f.readlines()
 
-for i in range(1,40):
-    out_file_name = 'f'+str(i)+'.py'
+for i in range(1,42):
+    out_file_name = 'e'+str(i)+'.py'
     with open(out_file_name, "w") as f:
         for j in range(len(content)):
-            if (j != 33):
+            if (j != 34):
                 f.write(content[j])
             else:
                 # for i in range( $(i-1)*10$, $i*10$ ):

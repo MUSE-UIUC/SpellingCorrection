@@ -1,6 +1,12 @@
-﻿:: read this : you have failed to provide a single logical reason against the said way of recognizing this person . every single source notes him as the greatest . what is your reasoning contrary to that ? do you insist of having it such a way just so you can have a star next to an article ?? that makes the whole integrity of wikipedia moot .
-0.058933172
-read this you have friled to provide a single logical reason against the said way of recognizing this person every single source notes him as the greatest what is your reasoning contrary to that do you insist of having it such a way just so you can have a star next to an article that makes the whole integrity of wikipedia moot 
-0.033355717
-failed, friled; 
+﻿wikipedia's article on sanchez is a sick joke . the editors who worked on it should be ashamed of themselves , and so should you . you're not an editor , you are a censor and a liar .
+0.7613759
+wikipedias article on sanchez is a sick joke the editors who worked on it should be ashamed of themselves and so should you youre not an editor you are a censor and a liax 
+0.6471316
+liar, liax; 
+
+so i guess your explanation of wp : csd #t1 is still zero . once again you have failed to explain why a page weas deleted under wp : csd #t1 and then threatened the inquirer with a block . poor form . extremely poor form .
+0.29890007
+so i guess your explanation of wp csd t1 is still zero once again you have failed to explain why a page weas deleted under wp csd t1 and then threatened the inquirer with a block pcor form extremely pgor form 
+0.23278025
+poor, pcor; poor, pgor; 
 
