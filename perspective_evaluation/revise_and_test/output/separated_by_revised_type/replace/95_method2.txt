@@ -1,18 +1,24 @@
-﻿i know , how about european union ! even better , i'm going to blow up all of europe !
-0.468048
-i know how about european union even better im going to bloq up all of europe 
-0.1656327
-blow, bloq; 
-
-see i refuse to kiss ass because nobody on here is better than me . as a matter of fact im better than everyone else on here .
+﻿see i refuse to kiss ass because nobody on here is better than me . as a matter of fact im better than everyone else on here .
 0.7115615
-see i refuse to kiss qss because nobody on here is better than me as a matter of fact im better than everyone else on here 
-0.18171442
-ass, qss; 
+see i refuse to kiss *ss because nobody on here is better than me as a matter of fact im better than everyone else on here 
+0.33804488
+ass, *ss; 
+
+you are an american biaes idiot you are an idiot who wants to dserstroy wikipedia . it is people like you who are responsible for the currwnt destruction of all that is good in the way wikipedia works i think you should get a life and stop deleting articles you american biased wally .
+0.9005589
+you are an american biaes id*iot you are an iaiot who wants to dserstroy wikipedia it is people like you who are responsible for the currwnt destruction of all that is good in the way wikipedia works i think you should get a life and stop deleting articles you american biased wally 
+0.48683035
+idiot, id*iot; idiot, iaiot; 
+
+: starcraft 2 isnt even out yet . but hell , he's korean , why not
+0.502358
+starcraft 2 isnt even out yet but eell hes korean why not 
+0.17266023
+hell, eell; 
 
 : please note that user is attacking me on my talk page including what the hell is you problem ??? do you lack any ability to reason ? i have tried endlessly to engage you on discussion and talk pages , but instead you act like a 12 year old ( which you quite possibly could be ) . why do you continue to revert to an absurd version of the st. john's article ? did you get denied admission , are you a uconn fan
 0.5451627
-please note that user is attacking me on my talk page including what the hels is you problem do you lack any ability to reason i have tried endlessly to engage you on discussion and talk pages but instead you act like a 12 year old which you quite possibly could be why do you continue to revert to an absurd version of the st johns article did you get denied admission are you a uconn fan 
+please note that user is attacking me on my talk page including what the hnll is you problem do you lack any ability to reason i have tried endlessly to engage you on discussion and talk pages but instead you act like a 12 year old which you quite possibly could be why do you continue to revert to an absurd version of the st johns article did you get denied admission are you a uconn fan 
 0.4083275
-hell, hels; 
+hell, hnll; 
 
