@@ -44,7 +44,7 @@ def lemmatizeText(word_list):
             lemma = lmtzr.lemmatize(word, "v")
         else:
             lemma = lmtzr.lemmatize(word)
-        lemma_list.append(lemma_word)
+        lemma_list.append(lemma)
     return lemma_list    
 
 
