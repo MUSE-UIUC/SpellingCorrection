@@ -210,7 +210,7 @@ def process_spam_file(fn, out_fn):
 Main
 '''
 
-'''
+
 # 2017.5.26 version
 
 # load the list of words that are likely to be toxic
@@ -237,21 +237,6 @@ Correct_and_Wrong_Words_List = []
 Missing_Filenames = []
 Except_Filenames = []
 
-for i in range(11,164):
-    fn = 'spam_data/'+'orig-test/'+'spmsga'+str(i)+'.txt'
-    out_fn = 'spam_data/'+'spam-test-w-errors/a'+str(i)+'.txt'
-    file_missing, original_and_modified_content, Correct_and_Wrong_Words, op_successful = process_spam_file(fn, out_fn)
-    
-    if (file_missing):
-        Missing_Filenames.append(i)
-    
-    if (op_successful):
-        Original_and_Modified_Content_List.append(original_and_modified_content)
-        Correct_and_Wrong_Words_List.append(Correct_and_Wrong_Words)
-        print('processed file a', i)
-    else:
-        Except_Filenames.append(i)
-        print('file a', i, 'has bug')
         
 for i in range(5,164):
     fn = 'spam_data/'+'orig-test/'+'spmsgb'+str(i)+'.txt'
@@ -269,33 +254,18 @@ for i in range(5,164):
         Except_Filenames.append(i)
         print('file b', i, 'has bug')
         
-for i in range(3,145):
-    fn = 'spam_data/'+'orig-test/'+'spmsgc'+str(i)+'.txt'
-    out_fn = 'spam_data/'+'spam-test-w-errors/c'+str(i)+'.txt'
-    file_missing, original_and_modified_content, Correct_and_Wrong_Words, op_successful = process_spam_file(fn, out_fn)
-    
-    if (file_missing):
-        Missing_Filenames.append(i)
-    
-    if (op_successful):
-        Original_and_Modified_Content_List.append(original_and_modified_content)
-        Correct_and_Wrong_Words_List.append(Correct_and_Wrong_Words)
-        print('processed file a', i)
-    else:
-        Except_Filenames.append(i)
-        print('file c', i, 'has bug')
         
 pickle_output_file_path_prefix = 'spam_data/spam-test-w-errors-pickle/'
-with open(pickle_output_file_path_prefix+'Original_and_Modified_Content_List.pickle', "wb") as handle:
+with open(pickle_output_file_path_prefix+'Original_and_Modified_Content_List2.pickle', "wb") as handle:
     pickle.dump(Original_and_Modified_Content_List, handle)
-with open(pickle_output_file_path_prefix+'Correct_and_Wrong_Words_List.pickle', "wb") as handle:
+with open(pickle_output_file_path_prefix+'Correct_and_Wrong_Words_List2.pickle', "wb") as handle:
     pickle.dump(Correct_and_Wrong_Words_List, handle)
 
 print(Missing_Filenames)
 print('length:',len(Missing_Filenames))
 print(Except_Filenames)
 print('length:',len(Except_Filenames))
-'''
+
 
 #'''
 ## 2017.5.25 version
