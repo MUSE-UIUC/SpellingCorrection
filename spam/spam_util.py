@@ -2,6 +2,7 @@
 utility functions for spam data
 """
 
+from nltk import pos_tag
 from nltk.stem.wordnet import WordNetLemmatizer
 import os
 
@@ -9,7 +10,7 @@ import os
 def getFileNames(lem_data_folder="spam_data/lem-test/"):
     # 1: spam, 0: non-spam
     fns = os.listdir(lem_data_folder)
-    print "# of test files", len(fns)
+    print ("# of test files", len(fns))
     return fns
 
 
@@ -22,8 +23,8 @@ def chooseOrigText(lem_data_folder="spam_data/lem-test/", orig_data_folder="spam
             orig_fns = os.listdir(orig_data_folder+subfolder+"/")
             if (fn in orig_fns):
                 os.system("cp "+orig_data_folder+subfolder+"/"+fn+" "+fast_folder)
-    print "# of copied files", len(os.listdir(fast_folder))
-    print "finish copying original files to", fast_folder
+    print ("# of copied files", len(os.listdir(fast_folder)))
+    print ("finish copying original files to", fast_folder)
     
 
 def lemmatizeText(word_list):
@@ -34,7 +35,7 @@ def lemmatizeText(word_list):
     """
     # pos tagging
     VERB_TAGS = ["VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
-    word_tag_list = nltk.pos_tag(word_list)
+    word_tag_list = pos_tag(word_list)
 
     # lemmatization based on pos tags
     lemma_list = []

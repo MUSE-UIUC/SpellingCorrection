@@ -37,7 +37,7 @@ def read_k_tuples(in_file_name, k):
 Main
 '''
 
-# for i = 1..5
+# for i = 0..4
 # All_Sentences_Scores[i] is a list of 
 # (original_sentence, original_score, revised_sentence, revised_toxic_score, old_word, new_word_list) tuples
 All_Sentences_Scores = []
