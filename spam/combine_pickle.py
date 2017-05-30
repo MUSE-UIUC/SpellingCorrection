@@ -17,7 +17,7 @@ Original_and_Modified_Content_List = []
 Correct_and_Wrong_Words_List = []
 
 pickle_output_file_path_prefix = 'spam_data/spam-test-w-errors-pickle/'
-for i in range(1,3):
+for i in range(1,7):
     fn = pickle_output_file_path_prefix+'Original_and_Modified_Content_List'+str(i)+'.pickle'
     Original_and_Modified_Content = load_pickle(fn)
     Original_and_Modified_Content_List = Original_and_Modified_Content_List + Original_and_Modified_Content
