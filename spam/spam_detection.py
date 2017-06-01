@@ -88,21 +88,21 @@ if __name__=="__main__":
     nonspam_test_folder = "spam_data/nonspam-test/"
 
     # standard test data (lemma orig data)
-    print "standard test data..."
-    spam_test_folder = "spam_data/spam-test/"
+    #print "standard test data..."
+    #orig_spam_test_folder = "spam_data/spam-test/"
 
     # revised test data (with error, lemma)
-    print "revised test data with error..."
-    spam_test_folder = "spam_data/revised-test/"
+    #print "revised test data with error..."
+    #spam_test_folder = "spam_data/revised-test/"
 
-    # corrected test data (with error, lemma)
+    # corrected test data (without error, lemma)
     print "corrected data..."
     spam_test_folder = "spam_data/corrected-test/"
     
     countWord(nonspam_train_folder, spam_train_folder, nonspam_test_folder, spam_test_folder)
     nonspam_train_texts = readFolderText(nonspam_train_folder)
     spam_train_texts = readFolderText(spam_train_folder)
-    train_texts = nonspam_train_text + spam_train_texts
+    train_texts = nonspam_train_texts + spam_train_texts
     train_labels = [0] * len(nonspam_train_texts) + [1] * len(spam_train_texts)
     train(train_texts, train_labels)
 

@@ -3,6 +3,7 @@ spam baseline
 revised data -> lemmatization based on 
 """
 import os
+from spam_util import lemmatizeText
 
 def lemmatizeRevisedText(revised_folder="spam_data/spam-test-w-errors/", output_folder="spam_data/revised-test/"):
     """
@@ -12,9 +13,18 @@ def lemmatizeRevisedText(revised_folder="spam_data/spam-test-w-errors/", output_
     revised_text_seq = []
     lemma_texts = []
     fns = os.listdir(revised_folder)
+    fns = [fn for fn in fns if fn.endswith(".txt")]
     for fn in fns:
+	if (not fn.endswith(".txt")):
+	    continue
         f = open(revised_folder+fn, "r")
-        orig_text, revised_text, cor_str = f.readlines()
+	seq = f.readlines()
+	#print fn, len(seq), seq
+        if (len(seq)==2):
+	    orig_text, revised_text = seq
+	else:
+	    #print seq
+            orig_text, revised_text, cor_str = seq
         f.close()
         revised_text_seq.append(revised_text.strip().split())
     for word_list in revised_text_seq:

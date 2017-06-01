@@ -12,13 +12,14 @@ from context_based_selection.vocab import Vocab
 from context_based_selection.context_score import cosSim, pcaSenEmb, getRelevance
 import numpy as np
 from domain_corpus_generation.corpus_util import loadDict
-from preprocess.regular_check import rawCheck#, rawCheckOnDist
+from preprocess.regular_check import rawCheck, rawCheckOnDist
 import editdistance
 from pyxdameraulevenshtein import damerau_levenshtein_distance as dist
 
 corpus = loadDict(fn="domain_corpus_generation/dict_v1.pickle", freq_threshold=100)
-small_corpus = loadDict(fn="domain_corpus_generation/dict_v1.pickle", freq_threshold=500) # 1500, 500, 100, 200
-
+#small_corpus = loadDict(fn="domain_corpus_generation/dict_v1.pickle", freq_threshold=100) # best: 500, 1500, 500, 100, 200
+small_corpus = corpus
+train_corpus = loadDict(fn="domain_corpus_generation/persective_train_dict.pickle", freq_threshold=5)
 
 #corpus = loadDict(fn="domain_corpus_generation/standard_en.pickle")
 #small_corpus = corpus
@@ -29,7 +30,7 @@ vocabInputFile = "vocab.txt"
 vectorInputFile = "vectors.bin"
 isFunctional = 1
 vocab = Vocab(vecDim, embedding_directory, vocabInputFile, vectorInputFile, isFunctional) # !!
-CAND_LIMIT = 8 # if more candiates are generated, this word might be a non-sense word
+CAND_LIMIT = 4 # 8 - if more candiates are generated, this word might be a non-sense word
 DIST_LIMIT = 1
 
 
@@ -37,12 +38,14 @@ def getCandFromDict(word):
     """
     use edit distance to generate candidates
     input: word
-    output: a list of candidate words
+    output: sort_words - words sorted in frequency order with edit distance no larger than 3
+                sort_freq - sorted frequency
     """
     cand_words = []
+    freq_list = []
     cur_dist = 0
 
-    while (cand_words == []):
+    while (cand_words == [] and cur_dist <=3):
 	cur_dist += 1
         for key in small_corpus: # smaller corpus
             ##  levenshtein_distance: transposition = 2
@@ -52,8 +55,23 @@ def getCandFromDict(word):
             # damerau_levenshtein_distance: transposition = 1
             if (dist(key, word) <= cur_dist):
                 cand_words.append(key)
+                freq_list.append(train_corpus[key])
+	
+    # filter words with low frequency
+    if (freq_list != [] and max(freq_list)>0):
+	cand_words = [cand_words[ind] for ind in range(len(freq_list)) if freq_list[ind] > 0]	
+	freq_list = [freq for freq in freq_list if freq > 0]
+        # sort words by frequency
+        sort_inds = np.argsort(freq_list)[::-1]
+        sort_words = [cand_words[ind] for ind in sort_inds]
+        sort_freq = [freq_list[ind] for ind in sort_inds]
+    else:
+	sort_words = cand_words[:]
+	sort_freq = [0] * len(cand_words)
     #print "cand_words", cand_words
-    return cand_words
+    return sort_words, sort_freq
+
+
 
 def scoreCandidates(cand_words, context_words):
     """
@@ -71,7 +89,7 @@ def scoreCandidates(cand_words, context_words):
         scores = [cosSim(sent_vec, word_vec) for word_vec in word_vecs]
     else:
         #print "pca representation of sentence..."
-        sent_space = pcaSenEmb(sent_vecs, var_threshold = 0.6)
+        sent_space = pcaSenEmb(sent_vecs, var_threshold = 0.8)
         scores=  [getRelevance(sent_space, word_vec) for word_vec in word_vecs]
     sort_ind = np.argsort(scores)[::-1] # largest comes first
     sorted_cand_words = [cand_words[ind] for ind in sort_ind]
@@ -87,18 +105,32 @@ def outputCorrectionSent(sent_seq, context_size):
                 corr - a list of tuples (corrected_word, error_word)
 		cand_corr - a list of a list of candidates
     """
+    NUMS = "0123456789"
     word_num = len(sent_seq)
     revised_sent_seq = sent_seq[:]
     cand_corr = []
     corr = []
     for ind in range(word_num):
         word = sent_seq[ind]
+        if (len(word) > 30):
+	    continue
+        # ignore digits
+        num_flag = False
+        for digit in NUMS:
+            if (digit in word):
+                num_flag = True
+                break
+        if (num_flag):
+            continue
         
         if (word not in corpus):# !!! big corpus
             # generate candidates
-            cand_words = getCandFromDict(word)
+            cand_words, sort_freq = getCandFromDict(word)
             if (len(cand_words) > CAND_LIMIT):
-                continue
+                cand_words = cand_words[:4]
+                # START: only choose the most frequent one ?
+                # filter out some words with low frequency ?
+                #continue
 
             # context-based detection
             context_words = []
@@ -154,7 +186,7 @@ def generateAlgoCandCorrection(sent_str_list, context_size=4):
     revised_corrections = []
     cand_corrections = []
     # stage 1: context-free check
-    sent_token_list, corrections = rawCheck(sent_str_list) #rawCheckOnDist(sent_str_list)
+    sent_token_list, corrections = rawCheckOnDist(sent_str_list, corpus, small_corpus) # rawCheck(sent_str_list)
 
     # stage 2: context-dependent check
     corrections2 = []
@@ -183,7 +215,7 @@ def readInputSent(error_type):
 	    continue
         f = open(path+fn, "r")
         lines = f.readlines()
-        while (len(lines) >= 5):
+        while (len(lines) >= 6):
             # original sent
             orig_sent = lines.pop(0)
             orig_sent_list.append(orig_sent)
@@ -199,7 +231,7 @@ def readInputSent(error_type):
 	    #print "cor_str", correction_str
             seq = correction_str.split(";")
 	    #print "seq", seq
-	    s = seq[0]
+	    seq = [s.strip() for s in seq]
 	    #print (s.split(",")[0].strip(), s.split(",")[1].strip())
             corrections = [(s.split(",")[0].strip(), s.split(",")[1].strip()) for s in seq if s!=""]
             correction_list.append(corrections[:])
