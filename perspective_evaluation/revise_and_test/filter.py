@@ -5,7 +5,7 @@ Created on Tue May 23 18:40:42 2017
 (1) check the (sentence, most toxic word) list. 
 - If len(most toxic word) <= 2
 - If the most toxic word appears less than 100 times in the dictionary, then discard the sentence.
-- if the most toxic word is auxiliary verb
+- if the most toxic word is auxiliary verb, then discard the sentence.
 (2) check how many sentences are deleted.
 
 @author: liyuchen
